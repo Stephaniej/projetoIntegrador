@@ -1,4 +1,52 @@
+<<<<<<< HEAD
 .container div {
 
 
 
+=======
+/*********************** Configuraçãoes gerais ****************************/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/************************ Começo ****************************************/
+
+#container {
+    height: 700px;
+    background: #f0f5f5 url('imgs/imagens_cortadas/bg_2.jpg') no-repeat;
+    background-size: 100%;    
+}
+
+header{
+    border: 1px solid red; /* Borda apenas para visualização, pode ser removido */
+}
+
+nav{
+    border: 1px solid yellow; /* Borda apenas para visualização, pode ser removido */
+}
+
+/*********************** Parte do Rodapé *****************************/
+
+footer{
+    background-color: #f0f5f5; 
+    font-size: 11px;
+    color: blue;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+footer p{
+    padding-top: 8px;
+    float: left;
+    font-weight: bold;
+}
+
+footer img{
+    padding-left: 45px; 
+    float: right;
+}
+>>>>>>> 61c2ecc3ec0be25576d0be0d4f460b40582b46c5
