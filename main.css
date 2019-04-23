@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/***************** Configuração do body ******************************/
+
+body{
+    background: #f0f5f5 url('imgs/imagens_cortadas/bg_2.jpg') no-repeat;    
+    background-size: 100%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/*********************** Parte do Rodapé *****************************/
+
+footer div{
+    font-size: 11px;
+    color: blue;
+    position: relative;
+    top: 620px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer p{
+    padding-top: 8px;
+    float: left;
+    font-weight: bold;
+}
+
+footer img{
+    padding-left: 45px; 
+    float: right;
+}
