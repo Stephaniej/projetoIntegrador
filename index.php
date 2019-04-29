@@ -10,13 +10,17 @@
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" media="screen" href="main.css">
         <link rel="stylesheet" type="text/css" media="screen" href="header.css">
-     
-        <script src="main.js"></script>
-        
+
     </head>
 
     <body>
         <?php include("header.php");?>
+        <section class="home-content">
+      <div class="image-banner">
+        <h1>PLANEJE E GERENCIE UM ,<br> MONITORAMENTO EM REDES SOCIAIS</h1>
+        <button>Download ebook</button>
+      </div>
+    </section>
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -34,6 +38,7 @@
                         </div>
                     </div>
                 </div>
+                
 
                 <div class="col-lg-3">
                     <div class="card" style="width: 100%;">
@@ -83,8 +88,7 @@
         <footer>
             <p>Torabit • Monitoramento digital<br>
                 &copy; Copyright 2019 • Todos os direitos reservados</p>
-
-            <img src="imgs/imagens_cortadas/torabit.png" width="120px" height="30px">
+            <img src="imgs/imagens_cortadas/torabit.png">
         </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
