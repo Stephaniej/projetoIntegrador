@@ -1,0 +1,129 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+    z-index: 2;
+    position: fixed;
+    
+}
+
+.cabecalho1{
+    width: 70%;
+    height: 8vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+
+.cabecalho2{
+    width: 100%;
+    height: 8vh;
+    color: white;
+    background-color: #11115a;
+    margin: auto;
+}
+
+.list-head{
+    width:21% ;
+    display: inline;
+    /* justify-content: space-between; */
+    }
+
+a:hover {
+    background-color: lightgray;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    display: inline;
+    
+    
+}
+
+.list-head1{
+  list-style-type: none;
+  list-style: none;
+  float: left;
+  position: relative;
+  display: inline;
+     
+}
+
+#divBusca{
+    background-color: white;
+    width: 50%;
+    border:solid 1px none;
+    border-radius:15px;
+    width:50%;
+    }
+
+
+  #txtBusca{
+    position: relative;  
+    width: 88%;
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:40px;
+    border: 1px solid lightgray;
+    border-radius: 15px 0px 0px 15px;
+  }
+
+
+.campoBuscar{
+    position: relative;
+    width: 80%;
+}
+
+#btnBusca{
+    position: relative;
+    width: 10%;
+}
+
+  .list-head2{
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 1%; */
+    margin-left: 15%;
+    
+    
+}
+
+.list-head2 li a{
+    color: white;
+    font-size: 0.8em;
+    
+}
+
+.main-menu {
+    position: relative;
+    display: flex;
+    
+    
+}
+
+@media (max-width: 600px) {
+    .cabecalho{ 
+        width: 100%;
+    }
+
+}
