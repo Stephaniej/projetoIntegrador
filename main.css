@@ -43,26 +43,4 @@
     margin-top: 2%;
     margin-bottom: 7%;
   }
-  
 
-/*Rodapé*/
-footer {
-    background-color: #f0f5f5; 
-    font-size: 11px;
-    color:gray;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 10px;
-}
-
-footer p{
-    padding-top: 8px;
-    float: left;
-    font-weight: bold;
-}
-
-footer img{
-    padding-left: 45px; 
-    float: right;
-}
