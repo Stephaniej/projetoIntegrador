@@ -11,16 +11,25 @@
         <link rel="stylesheet" type="text/css" media="screen" href="main.css">
         <link rel="stylesheet" type="text/css" media="screen" href="header.css">
         <link rel="stylesheet" type="text/css" media="screen" href="footer.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="carrossel.css.css">
     </head>
 
     <body>
         <?php include("header.php");?>
+       
         <section class="home-content">
       <div class="image-banner">
-        <h1>PLANEJE E GERENCIE UM ,<br> MONITORAMENTO EM REDES SOCIAIS</h1>
+         <h1>PLANEJE E GERENCIE UM <br> MONITORAMENTO EM REDES SOCIAIS</h1> 
         <button>Download ebook</button>
+       
       </div>
+      <div class="top"> <?php include("carrossel.php");?> </div>
     </section>
+
+
+
+
+    
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -88,6 +97,9 @@
         
         <?php include("footer.php");?>
         
+       
+
+        
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
         </script>
@@ -97,6 +109,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
         </script>
+        <script type="text/javascirpt" src="carrosel.js"></script>
     </body>
 
 </html>

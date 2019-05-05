@@ -1,0 +1,540 @@
+*{
+
+ 
+
+
+ 
+
+    margin: 0px;
+
+   
+
+    padding: 0px;
+
+   
+}
+
+
+
+
+div .container{
+       
+    width: 1500px;
+     height: 0 auto;
+      margin: 0 auto;
+ 
+
+
+
+}
+
+
+
+
+
+   
+
+     
+
+   
+
+    body{
+
+   
+
+     
+
+   
+
+    background-color: black;
+
+   
+
+     
+
+   
+
+    }
+
+   
+
+     
+
+   
+
+    .container{
+
+   
+
+     
+
+   
+
+        margin: 20px;
+
+   
+
+    }
+
+   
+
+     
+
+   
+
+    a.right.carousel-control{
+
+   
+
+     
+
+   
+
+       
+
+   
+
+        color: rgb(146, 151, 145);
+
+   
+
+       width: 0%;
+
+   
+
+    }
+
+   
+
+     
+
+   
+
+    a.left.carousel-control{
+
+   
+
+     
+
+   
+
+        color: rgb(146, 151, 145);
+
+   
+
+       width: 0%;
+
+   
+
+    }
+
+   
+
+     
+
+   
+
+    span.glyphicon.glyphicon-chevron-right::before{
+
+   
+
+     
+
+   
+
+    position: relative;
+
+   
+
+     
+
+   
+
+    left: -100px;
+
+   
+
+    top: -10px;
+
+   
+
+     
+
+   
+
+    }
+
+   
+
+     
+
+   
+
+    span.glyphicon.glyphicon-chevron-left::before{
+
+   
+
+     
+
+   
+
+        position: relative;
+
+   
+
+       
+
+   
+
+       right: -100px;
+
+   
+
+        top: -10px;
+
+   
+
+        }
+
+   
+
+   
+
+   
+
+   
+
+   
+
+    .carousel-inner{
+
+   
+
+    width: 100px;
+
+   
+
+    height: 240px;    
+
+   
+
+    opacity: 1;
+
+   
+
+    }
+
+   
+
+     
+
+   
+
+    .holder {
+
+   
+
+        display: flex;
+
+   
+
+        justify-content: center;
+
+   
+
+       
+
+   
+
+    }
+
+   
+
+    .imagem {
+
+   
+
+      width: 200px;
+
+   
+
+      padding-top: 1px;
+
+   
+
+      margin: 10px;
+
+   
+
+      position: relative;
+
+   
+
+      text-align: center;
+
+   
+
+      top: 9px;
+
+   
+
+    }
+
+   
+
+   
+
+   
+
+   
+
+    #texto{
+
+   
+
+        position: relative;
+
+   
+
+        padding-left: 10px;
+
+   
+
+        font-weight: bold;
+
+   
+
+        font-family: arial;
+
+   
+
+        font-size: 16px;
+
+   
+
+        background-color: rgb(236, 233, 233);
+
+   
+
+        border: solid grey 1px;
+
+   
+
+        -webkit-border-radius: 1012px;
+
+   
+
+    -moz-border-radius: 1012px;
+
+   
+
+    border-radius: 1012px;
+
+   
+
+    }
+
+   
+
+   
+
+   
+
+   
+
+    #texto1{
+
+   
+
+        position: relative;
+
+   
+
+        font-size: 11px;
+
+   
+
+        top: -10px;
+
+   
+
+        color: rgb(78, 78, 78);
+
+   
+
+     
+
+   
+
+     
+
+   
+
+    }
+
+   
+
+     
+
+   
+
+    #texto2{
+
+   
+
+     
+
+   
+
+        font-size: 20px;
+
+   
+
+        font-weight: bold;
+
+   
+
+       
+
+   
+
+     
+
+   
+
+    }
+
+   
+
+     
+
+   
+
+    .radius{
+
+   
+
+     
+
+   
+
+        -webkit-border-top-left-radius: 10px;
+
+   
+
+        -webkit-border-top-right-radius: 10px;
+
+   
+
+        -moz-border-radius-topleft: 10px;
+
+   
+
+        -moz-border-radius-topright: 10px;
+
+   
+
+        border-top-left-radius: 10px;
+
+   
+
+        border-top-right-radius: 10px;
+
+   
+
+     
+
+   
+
+    }
+
+ 
+
+    .botao{
+
+ 
+
+        position: relative;
+
+        background-color: rgb(202, 201, 201);
+
+        color: #000;
+
+        border: none;
+
+        top: -57px;
+
+        left: -40px;
+
+        font-size: 11px;
+
+        font-weight: 200px;
+
+        text-transform: uppercase;
+
+        bottom: 25%;
+
+       
+
+        color: black;
+
+        -webkit-border-radius: 5px;
+
+-moz-border-radius: 5px;
+
+border-radius: 5px;
+
+font-weight: bold;
+
+font-family: Trebuchet , sans-serif;
+
+ 
+
+    }
+
+ 
+
+   
+
+    .valor{
+
+ 
+
+        position: relative;
+
+        top: -84px;
+
+        z-index: 999;
+
+        left: 35px;
+
+        font-weight: bold;
+
+        font-size: 17px;
+
+       
+
+    }
+
+    .pacote{
+
+ 
+
+        position: relative;
+
+        z-index: 999;
+
+        top: -84px;
+
+        font-size: 11px;
+
+        color:rgb(5, 5, 5)
+
+    }
+
+    .diminuir{
+
+ 
+
+       font-size: 12px;
+    }
