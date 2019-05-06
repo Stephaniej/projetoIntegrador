@@ -16,20 +16,15 @@
 
     <body>
         <?php include("header.php");?>
-       
+    <section id="conteudo">
         <section class="home-content">
-      <div class="image-banner">
-         <h1>PLANEJE E GERENCIE UM <br> MONITORAMENTO EM REDES SOCIAIS</h1> 
-        <button>Download ebook</button>
-       
-      </div>
-      <div class="top"> <?php include("carrossel.php");?> </div>
-    </section>
+            <div class="image-banner">
+                <h1>PLANEJE E GERENCIE UM <br> MONITORAMENTO EM REDES SOCIAIS</h1>
+                <button>Download ebook</button>
+                <?php include("carrossel.php");?>
 
-
-
-
-    
+            </div>
+        </section>
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -47,7 +42,7 @@
                         </div>
                     </div>
                 </div>
-                
+
 
                 <div class="col-lg-3">
                     <div class="card" style="width: 100%;">
@@ -94,12 +89,13 @@
                 </div>
             </div>
         </div>
-        
-        <?php include("footer.php");?>
-        
-       
+        </section>
 
-        
+        <?php include("footer.php");?>
+
+
+
+
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
         </script>

@@ -1,58 +1,62 @@
+#conteudo {
+  background-image: url('imgs/imagens_cortadas/bg_1.jpg');
+  background-size: cover;
+  background-position-x: 70%;
+}
+.container {
+  background: transparent;
+}
 .home-content {
-    
-  
   width: 100%;
-    height: 100vh;
-    
-  }
-  
-  .home-content .image-banner {
-     
-    width: 100%;
-    height: 100%;
-    background-image: url('imgs/imagens_cortadas/bg_1.jpg');
-    background-size: cover;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: flex-end;
-    background-position: center;
-  }
-  
-  .home-content .image-banner h1 {
-    position: relative;
-    top: -230px;
-    color: #fff;
-    text-transform: capitalize;
-    font-weight: lighter;
-    font-size: 1em;
-  }
-  
-  .home-content .image-banner p {
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2em;
-    margin-top: 1%;
-  }
-  
-  .home-content .image-banner button {
-    position: relative;
-    top: -230px;
-    background-color: #fff;
-    color: #000;
-    border: none;
-    border-radius: 50px;
-    padding: 15px 35px;
-    font-size: 1em;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin-top: 2%;
-    margin-bottom: 7%;
-  }
+  height: 100vh;
+}
 
-.top{
+.home-content .image-banner {
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: flex-end;
+  background-position: center;
+}
+
+.home-content .image-banner h1 {
+  position: relative;
+  top: -230px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+.home-content .image-banner p {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 1%;
+}
+
+.home-content .image-banner button {
+  position: relative;
+  top: -230px;
+  background-color: #fff;
+  color: rgb(161, 7, 105);
+  border: none;
+  border-radius: 50px;
+  padding: 15px 35px;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 2%;
+  margin-bottom: 7%;
+}
+
+.top {
 
   position: relative;
   top: -280px;
