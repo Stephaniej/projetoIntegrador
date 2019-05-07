@@ -88,8 +88,9 @@
                     </div>
                 </div>
             </div>
+            <hr>
+         <?php include("footer.php");?>
         </div>
-        <?php include("footer.php");?>
         </section>
 
 
