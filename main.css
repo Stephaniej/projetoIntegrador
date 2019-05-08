@@ -3,6 +3,11 @@
   background-size: cover;
   background-position-x: 70%;
 }
+.card {
+  border-style: none;
+  border-radius: 5%;
+}
+
 .container {
   background: transparent;
 }
@@ -25,7 +30,6 @@
 
 .home-content .image-banner h1 {
   position: relative;
-  top: -230px;
   color: #fff;
   text-transform: capitalize;
   font-weight: lighter;
@@ -43,8 +47,7 @@
 
 .home-content .image-banner button {
   position: relative;
-  top: -230px;
-  background-color: #fff;
+    background-color: #fff;
   color: rgb(161, 7, 105);
   border: none;
   border-radius: 50px;
@@ -54,13 +57,4 @@
   text-transform: uppercase;
   margin-top: 2%;
   margin-bottom: 7%;
-}
-
-.top {
-
-  position: relative;
-  top: -280px;
-
-
-
 }
