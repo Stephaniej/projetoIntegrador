@@ -2,6 +2,7 @@
   background-image: url('imgs/imagens_cortadas/bg_1.jpg');
   background-size: cover;
   background-position-x: 70%;
+  height: 100%;
 }
 .card {
   border-style: none;
@@ -11,6 +12,7 @@
 .container {
   background: transparent;
 }
+
 .home-content {
   width: 100%;
   height: 100vh;

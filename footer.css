@@ -1,20 +1,25 @@
 footer {
-    background: transparent; 
+    background: transparent; }
+#rodape {
     font-size: 11px;
     color:gray;
-    margin: auto;
     display: flex;
-    justify-content: space-around;
-    padding-bottom: 10px;
+    justify-content: space-between;
 }
 
-footer p{
+#rodape p{
     padding-top: 8px;
-    float: left;
     font-weight: bold;
 }
 
-footer img{
-    padding-left: 45px; 
-    float: right;
+.div-img{
+    padding-top: 5px;
+    padding-left: 45px;  
+    min-width: 20%;
+    min-height: 22%
+}
+
+.div-img img{
+    position: relative;
+    left: 50%;
 }

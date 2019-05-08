@@ -88,12 +88,10 @@
                     </div>
                 </div>
             </div>
+            <hr>
+         <?php include("footer.php");?>
         </div>
         </section>
-
-        <?php include("footer.php");?>
-
-
 
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
