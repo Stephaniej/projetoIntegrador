@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page Title</title>
+        <title>Torabitshop</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -24,7 +24,8 @@
 
               <span class="pfrase">PLANEJE E GERENCIE UM</span> <br>
               <span>MONITORAMENTO EM REDES SOCIAIS</span>
-               <div><button type="button" class="btn">Download Ebook</button></div>
+               <div><a href="http://www.torabit.com.br/wp-content/uploads/2019/02/MonitoramentoRedesSociais.pdf"target="_blank"><button type="button" class="btn">Download Ebook</button></a></div>
+               
             </div>    <!-- Fim da seção do ebook -->
            
 
@@ -65,7 +66,7 @@
      </div>
 
     <div class="col-md-3">
-    <img class="card-img-top" src="imgs/imagens_cortadas/menu2.png">
+    <img class="card-img-top" src="imgs/imagens_cortadas/menu3.png">
       <div class="card-body">
         <h4 class="card-title">Rastrear Links</h4>
         <p>Acompanhe os compartilhamentos de cada notícia em rede e a
@@ -75,7 +76,7 @@
      </div>
 
     <div class="col-md-3">
-    <img class="card-img-top" src="imgs/imagens_cortadas/menu2.png">
+    <img class="card-img-top" src="imgs/imagens_cortadas/menu4.png">
       <div class="card-body">
         <h4 class="card-title">Trends</h4>
         <p>Acompanhe o movimento em toda a rede. O que mais falam, o que
