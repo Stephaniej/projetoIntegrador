@@ -1,130 +1,77 @@
-/*css header*/
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0%;
+#compras{   /* ID da parte da imagem do carrinho */
+    background: url('imgs/imagens_cortadas/carrinho.png') no-repeat left center;
+    background-size: 30px 30px;
+    padding: 5px;
 }
 
-.cabecalho{
-    width: 100%;
-    height: 15vh;
-    background-color: white;
-    z-index: 2;
-    position: fixed;
-    
+#compras p{  /* Oculta a palavra "compras" */
+    visibility: hidden;
 }
 
-.cabecalho1{
-    width: 70%;
-    height: 8vh;
-    background-color: white;
-    margin: auto;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
 
-}
+/********************** Abaixo header alterado *******************************/
 
-.cabecalho2{
-    width: 100%;
-    height: 8vh;
-    color: white;
-    background-color: #11115a;
+.input-group{
+    width: 65%;
     margin: auto;
 }
 
-.list-head{
-    width:21% ;
-    display: inline;
-    /* justify-content: space-between; */
-    }
-
-a:hover {
-    background-color: lightgray;
-   
+.form-control{
+    border-radius: 10px;
 }
 
-a {
+.search {
+    background: url('imgs/imagens_cortadas/busca_2.png') no-repeat left center;
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+.btn p{
+   margin: 0;
+   padding: 0;
+   color: transparent;
+}
+
+.letra{
+    font-weight: bold;
+    color: #0044cc;
+    font-size: 15px;
+}
+
+ul.navbar-nav {
+    height: 50px;
+    padding-top: 5px;
+}
+
+.nav-item{
+    background: white;
+}
+
+.nav-link {
+    height: 80%;
+}
+
+/********************** Navegação de baixo do header ***************/
+
+#nav2{
+    background: #141452;
+    height: 30px;
+    display: flex; 
+    justify-content: space-around; 
+}
+
+#nav2 span a{
     text-decoration: none;
-}
-
-ul li {
-    display: inline;
-    
-    
-}
-
-.list-head1{
-  list-style-type: none;
-  list-style: none;
-  float: left;
-  position: relative;
-  display: inline;
-     
-}
-
-#divBusca{
-    background-color: white;
-    width: 50%;
-    border:solid 1px none;
-    border-radius:15px;
-    width:50%;
-    }
-
-
-  #txtBusca{
-    position: relative;  
-    width: 88%;
-    float:left;
-    background-color:transparent;
-    padding-left:5px;
-    font-style:italic;
-    font-size:18px;
-    border:none;
-    height:40px;
-    border: 1px solid lightgray;
-    border-radius: 15px 0px 0px 15px;
-  }
-
-
-.campoBuscar{
-    position: relative;
-    width: 80%;
-}
-
-#btnBusca{
-    position: relative;
-    width: 10%;
-}
-
-  .list-head2{
-    width: 50%;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    /* padding-top: 1%; */
-    margin-left: 15%;
-    
-    
-}
-
-.list-head2 li a{
     color: white;
-    font-size: 0.8em;
-    
+    font-size: 11px;
+    font-weight: bold;
 }
 
-.main-menu {
-    position: relative;
-    display: flex;
-    
-    
-}
-
-@media (max-width: 600px) {
-    .cabecalho{ 
-        width: 100%;
-    }
-
+#nav2 span a:hover{
+    text-decoration: none;
+    color: #141452;
+    background: #e6e6e6;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 3px;
 }
