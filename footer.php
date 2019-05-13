@@ -1,4 +1,4 @@
-<footer id="rodape">
+<footer id="rodape" >
     <p>Torabit • Monitoramento digital<br>
         &copy; Copyright 2019 • Todos os direitos reservados</p>
   <div class="div-img">  

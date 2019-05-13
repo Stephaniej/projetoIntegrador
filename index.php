@@ -34,9 +34,10 @@
 
         </section>  <!-- Fim da sessão para o ebook -->
 
-         <section id="area-carrossel">
-             
-          <!-- Carrosel aqui ? -->
+         <section id="area-carrossel">  
+         <div class="texto">ESCOLHA AQUI SUA FERRAMENTA:  </div>
+         <?php include("carrossel.php");?>
+         
 
          </section>
 

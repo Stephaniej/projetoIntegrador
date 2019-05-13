@@ -1,5 +1,7 @@
 
 #rodape {
+    position: relative;
+    top: -10px;
     font-size: 11px;
     color:gray;
     display: flex;

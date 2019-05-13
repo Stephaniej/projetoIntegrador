@@ -39,8 +39,23 @@
 
 #area-carrossel{   /* Essa ID só usei para aumentar a visualização do body,
                          mas pode ser usada para colocar o carrossel */
+  position: relative;  
+  top: 90px;                     
   height: 50px;
 }
+
+
+.texto{
+  position: relative;
+  top: -10px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 26px;
+  
+  
+  }
+
+
 
 
 /*************************** Alterações do card ******************************/
@@ -56,6 +71,8 @@
 }
 
 #alta{
+  position: relative;
+  top: 400px;
   width: 95%;
   margin: auto;
 }
