@@ -37,7 +37,7 @@
 
 <nav id="nav2">
       
-        <span><a href="">SOBRE O TORABIT</a></span>
+        <span><a href="sobre.php">SOBRE O TORABIT</a></span>
         <span><a href="">CATEGORIAS</a></span>
         <span><a href="">FULL SERVICE</a></span>
         <span><a href="configuracoes.php">ÁREA DO CLIENTE</a></span>
