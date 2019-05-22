@@ -29,12 +29,12 @@
 	background-color: #e6f2ff;
 }
 
-.email {
+.email, .email2 {
 	background: url('imgs/imagens_cortadas/icone-usuario.png') no-repeat right center;
 	background-size: 4%; 
 }
 
-.senha {
+.senha, .senha2 {
 	background: url('imgs/imagens_cortadas/icone-cadeado.png') no-repeat right center;
 	background-size: 4%; 
 }
