@@ -10,10 +10,16 @@
 
 
 /********************** Abaixo header alterado *******************************/
+  header .logo-content a img {
+    margin-left: 70px;
+    width: 45%;
+  }
+
 
 .input-group{
-    width: 65%;
-    margin: auto;
+    width: 55%;
+    display:flex;
+    justify-content: center;
 }
 
 .form-control{
@@ -39,6 +45,7 @@
 }
 
 ul.navbar-nav {
+    padding-left: 150px;
     height: 50px;
     padding-top: 5px;
 }
@@ -55,8 +62,9 @@ ul.navbar-nav {
 
 #nav2{
     background: #141452;
-    height: 30px;
+    height: 40px;
     display: flex; 
+    align-items: center;
     justify-content: space-around; 
 }
 
