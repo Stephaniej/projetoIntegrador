@@ -39,14 +39,18 @@
 }
 
 .letra{
+    margin-bottom: 0px;
     font-weight: bold;
     color: #0044cc;
     font-size: 15px;
 }
 
 ul.navbar-nav {
-    padding-left: 150px;
-    height: 50px;
+    padding-left: 80px;
+    align-items: center;
+    padding-right: 40px;
+    width: 430px;
+    height: 58px;
     padding-top: 5px;
 }
 
@@ -61,6 +65,8 @@ ul.navbar-nav {
 /********************** Navegação de baixo do header ***************/
 
 #nav2{
+    padding-left: 190px;
+    padding-right: 190px;
     background: #141452;
     height: 40px;
     display: flex; 

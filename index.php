@@ -6,12 +6,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>TorabitShop</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" media="screen" href="main.css">
         <link rel="stylesheet" type="text/css" media="screen" href="header.css">
         <link rel="stylesheet" type="text/css" media="screen" href="footer.css">
-        <link rel="stylesheet" type="text/css" media="screen" href="carrossel.css.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="carrossel.css">
     </head>
 
     <body>
@@ -21,7 +21,6 @@
 
         <section>   <!-- Seção para o ebook -->
             <div id="ebook">
-
               <span class="pfrase">PLANEJE E GERENCIE UM</span> <br>
               <span>MONITORAMENTO EM REDES SOCIAIS</span>
                <div><a href="http://www.torabit.com.br/wp-content/uploads/2019/02/MonitoramentoRedesSociais.pdf"target="_blank"><button type="button" class="btn">Download Ebook</button></a></div>
