@@ -12,6 +12,7 @@
         <link rel="stylesheet" type="text/css" media="screen" href="header.css">
         <link rel="stylesheet" type="text/css" media="screen" href="footer.css">
         <link rel="stylesheet" type="text/css" media="screen" href="carrossel.css">
+        
     </head>
 
     <body>

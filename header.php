@@ -29,7 +29,7 @@
        
       <ul class="navbar-nav">   <!-- Itens -->
         <li class="nav-item"><a href="cadastro.php" class="nav-link"><p class="letra">Cadastre-se |</p></a></li>
-        <li class="nav-item"><a href="" class="nav-link"><p class="letra">Login |</p></a></li>
+        <li class="nav-item"><a href="form.php" class="nav-link"><p class="letra">Login |</p></a></li>
         <li class="nav-item"><a href="" class="nav-link" id="compras"><p>compras</p></a></li> 
        </ul>
     </div>
