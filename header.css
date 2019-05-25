@@ -10,10 +10,10 @@
 
 
 /********************** Abaixo header alterado *******************************/
-  header .logo-content a img {
+header .logo-content a img {
     margin-left: 70px;
     width: 45%;
-  }
+}
 
 
 .input-group{
@@ -52,6 +52,11 @@ ul.navbar-nav {
     width: 430px;
     height: 58px;
     padding-top: 5px;
+}
+
+.navbar {
+    z-index: 100;
+    background: white;
 }
 
 .nav-item{

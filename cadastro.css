@@ -1,10 +1,9 @@
 
 /**** Compartilha CSS com 'cadastro.php' e 'configuracoes.php' ****/
 
-#corpo {
+html, body {
+	height: 100%;
 	background: #e6f2ff;
-	background-size: cover;
-	height: auto;
 }
 
 #area-cadastro {
