@@ -41,6 +41,6 @@
         <span><a href="">CATEGORIAS</a></span>
         <span><a href="">FULL SERVICE</a></span>
         <span><a href="configuracoes.php">ÁREA DO CLIENTE</a></span>
-        <span><a href="">CONTATO</a></span>
+        <span><a href="contato.php">CONTATO</a></span>
 
 </nav>

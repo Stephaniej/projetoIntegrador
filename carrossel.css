@@ -19,7 +19,7 @@ body { font-family: sans-serif;
 
 .carousel {
  
-width: 1300px;
+width: 1200px;
 margin-left: auto;
 margin-right: auto;
 
@@ -29,7 +29,7 @@ margin-right: auto;
 
 .carousel-cell {
   width: 20%;
-  height: 250px;
+  height: 350px;
   margin-right: -560px;
   padding-right: 800px;
  
