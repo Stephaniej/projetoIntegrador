@@ -9,11 +9,11 @@
 
 #ebook {
   height: 250px;
-  text-shadow: black 0.1em 0.1em 0.4em;
   display: flex;
+  text-shadow: black 0.1em 0.1em 0.4em;
   align-items: center;
   flex-direction: column;
-  padding-top: 100px;
+  padding-top: 30px;
 }
 
 #ebook span{
