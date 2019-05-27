@@ -1,12 +1,35 @@
 
 
-html,body{
-    height: 100%;
-}
+
+
+
 
 body{
-    background-color: #e8edf1;
+    /* background-color: #8ab6da; */
     font-family: 'Hind', sans-serif;
+    height: 100%;
+
+
+}
+.great-body{
+    width: 100%;
+    background-color: #baced8;
+}
+
+.back-body{
+    width: 80%;
+    margin: auto;
+    background-color: #baced8;
+}
+
+.all-text-desc{
+    width: 100%;
+    height: 14vh;
+    background-color: #baced8;
+    margin-top: 0%;
+    /* margin-bottom: 3%; */
+    padding-top: 4%;
+    padding-bottom: 7%;
 
 }
 
@@ -41,17 +64,24 @@ body{
 .first-text{
     position: relative;
     width: 90%;
-    height: 2%;
+    height: 7vh;
     /* border-bottom: 1px solid black; */
     /* margin-bottom: 2%; */
     /* margin-top: -5%; */
     font-size: 20pt;
     margin: auto;
+    margin-top: 2%;
 
 }
+
+h6{
+    font-weight: bold;
+}
+
 .border-text{
     position: relative;
     width: 15%;
+    height: 7vh;
     border-bottom: 3px solid rgb(173, 54, 54);
     margin-top: -8%;
     margin-bottom: 2%;
@@ -68,8 +98,9 @@ body{
 .cards{
     position: relative;
     margin-top: 1%;
+    margin-bottom: 1%;
     width: 100%;
-    height: 20%;
+    height: 20vh;
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-around;
@@ -79,34 +110,53 @@ body{
 .card1{
     position: relative;
     width: 45%;
-    height: 90%;
+    height: 18vh;
     border: 1px solid #bfcacc;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 3%;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 
+}
+
+input{
+    width: 40%;
+    height: 15pt;
+    /* border-radius: 50px;
+    background-color: red; */
 }
 
 .card2{
     position: relative;
     width: 45%;
-    height: 90%;
+    height: 20vh;
     border: 1px solid #bfcacc;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10%;
 }
+/* 
+.check:checked +:after{
+    position: relative;
+    width: 10%;
+    border-radius: 50px;
+    background-color: red;
+} */
 
 .pay-informations{
     position: relative;
     margin-top: 1%;
-    width: 100%;
-    height: 10vh;
+    width: 90%;
+    margin: auto;
+    height: 15vh;
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    /* font-size: 18pt; */
 }
 
 
@@ -114,26 +164,32 @@ body{
     background-color: rgb(235, 230, 230);
     position: relative;
     width: 92%;
-    height: 50vh;
+    height: 60vh;
     margin: auto;
     padding: 1% ;
     margin-bottom: 2%;
 }
 
-input .inp-form{
-    height: 5vh%;
-}
+/* input .inp-form{
+    height: 5vh;
+} */
 
 
 h5{
     color: #878d8e;
+    font-size: 10pt;
+}
+
+h4{
+    font-size: 12pt;
 }
 
 .fops{
     position: relative;
     margin-top: 1%;
-    width: 93%;
+    width: 92%;
     margin: auto;
+    margin-bottom: 1%;
     height: 15vh;
     /* border: 1px solid black; */
     display: flex;
@@ -146,7 +202,7 @@ h5{
 .fop1{
     position: relative;
     width: 50%;
-    height: 80%;
+    height: 15vh;
     border: 1px solid #bfcacc;
     text-align: center;
 
@@ -155,7 +211,7 @@ h5{
 .fop2{
     position: relative;
     width: 50%;
-    height: 80%;
+    height: 15vh;
     border: 1px solid #bfcacc;
     text-align: center;
 }
@@ -207,7 +263,7 @@ input[type=number]{
 .month-and-year{
     position: relative;
     width: 99%;
-    height: 10vh;
+    height: 18vh;
     margin: auto;
     margin-top: 4%;
     margin-bottom: 2%;
@@ -269,6 +325,7 @@ select{
     /* border-bottom: 1px solid lightslategray; */
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 button{
@@ -297,9 +354,11 @@ button{
 
 .div-btn{
     width: 50%;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 
