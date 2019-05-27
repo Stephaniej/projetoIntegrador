@@ -1,0 +1,198 @@
+<?php
+
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pagamento</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="pagamento.css" />
+    <script src="main.js"></script>
+</head>
+
+
+<body>
+
+    <section class="text-desc">
+        <h2>Comece seus 30 dias Trial Free</h2>
+    </section>
+
+    <section class="all-body">
+
+        <div class="div1">
+
+
+            <div class="first-text">
+            <h6>Escola o seu Plano</h6>
+            <div class="border-text"></div>
+            </div>
+
+            <div class="cards">
+                <div class="card1">
+                        <input class="checkbox" type="checkbox" id="scales" name="Anual"
+                        checked>
+                 <label for="scales"><strong>Anual</strong></label>
+                 <h5>R$00,00/mês</h5>
+                </div>
+                <div class="card1">
+                <input class="checkbox" type="checkbox" id="scales" name="Mensal"
+                checked>
+         <label for="scales"><strong>Mensal</strong></label>
+         <h5>R$00,00/mês</h5>
+            </div>
+            </div>
+
+            <div class="pay-informations">
+              
+               <h4>Informações de pagamento</h4>
+               <h5>Por que inserir meus dados?</h5>
+              
+            </div>
+
+            <div class="fops">
+
+            <div class="fop1">
+                   
+             <strong>Cartão de credito</strong><br>
+             <img src="imgs\icones/bandeiras-de-cartao-mundipagg.png" width="120px" alt="">
+            </div>
+            <div class="fop2">
+                   
+                    <strong>PayPal</strong><br>
+                    <img src="imgs\icones/paypal.png" width="30px" alt="">
+                   </div>
+
+          </div>
+
+          <!-- FORMULÁRIO DE PAGAMENTO -->
+          <form class="pay-form" action="">
+            
+            <div class="card-and-cvv">
+            <!-- <p> -->
+            <div class="card-number">
+            <label  for="card_number"> <strong>Numero do Cartão</strong></label><br>
+            <input class="inp-form"  type="number" size="20" placeholder="XXXX-XXXX-XXXX-XXXX">
+            </div>
+            <div class="cvv-number">
+            <label class="this-label" for="cvv_number"><strong>CVV</strong> </label><br>
+            <input  type="number" placeholder="123">
+            </div>
+            <!-- </p> -->
+            </div>
+          
+            <div class="month-and-year">
+          
+            <div class="card-month">
+            <label  for="card_number"><strong> Mês</strong></label><br>
+            <select name="select"> 
+                <option value="valor2" selected>Escolha</option>
+                <option value="valor1">Janeiro</option>
+                <option value="valor3">Fevereiro</option>
+                <option value="valor3">Março</option>
+                <option value="valor3">Abril</option>
+                <option value="valor3">Maio</option>
+                <option value="valor3">Junho</option>
+                <option value="valor3">Julho</option>
+                <option value="valor3">Agosto</option>
+                <option value="valor3">Setembro</option>
+                <option value="valor3">Outubro</option>
+                <option value="valor3">Novembro</option>
+                <option value="valor3">Dezembro</option>
+              </select>
+
+
+            
+            </div>
+            <div class="card-year">
+            <label class="this-label" for="cvv_number"><strong> Ano</strong></label> <br>
+              <select class="sel-year" name="select"> 
+                <option value="valor2" selected>Escolha</option>
+                <option value="valor1">2019</option>
+                <option value="valor3">2020</option>
+                <option value="valor3">2021</option>
+                <option value="valor3">2022</option>
+                <option value="valor3">2023</option>
+                <option value="valor3">2024</option>
+                <option value="valor3">2025</option>
+                <option value="valor3">2026</option>
+              </select>
+            </div>
+          </div>
+
+            <div class="pais-btn">
+            <p>
+            <div class="text-pay1 pag">
+            <label for="card_number"><strong>Pais</strong></label>
+            <select name="select"> 
+              <option value="valor2" selected>Escolha</option>
+              <option value="valor1">Brasil</option>
+              <option value="valor3">Outro</option>
+            </select>
+            </div>
+            </p>
+
+              <div class="div-btn">
+                <button class="buy-btn">Comprar</button>
+              </div>
+
+          </div>
+
+          </form>
+
+
+        </div>
+
+        <div class="div2">
+          <div class="img-simbol">
+            <img src="imgs/icones/tik_verde.png" width="40px" alt="">
+          </div>
+          <div class="txts">
+                <p><strong>Seus 30 dias Trial Free</strong> são totalmente grátis<br>
+                    e estará válido até 6 de agosto <br>
+                  <strong>Cancele a qualquer momento.</strong>  </p>
+                  
+                
+                <!-- <li class="list-group-item d-flex justify-content-between lh-condensed"> -->
+                  <div><h4 class="tora-text">O Torabit Shopping Inclui:</h4>
+                   
+                  
+    
+                  </div>
+                
+                <li class="list-1">
+                <img src="imgs\icones\visto2.png" width="20px" height="20px" alt="">
+                <span>Diferencial 1</span>
+                </li>
+                <li class="list-1">
+                <img src="imgs\icones\visto2.png" width="20px" height="20px" alt="">  
+                <span>Diferencial 2</span>
+                </li>
+                <li class="list-1">
+                <img src="imgs\icones\visto2.png" width="20px" height="20px" alt="">  
+                <span>Diferencial 3</span>
+                </li>
+                <li class="list-1">
+                <img src="imgs\icones\visto2.png" width="20px" height="20px" alt="">  
+                <span>Diferencial 4</span>
+                </li>
+                
+                <li class="list-1">
+                <img src="imgs\icones\visto2.png" width="20px" height="20px" alt="">  
+                <span>Diferencial 5</span>
+                <br>
+                </li>
+              </ul>
+        </div>
+      </div>
+
+
+
+
+    </section>
+    
+</body>
+</html>
