@@ -1,6 +1,6 @@
 html, body {
 	height: 100%;
-	background: #e6f2ff;
+	background: /*#e6f2ff*/ white;
 }
 
 #body-contato {
@@ -69,8 +69,9 @@ html, body {
 }
 
 #bloco2 p {
-    margin-left: 22%;
+	margin-left: 22%;
 }
+
 
 #bloco2 label {
 	margin-left: 18%;
@@ -127,21 +128,25 @@ html, body {
 }
 
 
-@media (max-width: 575.98px) { 
+@media (max-width: 767.98px) { 
   #bloco1 h4 {
 	font-size: 22px;
+	margin-left: 14%;
   }
 
   #bloco1 p {
 	font-size: 14px;
+	margin-left: 10%;
   }
 
   #bloco1 label {
     font-size: 14px;
+    margin-left: 10%;
   }
 
   #bloco2 h4 {
 	font-size: 22px;
+	margin-left: 14%;
   }
 
   #bloco1 a {
@@ -150,15 +155,17 @@ html, body {
 
   #bloco2 p {
 	font-size: 14px;
+	margin-left: 10%;
   }
 
   #bloco2 label {
     font-size: 14px;
+    margin-left: 10%;
   }
  }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+/* Small devices (landscape phones, 576px and up) */ AQQQQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+@media (min-width: 768px) { 
 
   #bloco1 h4 {
 	font-size: 24px;
@@ -191,8 +198,8 @@ html, body {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
-
+@media (max-width: 990px) {
+ 
 
 }
 /* Large devices (desktops, 992px and up) */

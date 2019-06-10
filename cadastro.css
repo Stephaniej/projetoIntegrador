@@ -3,7 +3,7 @@
 
 html, body {
 	height: 100%;
-	background: #e6f2ff;
+	background: white;
 }
 
 #area-cadastro {
@@ -25,26 +25,20 @@ html, body {
 
 .campo, .email, .senha {
 	width: 40%;
-	min-width: 40%;
-	background-color: #e6f2ff;
+	/*min-width: 40%;*/
+	background-color: white /* #e6f2ff */;
 }
 
-.email, .email2 {
-	background: url('imgs/imagens_cortadas/icone-usuario.png') no-repeat right center;
-	background-size: 4%; 
-}
-
-.senha, .senha2 {
-	background: url('imgs/imagens_cortadas/icone-cadeado.png') no-repeat right center;
-	background-size: 4%; 
+.email, .senha {
+	padding-left: 25px;
 }
 
 #area-cadastro label {
-	color: #5c5c3d;
+	color:/* #5c5c3d*/ black;
 }
 
 #area-cadastro .agree {
-	color: #5c5c3d;
+	color: /*#5c5c3d*/ black;
 	margin-top: 10px;
 }
 
@@ -67,15 +61,15 @@ html, body {
 }
 
 .email2, .senha2{
-	width: 50%;
-	min-width: 50%;
+	width: 40%;
+	min-width: 40%;
+	padding-left: 25px;
 	background-color: #e6f2ff;
-}
+} 
 
 .select {
-	width: 50%;
-	min-width: 50%;
-	background-color: #e6f2ff;
+	width: 40%;
+	min-width: 40%;
 }
 
 #botoes button {
@@ -87,4 +81,39 @@ html, body {
 #topico .conta:hover, #topico .forma:hover {
 	text-decoration: underline;
 	text-decoration-color: red;
+}
+
+/************************************** Media Querie *************************************/
+
+@media (max-width: 767.98px) { 
+
+	.email, .email2 {
+		background: url('imgs/imagens_cortadas/icone-usuario.png') no-repeat left center;
+		background-size: 3%;
+		background-position: 10px;
+	}
+
+	.senha, .senha2 {
+		background: url('imgs/imagens_cortadas/icone-cadeado.png') no-repeat left center;
+		background-size: 3%; 
+		background-position: 10px;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    
+    .email, .email2 {
+		background: url('imgs/imagens_cortadas/icone-usuario.png') no-repeat left center;
+		background-size: 3.5%;
+		background-position: 10px;
+	}
+
+	.senha, .senha2 {
+		background: url('imgs/imagens_cortadas/icone-cadeado.png') no-repeat left center;
+		background-size: 3.5%;
+		background-position: 10px; 
+	}
+
 }

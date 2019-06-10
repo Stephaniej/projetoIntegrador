@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-sm">
 
       <!-- Logo -->            
-      <a href="" class="navbar-brand">
+      <a href="index.php" class="navbar-brand">
         <img src="imgs/imagens_cortadas/torabit_shop.png" width="200">
       </a>
 
@@ -25,7 +25,7 @@
        </div>
 
        <ul class="navbar-nav">
-          <li class="nav-item link"><a href="" class="nav-link">Cadastre-se</a></li>
+          <li class="nav-item link"><a href="cadastro.php" class="nav-link">Cadastre-se</a></li>
           <li class="nav-item link"><a href="" class="nav-link">Login</a></li>
           <li class="nav-item">
             <a href="" class="nav-link">
@@ -42,11 +42,11 @@
   <div class="container">
     <div class="navb">
      
-     <span><a href="">SOBRE O TORABIT</a></span>
-     <span><a href="">CATEGORIAS</a></span>
-     <span><a href="">FULL SERVICE</a></span>
-     <span><a href="">ÁREA DO CLIENTE</a></span>
-     <span><a href="">CONTATO</a></span>
+     <span><a href="">Sobre o Torabit</a></span>
+     <span><a href="">Categorias</a></span>
+     <span><a href="">Full Service</a></span>
+     <span><a href="">Área do Cliente</a></span>
+     <span><a href="contato.php">Contato</a></span>
       
     </div>  
   </div>
