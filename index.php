@@ -50,8 +50,8 @@
     <img class="card-img-top" src="imgs/imagens_cortadas/menu1.png">
       <div class="card-body">
         <h4 class="card-title">Ranking de posts</h4>
-        <p>Compare os posts de suas marcas de interesse com seus concorrentes e pares. Veja os posts que mais engajam e mais.</p>
-        <a href="" class="btn btn-primary">Saiba mais</a>
+        <p>Compare os posts de suas marcas de interesse com seus concorrentes e pares.</p>
+        <a href="sobre.php" class="btn btn-primary">Saiba mais</a>
       </div>
      </div>
     
@@ -62,7 +62,7 @@
         <h4 class="card-title">Desempenho de Perfis</h4>
         <p>Compare perfis de suas marcas de com seus concorrentes e pares
         São 11 plataformas diferentes.</p>
-        <a href="" class="btn btn-primary">Saiba mais</a>
+        <a href="sobre.php" class="btn btn-primary">Saiba mais</a>
       </div>
      </div>
 
@@ -72,7 +72,7 @@
         <h4 class="card-title">Rastrear Links</h4>
         <p>Acompanhe os compartilhamentos de cada notícia em rede e a
          vida útil de cada link.</p>
-        <a href="" class="btn btn-primary">Saiba mais</a>
+        <a href="sobre.php" class="btn btn-primary">Saiba mais</a>
       </div>
      </div>
 
@@ -82,7 +82,7 @@
         <h4 class="card-title">Trends</h4>
         <p>Acompanhe o movimento em toda a rede. O que mais falam, o que
            mais buscam e o que mais leem.</p>
-        <a href="" class="btn btn-primary">Saiba mais</a>
+        <a href="sobre.php" class="btn btn-primary">Saiba mais</a>
       </div>
      </div>
     </div>
