@@ -164,7 +164,7 @@
             </div>
 
             <div class="pais-btn">
-              <p>
+              <!-- <p>
                 <div class="text-pay1 pag">
                   <label for="card_number"><strong>Pais</strong></label>
                   <select name="select">
@@ -173,7 +173,7 @@
                     <option value="valor3">Outro</option>
                   </select>
                 </div>
-              </p>
+              </p> -->
 
               <div class="div-btn">
                 <button class="buy-btn">Comprar</button>
