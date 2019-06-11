@@ -20,43 +20,43 @@
        
         <div class="carousel" data-flickity='{ "groupCells": 2}'>
           <div class="carousel-cell"> 
-          <a href="https://flickity.metafizzy.co/api.html">  <img src="imgs/imagens_cortadas/img11.png"  alt=""> </a>   <img class="botao" src="imgs/imagens_cortadas/compre.png" alt=""> 
+          <a href="pagamento.php">  <img src="imgs/imagens_cortadas/img11.png"  alt=""> </a>   <img class="botao" src="imgs/imagens_cortadas/compre.png" alt=""> 
                <h6   class="valor">  R$79/mês </h6>
                <div class="pacote">   ou 12 x 67 para pacote anual     </div>    
         </div>
          
          
-          <div class="carousel-cell"> <a href="https://flickity.metafizzy.co/api.html"><img src="imgs/imagens_cortadas/img22.png"  alt="">  </a>  
+          <div class="carousel-cell"> <a href="pagamento.php"><img src="imgs/imagens_cortadas/img22.png"  alt="">  </a>  
             <img class="botao" src="imgs/imagens_cortadas/compre.png" alt=""> 
             <h6   class="valor">  R$79/mês </h6>
             <div class="pacote">   ou 12 x 67 para pacote anual      </div> 
         </div>
-          <div class="carousel-cell"> <a href="https://flickity.metafizzy.co/api.html"><img src="imgs/imagens_cortadas/img33.png"  alt=""> </a>
+          <div class="carousel-cell"> <a href="pagamento"><img src="imgs/imagens_cortadas/img33.png"  alt=""> </a>
             <img class="botao" src="imgs/imagens_cortadas/compre.png" alt=""> 
             <h6   class="valor">  R$79/mês </h6>
             <div class="pacote">   ou 12 x 67 para pacote anual      </div> 
         </div>
-          <div class="carousel-cell"> <a href="https://flickity.metafizzy.co/api.html"> <img src="imgs/imagens_cortadas/img44.png"  alt=""> </a>
+          <div class="carousel-cell"> <a href="pagamento.php"> <img src="imgs/imagens_cortadas/img44.png"  alt=""> </a>
            <img class="botao" src="imgs/imagens_cortadas/compre.png" alt=""> 
             <h6   class="valor">  R$79/mês </h6>
             <div class="pacote">   ou 12 x 67 para pacote anual      </div> 
         </div>
-          <div class="carousel-cell">  <a href="https://flickity.metafizzy.co/api.html"> <img src="imgs/imagens_cortadas/img11.png"  alt=""> </a>
+          <div class="carousel-cell">  <a href="pagamento.php"> <img src="imgs/imagens_cortadas/img11.png"  alt=""> </a>
           <img class="botao" src="imgs/imagens_cortadas/compre.png" alt=""> 
             <h6   class="valor">  R$79/mês </h6>
             <div class="pacote">   ou 12 x 67 para pacote anual      </div> 
         </div>
-          <div class="carousel-cell"> <a href="https://flickity.metafizzy.co/api.html"> <img src="imgs/imagens_cortadas/img22.png"  alt=""> </a>
+          <div class="carousel-cell"> <a href="pagamento.php"> <img src="imgs/imagens_cortadas/img22.png"  alt=""> </a>
              <img class="botao" src="imgs/imagens_cortadas/compre.png" alt=""> 
             <h6   class="valor">  R$79/mês </h6>
             <div class="pacote">   ou 12 x 67 para pacote anual      </div> 
         </div>
-          <div class="carousel-cell"> <a href="https://flickity.metafizzy.co/api.html"> <img src="imgs/imagens_cortadas/img33.png"  alt=""> </a>
+          <div class="carousel-cell"> <a href="pagamento.php"> <img src="imgs/imagens_cortadas/img33.png"  alt=""> </a>
             <img class="botao" src="imgs/imagens_cortadas/compre.png" alt=""> </a>
             <h6   class="valor">  R$79/mês </h6>
             <div class="pacote">   ou 12 x 67 para pacote anual      </div> 
         </div>
-          <div class="carousel-cell"> <a href="https://flickity.metafizzy.co/api.html"> <img src="imgs/imagens_cortadas/img44.png"  alt=""> </a>
+          <div class="carousel-cell"> <a href="pagamento.php"> <img src="imgs/imagens_cortadas/img44.png"  alt=""> </a>
            <img class="botao" src="imgs/imagens_cortadas/compre.png" alt=""> </a>
             <h6   class="valor">  R$79/mês </h6>
             <div class="pacote">   ou 12 x 67 para pacote anual      </div> 
