@@ -27,7 +27,7 @@
        <ul class="navbar-nav">
           <li class="nav-item link"><a href="cadastro.php" class="nav-link">Cadastre-se</a></li>
      
-          <li class="nav-item link"><a href="form.php" class="nav-link">Login</a></li>
+          <li class="nav-item link"><a href="" class="nav-link">Login</a></li>
           
           <li class="nav-item">
             <a href="" class="nav-link">
