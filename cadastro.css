@@ -24,7 +24,7 @@ html, body {
 }
 
 .campo, .email, .senha {
-	width: 40%;
+	/*width: 40%;*/
 	/*min-width: 40%;*/
 	background-color: white /* #e6f2ff */;
 }
@@ -61,16 +61,11 @@ html, body {
 }
 
 .email2, .senha2{
-	width: 40%;
-	min-width: 40%;
+/*	width: 40%;
+	min-width: 40%; */
 	padding-left: 25px;
 	background-color: #e6f2ff;
 } 
-
-.select {
-	width: 40%;
-	min-width: 40%;
-}
 
 #botoes button {
 	width: 220px;
@@ -103,17 +98,26 @@ html, body {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+	.campo, .select {
+		width: 40%;
+	    min-width: 40%;
+	}
     
     .email, .email2 {
 		background: url('imgs/imagens_cortadas/icone-usuario.png') no-repeat left center;
 		background-size: 3.5%;
 		background-position: 10px;
+		width: 40%;
+	    min-width: 40%;
 	}
 
 	.senha, .senha2 {
 		background: url('imgs/imagens_cortadas/icone-cadeado.png') no-repeat left center;
 		background-size: 3.5%;
 		background-position: 10px; 
+		width: 40%;
+	    min-width: 40%;
 	}
 
 }

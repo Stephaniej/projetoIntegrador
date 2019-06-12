@@ -26,7 +26,9 @@
 
        <ul class="navbar-nav">
           <li class="nav-item link"><a href="cadastro.php" class="nav-link">Cadastre-se</a></li>
+     
           <li class="nav-item link"><a href="" class="nav-link">Login</a></li>
+          
           <li class="nav-item">
             <a href="" class="nav-link">
              <img src="imgs/imagens_cortadas/carrinho.png" width="30">    
@@ -42,10 +44,10 @@
   <div class="container">
     <div class="navb">
      
-     <span><a href="sobre.php">Sobre o Torabit</a></span>
-     <span><a href="https://datatorapolitica.torabit.com.br/radar-login.py"target="_blank">DATATORA</a></span>
-     <span><a href="http://www.torabit.com.br/"target="_blank">Full Service</a></span>
-     <span><a href="configuracoes.php">Área do Cliente</a></span>
+     <span><a href="">Sobre o Torabit</a></span>
+     <span><a href="">Categorias</a></span>
+     <span><a href="">Full Service</a></span>
+     <span><a href="">Área do Cliente</a></span>
      <span><a href="contato.php">Contato</a></span>
       
     </div>  
