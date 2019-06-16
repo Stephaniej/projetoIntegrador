@@ -8,25 +8,20 @@ html, body {
 	margin: 0 auto;
 }
 
+.container {
+    border-bottom: 1px solid #ccc; 
+}
+
 #body-contato h2{
 	margin: 0 auto;
 	padding-top: 30px;
 	color: #141452;
 }
 
-#contato {
-	margin: 0 auto;
-	height: 265px;
-	margin-top: 30px;
-	min-width: 435px;
-}
 
 #bloco1 {
-	width: 42%;
+	width:/* 42%;*/
 	background: white;
-	float: left;
-	min-width: 198px;
-	min-height: 289px;
 	border: 1px solid #ccc;
 }
 
@@ -60,11 +55,8 @@ html, body {
 }
 
 #bloco2 {
-	width: 42%;
+	width: /*42%;*/
 	background: white;
-	float: right;
-	min-width: 220px;
-	min-height: 289px;
 	border: 1px solid #ccc;
 }
 
@@ -92,11 +84,6 @@ html, body {
 	color: white;
 	font-weight: bold;
 	margin-bottom: 10px;
-}
-
-.div {
-	margin: auto;
-	padding-top: 25px;
 }
 
 /****************************** Mídias ************************************/
@@ -128,15 +115,20 @@ html, body {
 }
 
 
-@media (max-width: 767.98px) { 
+@media (max-width: 576px) {
+
+   #bloco1 {
+	margin-bottom: 20px;
+  } 
+
   #bloco1 h4 {
 	font-size: 22px;
-	margin-left: 14%;
+	margin-left: 18%;
   }
 
   #bloco1 p {
 	font-size: 14px;
-	margin-left: 10%;
+	margin-left: 5%;
   }
 
   #bloco1 label {
@@ -144,28 +136,35 @@ html, body {
     margin-left: 10%;
   }
 
+ /* #bloco1 a {
+	width: 75%;
+  } */
+
   #bloco2 h4 {
 	font-size: 22px;
-	margin-left: 14%;
-  }
-
-  #bloco1 a {
-	width: 75%;
+	margin-left: 18%;
   }
 
   #bloco2 p {
 	font-size: 14px;
-	margin-left: 10%;
+	margin-left: 5%;
   }
 
   #bloco2 label {
     font-size: 14px;
-    margin-left: 10%;
+    margin-left: 3%;
   }
+
+  #img-link ul {
+	position: relative;
+	bottom: 45px;
+	left: 50px;
+}
+
  }
 
 /* Small devices (landscape phones, 576px and up) */ AQQQQUIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
-@media (min-width: 768px) { 
+@media (min-width: 577px) {
 
   #bloco1 h4 {
 	font-size: 24px;

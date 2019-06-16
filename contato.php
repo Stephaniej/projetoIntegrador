@@ -19,30 +19,30 @@
 
       <div id="body-contato">
         <h2>Contato Torabit</h2>
+         <br>
 
-        <div id="contato">
-          <div id="bloco1">
+        <div class="container">
+          <div class="row d-flex justify-content-between">
+            <div class="col-md-5" id="bloco1">
             <img src="imgs/imagens_cortadas/phone.png" width="25%" height="27%">
             <h4>Ligue pra gente</h4>
             <p>Para assuntos mais urgentes, nada como</p>
             <label>uma ligação. <strong>Estamos à disposição.</strong></label>
 
             <a href="" class="btn">W H A T S A P P</a>
-          </div>
-
-          <div id="bloco2">
-           <img src="imgs/imagens_cortadas/mail.png" width="25%" height="27%">
+            </div>
+           <div class="col-md-5" id="bloco2">
+            <img src="imgs/imagens_cortadas/mail.png" width="25%" height="27%">
             <h4>Escreva para nós</h4>
             <p>Nossa Equipe está pronta para tirar</p>
             <label>suas dúvidas. <strong>contato@torabit.com.br</strong></label>
 
            <a href="" class="btn">M E N S A G E M</a>
-
+            </div>
           </div>
+          <br>      
         </div>
-
-       <div class="div"><hr></div>
-
+          <br>
 
         <div id="midias">
           <div>
