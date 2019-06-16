@@ -1,7 +1,15 @@
+
+
 <footer id="rodape" >
-    <p>Torabit • Monitoramento digital<br>
-        &copy; Copyright 2019 • Todos os direitos reservados</p>
+  <div class="main-footer">
+    <div class="txt-footer">
+    
+      <h6>Torabit • Monitoramento digital</h6>
+      <h6>&copy; Copyright 2019 • Todos os direitos reservados</h6>
+      
+  </div>    
   <div class="div-img">  
-    <img src="imgs/imagens_cortadas/torabit.png" width="50%" height="65%">
+    <img class="img-logo-tora" src="imgs/imagens_cortadas/torabit.png" >
+  </div>
   </div>
 </footer>
