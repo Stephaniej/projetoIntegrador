@@ -30,7 +30,7 @@ html, body {
 }
 
 .email, .senha {
-	padding-left: 25px;
+	padding-left: 30px;
 }
 
 #area-cadastro label {
@@ -52,6 +52,10 @@ html, body {
 	width: 45%;
 }
 
+.cancelar {
+	background-color: #e0e0d1;
+}
+
 .conta {
 	float: left;
 }
@@ -63,7 +67,7 @@ html, body {
 .email2, .senha2{
 /*	width: 40%;
 	min-width: 40%; */
-	padding-left: 25px;
+	padding-left: 30px;
 	background-color: #e6f2ff;
 } 
 
@@ -88,6 +92,10 @@ html, body {
 		background-position: 10px;
 	}
 
+	.cancelar {
+		margin-bottom: 15px;
+	}
+	
 	.senha, .senha2 {
 		background: url('imgs/imagens_cortadas/icone-cadeado.png') no-repeat left center;
 		background-size: 3%; 
@@ -119,5 +127,4 @@ html, body {
 		width: 40%;
 	    min-width: 40%;
 	}
-
 }

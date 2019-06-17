@@ -57,7 +57,7 @@
             <br>
 
            <div id="botoes">
-            <button type="submit" class="btn btn-secondary">CANCELAR</button>
+            <button type="submit" class="btn cancelar">CANCELAR</button>
             <button type="submit" class="btn btn-primary">SALVAR</button>
            </div>
            </form> 
