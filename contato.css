@@ -5,7 +5,7 @@ html, body {
 
 #body-contato {
 	width: 80%;
-	margin: 0 auto;
+	margin: 2px auto;
 }
 
 .container {
@@ -116,6 +116,10 @@ html, body {
 
 
 @media (max-width: 576px) {
+
+	html, body {
+	   min-width: 100%;
+    }
 
    #bloco1 {
 	margin-bottom: 20px;
