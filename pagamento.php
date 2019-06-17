@@ -53,10 +53,10 @@
             <div class="card1">
               <div class="inp-valor">
                 <label class="lab-inp" for="">
-                  <input id="primeiro" type="checkbox" name="Mensal">
+                  <input id="primeiro" type="checkbox" name="Anual">
                   <span class="lab-inp-sp"></span>
                 </label>
-                <label for="primeiro"><strong>Anual</strong></label>
+                <label for="segundo"><strong>Anual</strong></label>
               </div>
               <div class="content-price">
                 <h5>R$00,00/mês</h5>
@@ -65,7 +65,7 @@
             <div class="card1">
               <div class="inp-valor">
                 <label class="lab-inp" for="">
-                  <input id="primeiro" type="checkbox" name="Mensal">
+                  <input id="segundo" type="checkbox" name="Mensal">
                   <span class="lab-inp-sp"></span>
                 </label>
                 <label for="primeiro"><strong>Mensal</strong></label>
@@ -98,12 +98,12 @@
             <div class="fop1">
 
               <strong>Cartão de credito</strong><br>
-              <img src="imgs\icones/bandeiras-de-cartao-mundipagg.png" width="120px" alt="">
+              <img class="cc-img" src="imgs\icones/bandeiras-de-cartao-mundipagg.png" width="120px" alt="">
             </div>
             <div class="fop2">
 
               <strong>PayPal</strong><br>
-              <img src="imgs\icones/paypal.png" width="30px" alt="">
+              <img class="paypal-img" src="imgs\icones/paypal.png" width="30px" alt="">
             </div>
 
           </div>
@@ -188,7 +188,7 @@
 
         <div class="div2">
           <div class="img-simbol">
-            <img src="imgs/icones/tik_verde.png" width="40px" alt="">
+            <img class="tik-verde-img" src="imgs/icones/tik_verde.png" width="40px" alt="">
           </div>
           <div class="txts">
             <p><strong>Seus 30 dias Trial Free</strong> são totalmente grátis<br>

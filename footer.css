@@ -108,12 +108,20 @@ h6{
         font-size: 0.9em;
         
         
+<<<<<<< HEAD
+        
+=======
+>>>>>>> b0c9b1f9cdafb5e9da56fa2818d2224fcff8c4fd
     }
     
     h6{
         /* list-style-type: none; */
         color: gray;
+<<<<<<< HEAD
+        font-size: 0.8em;
+=======
         font-size: 10%;
+>>>>>>> b0c9b1f9cdafb5e9da56fa2818d2224fcff8c4fd
         display: flex;
         justify-content: center;
         /* text-align: center; */
@@ -169,7 +177,11 @@ h6{
         justify-content: center;
         text-align: center;
         align-items: center;
+<<<<<<< HEAD
+        /* font-size: 1.6em; */
+=======
         font-size: 1.4em;
+>>>>>>> b0c9b1f9cdafb5e9da56fa2818d2224fcff8c4fd
         
         
     }
@@ -177,7 +189,11 @@ h6{
     h6{
         /* list-style-type: none; */
         color: gray;
+<<<<<<< HEAD
+        font-size: 0.8em;
+=======
         font-size: 10%;
+>>>>>>> b0c9b1f9cdafb5e9da56fa2818d2224fcff8c4fd
         display: flex;
         justify-content: center;
         /* text-align: center; */
@@ -328,6 +344,9 @@ h6{
     }
   }
 
+<<<<<<< HEAD
+  
+=======
   @media (min-width: 1200px) and (max-width: 2000px){
     #rodape{
         width: 100%;
@@ -390,3 +409,4 @@ h6{
         height: 6vh;
     }
   }
+>>>>>>> b0c9b1f9cdafb5e9da56fa2818d2224fcff8c4fd
