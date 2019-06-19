@@ -75,12 +75,11 @@
 
 #alta{
   position: relative;
-  top: 400px;
-  width: 95%;
-  margin: auto;
+  top: -10px;
+  left:120px;
 }
 
 #alta h5{
   color: #ff1a75;
-  padding-left: 20px;
+  padding-left: 50px;
 }

@@ -35,7 +35,7 @@
         </section>  <!-- Fim da sessão para o ebook -->
 
          <section id="area-carrossel">  
-         <div class="texto">ESCOLHA AQUI SUA FERRAMENTA:  </div>
+         <div class="texto">Escolha aqui sua ferramenta:  </div>
          <?php include("carrossel.php");?>
          
 
@@ -43,14 +43,14 @@
 
 
   <section id="alta">    <!-- Seção do "Em alta" -->
-    <h5>EM ALTA</h5>
+    <h5>Em Alta</h5>
   <div class="row">
 
     <div class="col-md-3">
     <img class="card-img-top" src="imgs/imagens_cortadas/menu1.png">
       <div class="card-body">
         <h4 class="card-title">Ranking de posts</h4>
-        <p>Compare os posts de suas marcas de interesse com seus concorrentes e pares.</p>
+        <p>Compare os posts de suas marcas de interesse com seus concorrentes.</p>
         <a href="sobre.php" class="btn btn-primary">Saiba mais</a>
       </div>
      </div>
@@ -59,9 +59,8 @@
     <div class="col-md-3">
     <img class="card-img-top" src="imgs/imagens_cortadas/menu2.png">
       <div class="card-body">
-        <h4 class="card-title">Desempenho de Perfis</h4>
-        <p>Compare perfis de suas marcas de com seus concorrentes e pares
-        São 11 plataformas diferentes.</p>
+        <h4 class="card-title">Analytics</h4>
+        <p>Compare o desempenho de marcas em 11 plataformas diferentes.</p>
         <a href="sobre.php" class="btn btn-primary">Saiba mais</a>
       </div>
      </div>
@@ -70,8 +69,7 @@
     <img class="card-img-top" src="imgs/imagens_cortadas/menu3.png">
       <div class="card-body">
         <h4 class="card-title">Rastrear Links</h4>
-        <p>Acompanhe os compartilhamentos de cada notícia em rede e a
-         vida útil de cada link.</p>
+        <p>Acompanhe os compartilhamentos de notícias nas redes.</p>
         <a href="sobre.php" class="btn btn-primary">Saiba mais</a>
       </div>
      </div>
@@ -80,8 +78,7 @@
     <img class="card-img-top" src="imgs/imagens_cortadas/menu4.png">
       <div class="card-body">
         <h4 class="card-title">Trends</h4>
-        <p>Acompanhe o movimento em toda a rede. O que mais falam, o que
-           mais buscam e o que mais leem.</p>
+        <p>Acompanhe o que mais falam, o que mais buscam e o que mais leem.</p>
         <a href="sobre.php" class="btn btn-primary">Saiba mais</a>
       </div>
      </div>
