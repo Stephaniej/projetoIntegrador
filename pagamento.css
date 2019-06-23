@@ -246,6 +246,35 @@ input {
     margin-bottom: 2%;
 }
 
+.content-input{
+    width: 80%;
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    padding-right: 1%;
+
+}
+
+.content-input-cvv{
+    width: 80%;
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    padding-right: 1%;
+}
+
 input .inp-form {
     font-family: FontAwesome;
 }
@@ -332,15 +361,16 @@ h4 {
 
 input[type=number] {
     position: relative;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
+    /* border-radius: 4px; */
+    /* -moz-border-radius: 4px; */
+    /* -webkit-border-radius: 4px; */
     /* box-shadow: 1px 1px 2px #333333;     */
     /* -moz-box-shadow: 1px 1px 2px #333333; */
     /* -webkit-box-shadow: 1px 1px 2px #333333; */
     background: white;
-    border: 1px solid #bfcacc;
+    /* border: 1px solid #bfcacc; */
     width: 100%;
+    border: none;
     height: 7vh;
 }
 
@@ -429,6 +459,7 @@ button {
 
 .list-1 {
     list-style: none;
+    font-size: 1.1em;
 }
 
 .pag {
@@ -690,6 +721,39 @@ p {
         flex-wrap: wrap;
     }
 
+    
+
+
+
+.content-input{
+    width: 80%;
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    padding-right: 1%;
+
+}
+
+.content-input-cvv{
+    width: 80%;
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    padding-right: 1%;
+}
+
     .card-number {
         position: relative;
         width: 90%;
@@ -784,15 +848,658 @@ p {
 
 }
 
+@media (min-width: 768px) {
+    .all-text-desc {
+        width: 100%;
+        height: 14vh;
+        background-color: white;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        padding-top: 4%;
+        padding-bottom: 7%;
+        font-weight: bold;
+
+    }
+
+    h2 {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .all-body {
+        width: 95vw;
+        height: cover;
+        margin: 0 auto;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        margin-bottom: 10%;
+    }
+
+    .back-body {
+        width: 95%;
+        margin: auto;
+        background-color: white;
+    }
+
+    .div2 {
+        position: relative;
+        width: 94%;
+        height: 45vh;
+        border: 0.5px solid lightslategray;
+        background-color: white;
+        box-shadow: none;
+        padding-bottom: 2%;
+        margin-bottom: 5%;
+    }
+
+    .tik-verde-img {
+        width: 25px;
+        height: 25px;
+
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    .img-simbol {
+        position: relative;
+        width: 100%;
+        height: 7vh;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .div1 {
+        position: relative;
+        width: 94%;
+        height: 100%;
+        border: 1px solid lightslategray;
+        background-color: white;
+        box-shadow: none;
+    }
+
+    h6 {
+        font-weight: bold;
+        font-size: 0.5em;
+        color: black;
+        padding-top: 2%;
+    }
+
+    .border-text {
+        position: relative;
+        width: 100%;
+        height: 7vh;
+        border-bottom: 3px solid rgb(173, 54, 54);
+
+    }
+
+    .cards {
+        position: relative;
+        margin-top: 5%;
+        margin-bottom: 4%;
+        width: 100%;
+        height: 15vh;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .lab-inp-sp {
+        width: 20px;
+        height: 20px;
+        display: block;
+        background-color: rgb(241, 238, 238);
+        border: 3px solid rgb(173, 172, 172);
+        border-radius: 50%;
+    }
+
+    .content-price h5 {
+        font-size: 0.8em;
+    }
+
+    .card1 {
+        position: relative;
+        width: 40%;
+        height: 14vh;
+        border: 1px solid #bfcacc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3%;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .pay-informations {
+        width: 90%;
+        margin: auto;
+        margin-top: 3%;
+        margin-bottom: 2%;
+        height: 8vh;
+    }
+
+    .pay-info-1 {
+        position: relative;
+        width: 80%;
+        height: 100%;
+        /* background-color: aqua; */
+    }
+
+    strong {
+        font-weight: bolder;
+        font-size: 0.8em;
+    }
+
+    .fops {
+        position: relative;
+        margin-top: 3%;
+        width: 92%;
+        margin: auto;
+        margin-bottom: 3%;
+        height: 12vh;
+
+    }
+
+    .fop1 {
+        position: relative;
+        width: 50%;
+        height: 12vh;
+        border: 1px solid #bfcacc;
+        text-align: center;
+    }
+
+    .cc-img {
+        width: 80%;
+    }
+
+    .fop2 {
+        position: relative;
+        width: 50%;
+        height: 12vh;
+        border: 1px solid #bfcacc;
+        text-align: center;
+    }
+
+    .paypal-img {
+        width: 20%;
+    }
+
+    .pay-form {
+
+        height: 60vh;
+
+    }
+
+    .card-and-cvv {
+        position: relative;
+        width: 99%;
+        height: 20vh;
+        margin: auto;
+        margin-top: 4%;
+        margin-bottom: 18%;
+        /* border: 1px solid black; */
+        display: flex;
+        /* justify-content: space-between; */
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+
+    
 
 
 
+.content-input{
+    width: 80%;
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    padding-right: 1%;
+
+}
+
+.content-input-cvv{
+    width: 80%;
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    padding-right: 1%;
+}
+
+    .card-number {
+        position: relative;
+        width: 90%;
+        height: 12vh;
+        margin: auto;
+        margin-bottom: 2%;
+        /* border: 1px solid black; */
+    }
+
+    .cvv-number {
+        position: relative;
+        width: 40%;
+        height: 12vh;
+        /* border: 1px solid black; */
+        margin: auto;
+        margin-top: 2%;
+    }
+
+    .month-and-year {
+        width: 96%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .card-month {
+        position: relative;
+        width: 50%;
+        height: 8vh;
+    }
+
+    select {
+        position: relative;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        /* box-shadow: 1px 1px 2px #333333; */
+        /* -moz-box-shadow: 1px 1px 2px #333333; */
+        /* -webkit-box-shadow: 1px 1px 2px #333333; */
+        background: white;
+        border: 1px solid #bfcacc;
+        width: 100%;
+        height: 7vh;
+    }
+
+    .card-year {
+        position: relative;
+        width: 60%;
+        height: 80%;
+        margin-right: 0%;
+    }
+    .sel-year {
+        position: relative;
+        width: 80%;
+        height: 7vh;
+    }
+    
+    .pais-btn {
+        position: relative;
+        width: 90%;
+        height: 13vh;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        
+    }
+
+    .div-btn {
+        width: 50%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    button {
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        width: 70%;
+        height: 7vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .all-text-desc {
+        width: 100%;
+        height: 14vh;
+        background-color: white;
+        margin-top: 0%;
+        margin-bottom: 1%;
+        padding-top: 4%;
+        padding-bottom: 7%;
+        font-weight: bold;
+        font-size: 1.4em;
+
+    }
+
+    h2 {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .all-body {
+        width: 95vw;
+        height: cover;
+        margin: 0 auto;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        margin-bottom: 10%;
+    }
+
+    .back-body {
+        width: 95%;
+        margin: auto;
+        background-color: white;
+    }
+
+    .div2 {
+        position: relative;
+        width: 94%;
+        height: 38vh;
+        border: 0.5px solid lightslategray;
+        background-color: white;
+        box-shadow: none;
+        padding-bottom: 2%;
+        margin-bottom: 5%;
+    }
+
+    .tik-verde-img {
+        width: 35px;
+        height: 35px;
+
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .img-simbol {
+        position: relative;
+        width: 100%;
+        height: 7vh;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .div1 {
+        position: relative;
+        width: 94%;
+        height: 100%;
+        border: 1px solid lightslategray;
+        background-color: white;
+        box-shadow: none;
+    }
+
+    h6 {
+        font-weight: bold;
+        font-size: 1em;
+        color: black;
+        padding-top: 2%;
+    }
+
+    .border-text {
+        position: relative;
+        width: 100%;
+        height: 7vh;
+        border-bottom: 3px solid rgb(173, 54, 54);
+        font-size: 1.3em;
+    }
+
+    .cards {
+        position: relative;
+        margin-top: 5%;
+        margin-bottom: 4%;
+        width: 100%;
+        height: 15vh;
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .lab-inp-sp {
+        width: 20px;
+        height: 20px;
+        display: block;
+        background-color: rgb(241, 238, 238);
+        border: 3px solid rgb(173, 172, 172);
+        border-radius: 50%;
+    }
+
+    .content-price h5 {
+        font-size: 1.8em;
+    }
+
+    .card1 {
+        position: relative;
+        width: 40%;
+        height: 14vh;
+        border: 1px solid #bfcacc;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3%;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .pay-informations {
+        width: 90%;
+        margin: auto;
+        margin-top: 3%;
+        margin-bottom: 2%;
+        height: 8vh;
+        text-align: left;
+    }
+
+    .pay-info-1 {
+        position: relative;
+        width: 80%;
+        height: 100%;
+        /* background-color: aqua; */
+    }
+
+    h5{
+        font-size: 1.2em;
+    }
+
+    h4{
+        font-size: 1.5em;
+    }
+
+    strong {
+        font-weight: bolder;
+        font-size: 1.2em;
+    }
+
+    .fops {
+        position: relative;
+        margin-top: 3%;
+        width: 92%;
+        margin: auto;
+        margin-bottom: 3%;
+        height: 12vh;
+
+    }
+
+    .fop1 {
+        position: relative;
+        width: 50%;
+        height: 12vh;
+        border: 1px solid #bfcacc;
+        text-align: center;
+    }
+
+    .cc-img {
+        width: 80%;
+    }
+
+    .fop2 {
+        position: relative;
+        width: 50%;
+        height: 12vh;
+        border: 1px solid #bfcacc;
+        text-align: center;
+    }
+
+    .paypal-img {
+        width: 20%;
+    }
+
+    .pay-form {
+
+        height: 65vh;
+
+    }
+
+    .card-and-cvv {
+        position: relative;
+        width: 99%;
+        height: 20vh;
+        margin: auto;
+        margin-top: 4%;
+        margin-bottom: 18%;
+        /* border: 1px solid black; */
+        display: flex;
+        /* justify-content: space-between; */
+        flex-wrap: wrap;
+    }
+
+    
 
 
 
+.content-input{
+    width: 80%;
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    padding-right: 1%;
 
+}
 
+.content-input-cvv{
+    width: 80%;
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    padding-right: 1%;
+}
 
+    .card-number {
+        position: relative;
+        width: 90%;
+        height: 12vh;
+        margin: auto;
+        margin-bottom: 2%;
+        /* border: 1px solid black; */
+    }
 
+    .cvv-number {
+        position: relative;
+        width: 40%;
+        height: 12vh;
+        /* border: 1px solid black; */
+        margin: auto;
+        margin-top: 2%;
+    }
 
+    .month-and-year {
+        width: 96%;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .card-month {
+        position: relative;
+        width: 50%;
+        height: 8vh;
+    }
+
+    select {
+        position: relative;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        /* box-shadow: 1px 1px 2px #333333; */
+        /* -moz-box-shadow: 1px 1px 2px #333333; */
+        /* -webkit-box-shadow: 1px 1px 2px #333333; */
+        background: white;
+        border: 1px solid #bfcacc;
+        width: 100%;
+        height: 7vh;
+    }
+
+    .card-year {
+        position: relative;
+        width: 60%;
+        height: 80%;
+        margin-right: 0%;
+    }
+    .sel-year {
+        position: relative;
+        width: 80%;
+        height: 7vh;
+    }
+    
+    .pais-btn {
+        position: relative;
+        width: 90%;
+        height: 13vh;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        
+    }
+
+    .div-btn {
+        width: 50%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    button {
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        width: 70%;
+        height: 7vh;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 }

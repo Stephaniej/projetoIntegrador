@@ -11,9 +11,9 @@
   <title>Pagamento</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+  <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css">
   <link rel="stylesheet" type="text/css" media="screen" href="header.css">
   <link rel="stylesheet" type="text/css" media="screen" href="footer.css">
@@ -68,7 +68,7 @@
                   <input id="segundo" type="checkbox" name="Mensal">
                   <span class="lab-inp-sp"></span>
                 </label>
-                <label for="primeiro"><strong>Mensal</strong></label>
+                <label for="segundo"><strong>Mensal</strong></label>
               </div>
               <div class="content-price">
                 <h5>R$00,00/mês</h5>
@@ -115,11 +115,24 @@
               <!-- <p> -->
               <div class="card-number">
                 <label for="card_number"> <strong>Numero do Cartão</strong></label><br>
-                <input class="inp-form" type="number" size="20" placeholder="     XXXX-XXXX-XXXX-XXXX">
+                <div class="content-input">
+                  <i class="material-icons">
+                    credit_card
+                  </i>
+                  <input class="inp-form" type="number" size="20" placeholder="  XXXX-XXXX-XXXX-XXXX">
+                </div>
               </div>
               <div class="cvv-number">
                 <label class="this-label" for="cvv_number"><strong>CVV</strong> </label><br>
-                <input class="inp-form" type="number" placeholder="  123   &#xf118;">
+                <div class="content-input-cvv">
+                  <i class="material-icons">
+                    security
+                  </i>
+                  <input class="inp-form" type="number" placeholder="  123 ">
+                  <i class="material-icons">
+                    notification_important
+                  </i>
+                </div>
               </div>
               <!-- </p> -->
             </div>
