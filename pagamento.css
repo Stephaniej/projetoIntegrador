@@ -848,7 +848,7 @@ p {
 
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px)  {
     .all-text-desc {
         width: 100%;
         height: 14vh;
@@ -1172,7 +1172,7 @@ p {
     }
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px, ) {
     .all-text-desc {
         width: 100%;
         height: 14vh;
