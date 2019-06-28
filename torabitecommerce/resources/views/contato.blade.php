@@ -24,7 +24,7 @@
         <div class="container">
           <div class="row d-flex justify-content-between">
             <div class="col-md-5" id="bloco1">
-            <img src="imgs/imagens_cortadas/phone.png" width="25%" height="27%">
+            <img src="{{asset('imgs/imagens_cortadas/phone.png')}}" width="25%" height="27%">
             <h4>Ligue pra gente</h4>
             <p>Para assuntos mais urgentes, nada como</p>
             <label>uma ligação. <strong>Estamos à disposição.</strong></label>
@@ -32,7 +32,7 @@
             <a href="" class="btn">W H A T S A P P</a>
             </div>
            <div class="col-md-5" id="bloco2">
-            <img src="imgs/imagens_cortadas/mail.png" width="25%" height="27%">
+            <img src="{{asset('imgs/imagens_cortadas/mail.png')}}" width="25%" height="27%">
             <h4>Escreva para nós</h4>
             <p>Nossa Equipe está pronta para tirar</p>
             <label>suas dúvidas. <strong>contato@torabit.com.br</strong></label>
@@ -58,16 +58,16 @@
           <div id="img-link">
             <ul>
               <li>
-                <a href=""><img src="imgs/imagens_cortadas/logoface.png" width="74"></a>  
+                <a href=""><img src="{{asset('imgs/imagens_cortadas/logoface.png')}}" width="74"></a>  
               </li>
               <li class="padding-top">
-                <a href=""><img src="imgs/imagens_cortadas/logotw.png" width="87"></a>  
+                <a href=""><img src="{{asset('imgs/imagens_cortadas/logotw.png')}}" width="87"></a>  
               </li>
               <li class="padding-top2">
-                <a href=""><img src="imgs/imagens_cortadas/logoin.png" width="74"></a>  
+                <a href=""><img src="{{asset('imgs/imagens_cortadas/logoin.png')}}" width="74"></a>  
               </li>
               <li class="padding-top2">
-                <a href=""><img src="imgs/imagens_cortadas/logoyt.png" width="75"></a>  
+                <a href=""><img src="{{asset('imgs/imagens_cortadas/logoit.png')}}" width="75"></a>  
               </li>
             </ul> 
           </div>

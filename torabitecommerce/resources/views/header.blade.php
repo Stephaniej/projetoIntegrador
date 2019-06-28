@@ -4,7 +4,7 @@
 
       <!-- Logo -->            
       <a href="index.blade.php" class="navbar-brand">
-        <img src="imgs/imagens_cortadas/torabit_shop.png" width="200">
+        <img src="{{asset('imgs/imagens_cortadas/torabit_shop.png')}}"" width="200">
       </a>
 
       <!-- Menu Hamburguer -->
@@ -32,7 +32,7 @@
           
           <li class="nav-item">
             <a href="" class="nav-link">
-             <img src="imgs/imagens_cortadas/carrinho.png" width="30">    
+             <img src="{{asset('imgs/imagens_cortadas/carrinho.png')}}" width="30">    
             </a>
           </li>
         </ul>

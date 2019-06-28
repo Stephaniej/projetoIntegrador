@@ -19,7 +19,7 @@
   @yield ('header')
     <div class="card-columns espaco-card">
       <div class="card">
-        <img src="imgs/imagens_cortadas/bg_2.jpg" class="card-img-top" alt="...">
+        <img src="{{asset('imgs/imagens_cortadas/bg_2.jpg')}}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Por que Torabit</h5>
           <p class="card-text">Muito mais do que uma simples ferramenta de monitoramento, o Torabit é uma plataforma de
@@ -43,7 +43,7 @@
         </blockquote>
       </div>
       <div class="card">
-        <img src="imgs/resultados.png" class="card-img-top" alt="...">
+        <img src="{{asset('imgs/resultados.png')}}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Resultados</h5>
           <p class="card-text">A listagem de menções no Torabit aparece em ordem cronológica mas o usuário pode optar pela ordenação por repercussão do post.</p>
@@ -76,7 +76,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="imgs/home.png" class="card-img-top" alt="...">
+        <img src="{{asset('imgs/home.png')}}" class="card-img-top" alt="...">
       </div>
       <div class="card p-3 text-right">
         <blockquote class="blockquote mb-0">
@@ -99,7 +99,7 @@
     </div>
     <div class="card-columns">
       <div class="card">
-        <img src="imgs/desempenho.png" class="card-img-top" alt="...">
+        <img src="{{asset('imgs/desempenho.png')}}"class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Analytics</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
@@ -117,7 +117,7 @@
         </blockquote>
       </div>
       <div class="card">
-        <img src="imgs/ranking.png" class="card-img-top" alt="...">
+        <img src="{{asset('imgs/ranking.png')}}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Ranking de Postagem</h5>
           <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -142,7 +142,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="imgs/links.png" class="card-img-top" alt="...">
+        <img src="{{asset('imgs/links.png')}}" class="card-img-top" alt="...">
       </div>
       <div class="card p-3 text-right">
         <blockquote class="blockquote mb-0">
@@ -165,7 +165,7 @@
     </div>
     <div class="card-columns">
       <div class="card">
-        <img src="imgs/sac.png" class="card-img-top" alt="...">
+        <img src="{{asset('imgs/sac.png')}}"class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">SAC 2.0</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
@@ -183,7 +183,7 @@
         </blockquote>
       </div>
       <div class="card">
-        <img src="imgs/resultados.png" class="card-img-top" alt="...">
+        <img src="{asset('imgs/resultados.png')}}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Resultados</h5>
           <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -208,7 +208,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="imgs/cadastro.png" class="card-img-top" alt="...">
+        <img src="{{asset('imgs/cadastro.png')}}" class="card-img-top" alt="...">
       </div>
       <div class="card p-3 text-right">
         <blockquote class="blockquote mb-0">

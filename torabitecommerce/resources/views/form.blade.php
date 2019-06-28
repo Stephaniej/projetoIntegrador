@@ -23,7 +23,7 @@
 
 
 
-<div class="pos1"> <a href="index.blade.php"> <img  src="imgs/imagens_cortadas/torabit_ecommerce_logo1.png" alt="logo Torabit" srcset=""></a></div>
+<div class="pos1"> <a href="index.blade.php"> <img  src=""{{asset('imgs/imagens_cortadas/menu1.png')}}"" alt="logo Torabit" srcset=""></a></div>
 <br> <div> <div class="titulo"><span>Produtos</span></div> </div>
 <br><br><div class="imput1"><input   type="text" placeholder="  email ou número de telefone celular">  </div>
 <br><br><div class="imput2"><input  type="password" placeholder="  senha"> </div>

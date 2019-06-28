@@ -98,12 +98,12 @@
             <div class="fop1">
 
               <strong>Cartão de credito</strong><br>
-              <img class="cc-img" src="imgs\icones/bandeiras-de-cartao-mundipagg.png" width="120px" alt="">
+              <img class="cc-img" src="{{asset('imgs\icones/bandeiras-de-cartao-mundipagg.png')}}" width="120px" alt="">
             </div>
             <div class="fop2">
 
               <strong>PayPal</strong><br>
-              <img class="paypal-img" src="imgs\icones/paypal.png" width="30px" alt="">
+              <img class="paypal-img" src="'imgs\icones/paypal.png'" width="30px" alt="">
             </div>
 
           </div>
@@ -201,7 +201,7 @@
 
         <div class="div2">
           <div class="img-simbol">
-            <img class="tik-verde-img" src="imgs/icones/tik_verde.png" width="40px" alt="">
+            <img class="tik-verde-img" src="{{asset('imgs/icones/tik_verde.png')}}" width="40px" alt="">
           </div>
           <div class="txts">
             <p><strong>Seus 30 dias Trial Free</strong> são totalmente grátis<br>
@@ -218,24 +218,24 @@
             </div>
 
             <li class="list-1">
-              <img class="img-check" src="imgs\icones\visto2.png" width="15px" height="15px" alt="">
+              <img class="img-check" src="{{asset('imgs\icones\visto2.png')}}" width="15px" height="15px" alt="">
               <span>Diferencial 1</span>
             </li>
             <li class="list-1">
-              <img class="img-check" src="imgs\icones\visto2.png" width="15px" height="15px" alt="">
+              <img class="img-check" src="{{asset('imgs\icones\visto2.png')}}" height="15px" alt="">
               <span>Diferencial 2</span>
             </li>
             <li class="list-1">
-              <img class="img-check" src="imgs\icones\visto2.png" width="15px" height="15px" alt="">
+              <img class="img-check" src="{{asset('imgs\icones\visto2.png')}}" width="15px" height="15px" alt="">
               <span>Diferencial 3</span>
             </li>
             <li class="list-1">
-              <img class="img-check" src="imgs\icones\visto2.png" width="15px" height="15px" alt="">
+              <img class="img-check" src="{{asset('imgs\icones\visto2.png')}}" width="15px" height="15px" alt="">
               <span>Diferencial 4</span>
             </li>
 
             <li class="list-1">
-              <img class="img-check" src="imgs\icones\visto2.png" width="15px" height="15px" alt="">
+              <img class="img-check" src="{{asset('imgs\icones\visto2.png')}}" width="15px" height="15px" alt="">
               <span>Diferencial 5</span>
               <br>
             </li>
@@ -256,7 +256,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script type="text/javascirpt" src="carrosel.js"></script>
+  <script type="text/javascirpt" src="{{asset('js/carrosel.js')}}"></script>
 
 </body>
 

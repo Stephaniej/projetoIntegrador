@@ -55,7 +55,7 @@
         <div class="owl-carousel owl-theme">
           <div class="item">
             <div class="card text-center" class="rounded-top" style="18rem;">
-                <a href="pagamento.blade.php"> <img class="imagem" src="imgs/imagens_cortadas/foto1.png" class="card-img-top" alt="..."> </a>
+                <a href="pagamento.blade.php"> <img class="imagem" src="{{asset('imgs/imagens_cortadas/foto1.png')}}" class="card-img-top" alt="..."> </a>
               <div class="card-body">
                 
                 <p class="card-text"> R$79/mês</p>
@@ -66,7 +66,7 @@
           </div>
           <div class="item" >
               <div class="card text-center" class="rounded-top" style="18rem;">
-                  <a href="pagamento.blade.php"> <img class="imagem" src="imgs/imagens_cortadas/foto2.png" class="card-img-top" alt="..."> </a>
+                  <a href="pagamento.blade.php"> <img class="imagem" src="{{asset('imgs/imagens_cortadas/foto2.png')}}" class="card-img-top" alt="..."> </a>
                   <div class="card-body">
                     
                     <p class="card-text"> R$79/mês</p>
@@ -77,7 +77,7 @@
           </div>
           <div class="item" >
               <div class="card text-center" class="rounded-top" style="18rem;">
-                  <a href="pagamento.blade.php">   <img class="imagem" src="imgs/imagens_cortadas/foto3.png" class="card-img-top" alt="..."> </a>
+                  <a href="pagamento.blade.php">   <img class="imagem" src="{{asset('imgs/imagens_cortadas/foto3.png')}}" class="card-img-top" alt="..."> </a>
                   <div class="card-body">
                     
                     <p class="card-text"> R$79/mês</p>
@@ -88,7 +88,7 @@
           </div>
           <div class="item" >
               <div class="card text-center" class="rounded-top" style="18rem;">
-                  <a href="pagamento.blade.php">  <img class="imagem" src="imgs/imagens_cortadas/foto4.png" class="card-img-top" alt="..."> </a>
+                  <a href="pagamento.blade.php">  <img class="imagem" src="{{asset('imgs/imagens_cortadas/foto4.png')}}" class="card-img-top" alt="..."> </a>
                   <div class="card-body">
                     
                     <p class="card-text"> R$79/mês</p>
@@ -99,7 +99,7 @@
           </div>
           <div class="item" >
               <div class="card text-center" class="rounded-top" style="18rem;">
-                  <a href="pagamento.blade.php">   <img class="imagem" src="imgs/imagens_cortadas/foto1.png" class="card-img-top" alt="..."> </a>
+                  <a href="pagamento.blade.php">   <img class="imagem" src="{{asset('imgs/imagens_cortadas/foto1.png')}}" class="card-img-top" alt="..."> </a>
                   <div class="card-body">
                     
                     <p class="card-text"> R$79/mês</p>
@@ -110,7 +110,7 @@
           </div>
           <div class="item" >
               <div class="card text-center" class="rounded-top" style="18rem;;">
-                  <a href="pagamento.blade.php"> <img class="imagem" src="imgs/imagens_cortadas/foto2.png" class="card-img-top" alt="..."> </a>
+                  <a href="pagamento.blade.php"> <img class="imagem" src="{{asset('imgs/imagens_cortadas/foto2.png')}}" class="card-img-top" alt="..."> </a>
                   <div class="card-body">
                     
                     <p class="card-text"> R$79/mês</p>
@@ -121,7 +121,7 @@
           </div>
           <div class="item" >
               <div class="card text-center" class="rounded-top" style="18rem;;">
-                  <a href="pagamento.blade.php"> <img class="imagem" src="imgs/imagens_cortadas/foto3.png" class="card-img-top" alt="..."> </a>
+                  <a href="pagamento.blade.php"> <img class="imagem" src="{{asset('imgs/imagens_cortadas/foto3.png')}}" class="card-img-top" alt="..."> </a>
                   <div class="card-body">
                     
                     <p class="card-text"> R$79/mês</p>
@@ -132,7 +132,7 @@
           </div>
           <div class="item" >
               <div class="card text-center" class="rounded-top" style="18rem;;">
-                  <a href="pagamento.blade.php"> <img class="imagem" src="imgs/imagens_cortadas/foto4.png" class="card-img-top" alt="..."> </a>
+                  <a href="pagamento.blade.php"> <img class="imagem" src="{{asset('imgs/imagens_cortadas/foto4.png')}}" class="card-img-top" alt="..."> </a>
                   <div class="card-body">
                     
                     <p class="card-text"> R$79/mês</p>

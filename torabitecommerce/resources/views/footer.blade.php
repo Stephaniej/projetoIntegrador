@@ -9,7 +9,7 @@
       
   </div>    
   <div class="div-img">  
-    <img class="img-logo-tora" src="imgs/imagens_cortadas/torabit.png" >
+    <img class="img-logo-tora" src="{{asset('imgs/imagens_cortadas/torabit.png')}}" >
   </div>
   </div>
 </footer>
