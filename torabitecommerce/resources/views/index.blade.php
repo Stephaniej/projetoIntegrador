@@ -6,7 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>TorabitShop</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" media="screen" href="{{asset('main/footer.css')}}">
+        <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/main.css')}}">
+  
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/header.css')}}">
@@ -48,7 +49,7 @@
   <div class="row">
 
     <div class="col-md-3">
-    <img class="card-img-top" src="imgs/imagens_cortadas/menu1.png">
+    <img class="card-img-top" src="{{asset('imgs/imagens_cortadas/menu1.png')}}">
       <div class="card-body">
         <h4 class="card-title">Ranking de posts</h4>
         <p>Compare os posts de suas marcas de interesse com seus concorrentes.</p>
@@ -58,7 +59,7 @@
     
 
     <div class="col-md-3">
-    <img class="card-img-top" src="imgs/imagens_cortadas/menu2.png">
+    <img class="card-img-top" src="{{asset('imgs/imagens_cortadas/menu2.png')}}">
       <div class="card-body">
         <h4 class="card-title">Analytics</h4>
         <p>Compare o desempenho de marcas em 11 plataformas diferentes.</p>
@@ -67,7 +68,7 @@
      </div>
 
     <div class="col-md-3">
-    <img class="card-img-top" src="imgs/imagens_cortadas/menu3.png">
+    <img class="card-img-top" src="{{asset('imgs/imagens_cortadas/menu3.png')}}">
       <div class="card-body">
         <h4 class="card-title">Rastrear Links</h4>
         <p>Acompanhe os compartilhamentos de notícias nas redes.</p>
@@ -76,7 +77,7 @@
      </div>
 
     <div class="col-md-3">
-    <img class="card-img-top" src="imgs/imagens_cortadas/menu4.png">
+    <img class="card-img-top" src="{{asset('imgs/imagens_cortadas/menu4.png')}}">
       <div class="card-body">
         <h4 class="card-title">Trends</h4>
         <p>Acompanhe o que mais falam, o que mais buscam e o que mais leem.</p>
