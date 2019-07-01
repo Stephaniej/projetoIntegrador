@@ -49,7 +49,7 @@
             </section> <!-- Fim da sessão para o ebook -->
 
             <section id="area-carrossel">
-                <div class="texto">Escolha aqui sua ferramenta: </div>
+                <!--<div class="texto">Escolha aqui sua ferramenta: </div> -->
                 @include('carrossel')
 
 
@@ -58,7 +58,7 @@
 
             <section id="alta">
                 <!-- Seção do "Em alta" -->
-                <h5>Em Alta</h5>
+                <!--<h5>Em Alta</h5>-->
                 <div class="row">
 
                     <div class="col-md-3">
