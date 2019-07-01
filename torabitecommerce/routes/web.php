@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('index');
 });
+Route::get('sobre', "sobreController@create");
+Route::post('sobre', "sobreController@create");
