@@ -14,5 +14,7 @@
 Route::get('/', function () {
     return view('index');
 });
-Route::get('sobre', "sobreController@create");
-Route::post('sobre', "sobreController@create");
+Route::get('/sobre', "sobreController@sobre");
+Route::post('/sobre', "sobreController@sobre");
+Route::get('/pagamento', 'pagamentoController@pagamento');
+Route::get('/cadastro', 'cadastroController@cadastro');

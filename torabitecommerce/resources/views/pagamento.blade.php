@@ -119,7 +119,7 @@
                   <i class="material-icons">
                     credit_card
                   </i>
-                  <input class="inp-form" type="number" size="20" placeholder="  XXXX-XXXX-XXXX-XXXX">
+                  <input name="cardNumber" class="inp-form" type="number" size="20" placeholder="  XXXX-XXXX-XXXX-XXXX">
                 </div>
               </div>
               <div class="cvv-number">
@@ -128,7 +128,7 @@
                   <i class="material-icons">
                     security
                   </i>
-                  <input class="inp-form" type="number" placeholder="  123 ">
+                  <input name="cvvNumber" class="inp-form" type="number" placeholder="  123 ">
                   <i class="material-icons">
                     notification_important
                   </i>
@@ -162,7 +162,7 @@
               </div>
               <div class="card-year">
                 <label class="this-label" for="cvv_number"><strong> Ano</strong></label> <br>
-                <select class="sel-year" name="select">
+                <select class="sel-year" name="select2">
                   <option value="valor2" selected>Escolha</option>
                   <option value="valor1">2019</option>
                   <option value="valor3">2020</option>
