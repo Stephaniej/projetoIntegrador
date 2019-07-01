@@ -15,7 +15,7 @@
     </head>
 
     <body>
-    @yield ('header')
+    @include('header')
 
       <div id="corpo">
         <div id="area-cadastro">
@@ -62,7 +62,7 @@
            </div>
            </form> 
             <hr> 
-            @yield ('footer')  
+            @include ('footer')  
          </div> 
        </div>
         

@@ -15,7 +15,7 @@
     </head>
 
     <body>
-      @yield ('header')
+      @include ('header')
 
       <div id="corpo">
         <div id="area-cadastro">
@@ -46,7 +46,7 @@
             <button type="submit" class="btn btn-primary">CRIAR MINHA CONTA</button>
            </form> 
             <hr> 
-            @yield ('header') 
+            @include('header') 
          </div> 
        </div>
         

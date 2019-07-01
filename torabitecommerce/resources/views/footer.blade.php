@@ -1,4 +1,4 @@
-@section('footer')
+
 
 <footer id="rodape" >
   <div class="main-footer">

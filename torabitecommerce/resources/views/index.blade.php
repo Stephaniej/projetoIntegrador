@@ -18,7 +18,7 @@
     </head>
 
     <body>
-    @yield ('header')
+    @include('header')
 
     <section id="conteudo">
 
@@ -38,7 +38,7 @@
 
          <section id="area-carrossel">  
          <div class="texto">Escolha aqui sua ferramenta:  </div>
-         @yield ('bodyCarrossel')
+         @include('bodyCarrossel')
          
 
          </section>

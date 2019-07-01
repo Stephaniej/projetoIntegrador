@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html lang="pt">
   <head>
- @section ('configCarrossel')
     <!-- head -->
     <meta charset="utf-8">
     <meta name="msapplication-tap-highlight" content="no" />
@@ -40,7 +39,6 @@
     <!-- javascript -->
     <script src="jquery.min.js"></script>
     <script src="owl.carousel.js"></script>
-    @endsection
   </head>
   <body>
 
