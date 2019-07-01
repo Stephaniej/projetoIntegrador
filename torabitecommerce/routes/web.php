@@ -18,5 +18,4 @@ Route::get('/', function () {
 
 Route::get('/pagamento', 'pagamentoController@pagamento');
 
-
-
+Route::get('/cadastro', 'cadastroController@cadastro');
