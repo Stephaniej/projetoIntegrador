@@ -1,4 +1,4 @@
-@section('header')
+
 <header>
     <nav class="navbar navbar-expand-sm">
 
@@ -54,7 +54,7 @@
     </div>  
   </div>
 </nav>
-@endsection
+
 
 <!-- 
 <header>        

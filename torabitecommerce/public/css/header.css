@@ -28,7 +28,7 @@ header {
 }
 
 .search {
-    background: url('imgs/imagens_cortadas/busca_2.png') no-repeat left center;
+    background: url('../imgs/imagens_cortadas/busca_2.png') no-repeat left center;
     background-size: 100%;
     border-radius: 10px;
 }

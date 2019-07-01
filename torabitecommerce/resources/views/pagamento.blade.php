@@ -27,7 +27,7 @@
 
 <body>
 
-@yield ('header')
+@include('header')
 
   <section class="all-text-desc">
     <section class="text-desc">
@@ -248,7 +248,7 @@
 
       </section>
 
-      @yield ('footer')
+      @include ('footer')
 
     </section>
   </section>

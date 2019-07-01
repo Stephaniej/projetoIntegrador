@@ -15,7 +15,7 @@
     </head>
 
     <body>
-    @yield ('header')
+    @include ('header')
 
       <div id="body-contato">
         <h2>Contato Torabit</h2>
@@ -73,7 +73,7 @@
           </div>
         </div>
         <hr>
-        @yield ('footer')
+        @include ('footer')
       </div>
        
 
