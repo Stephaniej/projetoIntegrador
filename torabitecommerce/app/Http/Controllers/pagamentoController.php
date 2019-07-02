@@ -3,21 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
-class pagamentoController extends Controller
-{
-    public function pagamento() {
-        return view('pagamento');
-    }   
-}
-
-
-<?php
-
-namespace App\Http\Controllers;
-
-use Illuminate\Http\Request;
 use App\Pagamento;
+
 class pagamentoController extends Controller
 {
     //

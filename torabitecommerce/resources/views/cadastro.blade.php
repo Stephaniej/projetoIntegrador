@@ -28,17 +28,19 @@
            </div>
            <br>
 
-           <form>
+           <form action="cadastro" method="post">
+           @csrf
+
             <label>Nome completo</label>
-            <input class="form-control form-control-md campo" type="text" name="">
+            <input class="form-control form-control-md campo" type="text" name="nomeCompleto">
             <br>
 
             <label>Email</label>
-            <input class="form-control form-control-md email" type="email" name="">
+            <input class="form-control form-control-md email" type="email" name="Email">
             <br>
 
             <label>Senha</label>
-            <input class="form-control form-control-md senha" type="password" name="">
+            <input class="form-control form-control-md senha" type="password" name="Senha">
 
             <p class="agree">Ao continuar, você concorda com as condições de Uso <br> 
             e com a Política de Privacidade do Torabit.</p>
@@ -46,9 +48,16 @@
             <button type="submit" class="btn btn-primary">CRIAR MINHA CONTA</button>
            </form> 
             <hr> 
-            @include('header') 
+            @include ('footer')
          </div> 
-       </div>
+      
+    @if(isset($resultado))
+        @if($resultado)
+         echo  "<script>alert('Cadastro efetuado com Sucesso !')</script>";
+        @else
+         echo  "<script>alert('Erro ao cadastrar !')</script>";
+        @endif
+    @endif
         
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
