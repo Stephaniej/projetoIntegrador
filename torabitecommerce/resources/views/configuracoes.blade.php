@@ -24,7 +24,7 @@
             <br>
            
            <div id="topico">
-            <a href=""><h6 class="conta">Conta</h6></a>
+            <a href=""><h6 class="conta">Excluir Conta</h6></a>
             <a href=""><h6 class="forma">Forma de pagamento</h6></a>
            </div>
            <br><br>

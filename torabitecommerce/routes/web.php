@@ -16,6 +16,11 @@ Route::get('/', function () {
 });
 Route::get('/sobre', "sobreController@sobre");
 Route::post('/sobre', "sobreController@sobre");
+
 Route::get('/pagamento', 'pagamentoController@pagamento');
+
 Route::get('/cadastro', 'cadastroController@cadastro');
 Route::post('/cadastro',"cadastroController@cadastro");
+
+Route::get('/configuracoes', 'configuracoesController@visualizar');
+Route::delete('/configuracoes', 'configuracoesController@deletarConta');

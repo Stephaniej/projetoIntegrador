@@ -13,7 +13,7 @@ class cadastroController extends Controller
             return view('cadastro');
         }
 
-        $novoUsuario = new Usuario();      // Processo de cadastro. (Aqui indica-se o model)
+        $novoUsuario = new Usuarios();      // Processo de cadastro. (Aqui indica-se o model ou tabela no model)
         $novoUsuario->nome = $request->nomeCompleto;   // ->(coluna do sql); $request->(nome no input)
         $novoUsuario->email = $request->Email;
         $novoUsuario->senha = $request->Senha;
