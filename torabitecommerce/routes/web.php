@@ -26,3 +26,7 @@ Route::post('/cadastro',"cadastroController@cadastro");
 
 Route::get('/configuracoes', 'configuracoesController@visualizar');
 Route::delete('/configuracoes', 'configuracoesController@deletarConta');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

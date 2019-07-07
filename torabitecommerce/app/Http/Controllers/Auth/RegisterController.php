@@ -52,6 +52,13 @@ class RegisterController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
+            'cpf' => ['required', 'string', 'min:11' ,'max:11'],
+            'cep' => ['required', 'string', 'min:8' ,'max:8'],
+            'endereco' => ['required', 'string', 'min:2' ,'max:50'],
+            'endereco' => ['required', 'string', 'min:2' ,'max:50'],
+            'complemento' => ['required', 'string', 'min:2' ,'max:50'],
+            'cidade' => ['required', 'string', 'min:2' ,'max:50'],
+            'estado' => ['required', 'string', 'min:2' ,'max:50'],
         ]);
     }
 
@@ -67,6 +74,14 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+            'cpf' => $data['cpf'],
+            'contato' => $data['contato'],
+            'cep' => $data['cep'],
+            'endereco' => $data['endereco'],
+            'numero' => $data['numero'],
+            'complemento' => $data['complemento'],
+            'cidade' => $data['cidade'],
+            'estado' => $data['estado'],
         ]);
     }
 }
