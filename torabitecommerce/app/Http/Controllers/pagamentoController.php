@@ -7,14 +7,14 @@ use App\Pagamento;
 
 class pagamentoController extends Controller
 {
-    //
-    // public function index(Request $request){
-    //     if($request->isMethod('GET')){
-    //         $todosAtores = Ator::all();
-    //         return view('ator',["todosAtores"=>$todosAtores]);
-    //     }
+    
+    public function index(Request $request){
+        if($request->isMethod('GET')){
+            $pagamento = Pagamento::all();
+            return view('pagamento',["pagamento"=>$pagamento]);
+        }
 
-    // }
+    }
 
 
     public function create(Request $request){
@@ -39,16 +39,16 @@ class pagamentoController extends Controller
     public function editar(Request $request, $id){
         if($request->isMethod('GET')){
             
-            $ator = Ator::find($id);
+            $pagamento = Pagamento::find($id);
 
-            return view('editarAtor',["ator"=>$ator]);
+            return view('resultadoCompra',["pagamento"=>$pagamento]);
         }
 
-        $ator = Ator::find($request->ator_id);
-        $ator->primeiro_nome = $request->primeiroNome;
-        $ator->ultimo_nome = $request->segundoNome;
-        $resultado = $ator->save();
+        $pagamento = Pagamento::find($request->pagamento_id);
+        $pagamento->produto_id = $request->produtoNome;
+        $pagamento->preco = $request->produtoPreco;
+        $resultado = $pagamento->save();
 
-        return view("editarAtor",["resultado"=>$resultado, "ator"=>$ator]);
+        return view("resultadoCompra",["resultado"=>$resultado, "pagamento"=>$pagamento]);
     }
 }

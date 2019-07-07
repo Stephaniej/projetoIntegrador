@@ -111,6 +111,8 @@
           <!-- FORMULÁRIO DE PAGAMENTO -->
           <form class="pay-form" action="">
 
+            @csrf
+
             <div class="card-and-cvv">
               <!-- <p> -->
               <div class="card-number">
