@@ -24,6 +24,9 @@ Route::post('/pagamento','pagamentoController@resultadoCompra');
 Route::get('/cadastro', 'cadastroController@cadastro');
 Route::post('/cadastro',"cadastroController@cadastro");
 
+Route::get('usuario/editar/{id}', "configuracoesController@editar");
+Route::post('usuario/editar/{id}',"configuracoesController@editar");
+
 Route::get('/configuracoes', 'configuracoesController@visualizar');
 Route::delete('/configuracoes', 'configuracoesController@deletarConta');
 

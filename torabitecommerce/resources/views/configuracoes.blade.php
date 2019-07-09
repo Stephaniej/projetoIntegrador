@@ -32,26 +32,26 @@
            <form>
 
             <label>Email</label>
-            <input class="form-control form-control-md email2" type="email" name="">
+            <input class="form-control form-control-md email2" type="email" name="emailConfirm">
             <br>
 
             <label>Nova Senha</label>
-            <input class="form-control form-control-md senha2" type="password" name="">
+            <input class="form-control form-control-md senha2" type="password" name="novaSenha">
             <br>
 
             <label>Confirmar Nova Senha</label>
-            <input class="form-control form-control-md senha2" type="password" name="">
+            <input class="form-control form-control-md senha2" type="password" name="novaSenha2">
             <br>
 
             <label>Idioma</label>
-            <select class="form-control select" name="">
+            <select class="form-control select" name="idioma">
             <option>Português [BR]</option>
             <option>Inglês [EN]</option>
             </select>
             <br>
 
             <label>Profissão</label>
-            <select class="form-control select" name="">
+            <select class="form-control select" name="profissao">
             <option>Escolha sua Profissão</option>
             </select>
             <br>
