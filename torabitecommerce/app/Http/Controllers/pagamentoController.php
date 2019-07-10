@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Usuario;
+use App\Pagamento;
 use Illuminate\Http\Request;
 
 class pagamentoController extends Controller
@@ -13,38 +15,18 @@ class pagamentoController extends Controller
     }
 
 
-    public function create(Request $request){
+    public function createPagamento(Request $request){      
 
-        if($request->isMethod('GET')){
-            return view('compraSucesso');
-        }
-
-        $novaCompra = new Compra();
+        $novaCompra = new Pagamento();
         // $novaCompra->tipo_compra = $request->Anual;
         // $novaCompra->tipo_compra = $request->Mensal;
-        $novaCompra->numero_cartao = $request->cardNumber;
-        $novaCompra->numero_cvv = $request->cvvNumber;
-        $novaCompra->mes_cartao = $request->select;
-        $novaCompra->ano_cartao = $request->select2;
+        $novaCompra->produto = $request->//tipoproduto;
+        $novaCompra->plano = $request->//tipo de plano;
+        $novaCompra->user_id = $primaryKey;
         $resultado = $novaCompra->save();
-
-       
         return view('resultadoCompra',["resultado"=>$resultado]);
     }
 
-    public function editar(Request $request, $id){
-        if($request->isMethod('GET')){
-            
-            $pagamento = Pagamento::find($id);
+   
 
-            return view('resultadoCompra',["pagamento"=>$pagamento]);
-        }
-
-        $pagamento = Pagamento::find($request->pagamento_id);
-        $pagamento->produto_id = $request->produtoNome;
-        $pagamento->preco = $request->produtoPreco;
-        $resultado = $pagamento->save();
-
-        return view("resultadoCompra",["resultado"=>$resultado, "pagamento"=>$pagamento]);
-    }
 }

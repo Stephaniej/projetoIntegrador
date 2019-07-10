@@ -109,7 +109,7 @@
           </div>
 
           <!-- FORMULÁRIO DE PAGAMENTO -->
-          <form class="pay-form" action="">
+          <form class="pay-form" method="post" action="/pagamento">
 
             @csrf
 
@@ -191,7 +191,7 @@
               </p> -->
 
               <div class="div-btn">
-                <button class="buy-btn">Comprar</button>
+                <button class="buy-btn" type="submit">Comprar</button>
               </div>
 
             </div>
