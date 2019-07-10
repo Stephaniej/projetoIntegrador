@@ -1,11 +1,27 @@
-@extends('layouts.app')
 
-@section('content') 
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cadastro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/cadastro.css')}}">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/header.css')}}">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/footer.css')}}">
+    <link rel="icon" href="http://www.torabit.com.br/wp-content/uploads/2017/04/cropped-favicon3-2-32x32.png" sizes="32x32">
+</head>
+
+<body>
+  @include ('header')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+                
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
@@ -191,8 +207,25 @@
                                     </span>
                                 @enderror
                             </div>
+                            
                         </div>
 
+
+
+
+                        <div class="form-group row">
+                            <label for="" class="col-md-4 col-form-label text-md-right">{{ __('') }}</label>
+
+                            <div class="col-md-6">
+                            <p class="agree">Ao continuar, você concorda com as condições de Uso <br> 
+            e com a Política de Privacidade do Torabit.</p>
+                            </div>
+                            
+                        </div>
+
+
+
+                     
 
 
 
@@ -266,7 +299,7 @@
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
-                                    {{ __('Register') }}
+                                    {{ __('CRIAR MINHA CONTA') }}
                                 </button>
                             </div>
                         </div>
@@ -276,4 +309,4 @@
         </div>
     </div>
 </div>
-@endsection
+@include ('footer')
