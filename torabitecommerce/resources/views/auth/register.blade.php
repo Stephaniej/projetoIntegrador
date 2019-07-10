@@ -20,8 +20,8 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                
+        <br><br><div class="card">
+                <div class="card-header p-3 mb-2 bg-primary text-white">{{ __('Cadastro') }}</div >
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
@@ -46,7 +46,7 @@
 
                             <div class="col-md-6">
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
-
+                                d
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
