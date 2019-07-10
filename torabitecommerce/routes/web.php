@@ -18,7 +18,7 @@ Route::get('/sobre', "sobreController@sobre");
 Route::post('/sobre', "sobreController@sobre");
 
 Route::get('/pagamento', 'pagamentoController@pagamento');
-Route::post('/pagamento','pagamentoController@resultadoCompra');
+Route::post('/pagamento','pagamentoController@createPagamento');
 
 
 Route::get('/cadastro', 'cadastroController@cadastro');
