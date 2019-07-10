@@ -70,7 +70,7 @@
   <div class="container">
     <div class="navb">
      
-     <span><a href="sobre.blade.php">Sobre o Torabit</a></span>
+     <span><a href="/sobre">Sobre o Torabit</a></span>
      <span><a href="https://datatorapolitica.torabit.com.br/radar-login.py"target="_blank">DATATORA</a></span>
      <span><a href="http://www.torabit.com.br/"target="_blank">Full Service</a></span>
      <span><a href="configuracoes.blade.php">Área do Cliente</a></span>

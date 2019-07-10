@@ -3,16 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Pagamento;
 
 class pagamentoController extends Controller
 {
     
-    public function index(Request $request){
-        if($request->isMethod('GET')){
-            $pagamento = Pagamento::all();
-            return view('pagamento',["pagamento"=>$pagamento]);
-        }
+    public function pagamento(){
+            return view('pagamento');
 
     }
 
