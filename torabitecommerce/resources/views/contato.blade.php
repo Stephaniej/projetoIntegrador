@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-            <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/cadastro.css')}}">
+            <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/contato.css')}}">
         <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/header.css')}}">
         <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/footer.css')}}">
         <link rel="icon" href="http://www.torabit.com.br/wp-content/uploads/2017/04/cropped-favicon3-2-32x32.png" sizes="32x32">

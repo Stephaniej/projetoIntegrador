@@ -31,7 +31,7 @@ Route::get('/configuracoes', 'configuracoesController@visualizar');
 Route::delete('/configuracoes', 'configuracoesController@deletarConta');
 
 Route::get('/contato', 'contatoController@contato');
-Route::post('/contato',"contatoController@contato");
+Route::post('/contato','contatoController@contato');
 
 Auth::routes();
 
