@@ -16,7 +16,7 @@
   </head>
 
   <body>
-  @include ('header')
+  @include('header')
     <div class="card-columns espaco-card">
       <div class="card">
         <img src="{{asset('imgs/imagens_cortadas/bg_2.jpg')}}" class="card-img-top" alt="...">
