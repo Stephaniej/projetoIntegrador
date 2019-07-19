@@ -2967,16 +2967,16 @@
 			'<span aria-label="' + 'Next' + '">&#x203a;</span>'
 		],
 		navSpeed: false,
-		navElement: 'button type="button" role="presentation"',
+	
 		navContainer: false,
-		navContainerClass: 'owl-nav',
+		navContainerClass: ['owl-nav', 'd-none'],
 		navClass: [
 			'owl-prev',
 			'owl-next'
 		],
 		slideBy: 1,
 		dotClass: 'owl-dot',
-		dotsClass: 'owl-dots',
+		dotsClass: ['owl-dots', 'paddingCarrosel'],
 		dots: true,
 		dotsEach: false,
 		dotsData: false,

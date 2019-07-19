@@ -1,3 +1,24 @@
+.alturacard {
+  height: 80px;
+}
+
+.borda {
+  border: #dfdfdf 0.7px solid;
+  padding:0px;
+  border-radius:15px;
+  margin: 0px;
+}
+
+.card-body {
+  padding:0px;
+  margin: 15px;
+  margin-bottom: 0px;
+}
+
+.altp {
+height: 100px;
+}
+
 #conteudo {
   background: url('../imgs/imagens_cortadas/bg_2.jpg') no-repeat top center;
   background-size: cover;
@@ -70,6 +91,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  width: 100%;
+  padding: 0px;
   /* margin-bottom: 5%; */
 
 }
@@ -79,6 +102,12 @@
   top: 400px;
   width: 95%;
   margin: auto;
+}
+
+#contProduto {
+  display: flex;
+  width: 100%;
+justify-content: space-between;
 }
 
 #alta h5{

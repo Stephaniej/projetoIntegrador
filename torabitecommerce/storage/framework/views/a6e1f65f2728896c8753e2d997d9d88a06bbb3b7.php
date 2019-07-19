@@ -59,45 +59,48 @@
             <section id="alta">
                 <!-- Seção do "Em alta" -->
                 <!--<h5>Em Alta</h5>-->
-                <div class="row">
-
-                    <div class="col-md-3">
+                
+                <section id="contProduto col-12 col-md-12 col-lg-12 col-sm-12">
+                <div class="row ">
+                    <div class="col-md-12 col-lg-3 col-sm-12 col-12 borda">
                         <img class="card-img-top" src="<?php echo e(asset('imgs/imagens_cortadas/menu1.png')); ?>">
                         <div class="card-body">
                             <h4 class="card-title">Ranking de posts</h4>
-                            <p>Compare os posts de suas marcas de interesse com seus concorrentes.</p>
+                            <p class="altp">Compare os posts de suas marcas de interesse com seus concorrentes.</p>
                             <a href="sobre.blade.php" class="btn btn-primary">Saiba mais</a>
                         </div>
                     </div>
 
 
-                    <div class="col-md-3">
+                    <div class="col-md-12 col-lg-3 col-sm-12 col-12 borda">
                         <img class="card-img-top" src="<?php echo e(asset('imgs/imagens_cortadas/menu2.png')); ?>">
                         <div class="card-body">
                             <h4 class="card-title">Analytics</h4>
-                            <p>Compare o desempenho de marcas em 11 plataformas diferentes.</p>
+                            <p class="altp">Compare o desempenho de marcas em 11 plataformas diferentes.</p>
                             <a href="sobre.blade.php" class="btn btn-primary">Saiba mais</a>
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-md-12 col-lg-3 col-sm-12 col-12 borda">
                         <img class="card-img-top" src="<?php echo e(asset('imgs/imagens_cortadas/menu3.png')); ?>">
                         <div class="card-body">
                             <h4 class="card-title">Rastrear Links</h4>
-                            <p>Acompanhe os compartilhamentos de notícias nas redes.</p>
+                            <p class="altp">Acompanhe os compartilhamentos de notícias nas redes.</p>
                             <a href="sobre.php" class="btn btn-primary">Saiba mais</a>
                         </div>
                     </div>
 
-                    <div class="col-md-3">
+                    <div class="col-md-12 col-lg-3 col-sm-12 col-12 borda">
                         <img class="card-img-top" src="<?php echo e(asset('imgs/imagens_cortadas/menu4.png')); ?>">
                         <div class="card-body">
                             <h4 class="card-title">Trends</h4>
-                            <p>Acompanhe o que mais falam, o que mais buscam e o que mais leem.</p>
+                            <p class="altp">Acompanhe o que mais falam, o que mais buscam e o que mais leem.</p>
                             <a href="sobre.blade.php" class="btn btn-primary">Saiba mais</a>
                         </div>
                     </div>
-                </div>
+                    </div>
+                </section>
+        
                 <hr>
 
                 <?php echo $__env->make('footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>

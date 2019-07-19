@@ -6,7 +6,7 @@
           <div class="item">
             <div class="card text-center" class="rounded-top" style="18rem;">
                 <a href="/pagamento"> <img class="imagem" src="{{asset('imgs/imagens_cortadas/foto1.png')}}" class="card-img-top" alt="..."> </a>
-              <div class="card-body">
+                <div class="card-body alturacard">
                 
                 <p class="card-text"> R$79/mês</p>
                 <p class="mensal" > ou 12x R$67/mês</p>   
@@ -17,7 +17,7 @@
           <div class="item" >
               <div class="card text-center" class="rounded-top" style="18rem;">
                   <a href="/pagamento"> <img class="imagem" src="{{asset('imgs/imagens_cortadas/foto2.png')}}" class="card-img-top" alt="..."> </a>
-                  <div class="card-body">
+                  <div class="card-body alturacard">
                     
                     <p class="card-text"> R$79/mês</p>
                     <p class="mensal" > ou 12x R$67/mês</p>   
@@ -28,7 +28,7 @@
           <div class="item" >
               <div class="card text-center" class="rounded-top" style="18rem;">
                   <a href="/pagamento">   <img class="imagem" src="{{asset('imgs/imagens_cortadas/foto3.png')}}" class="card-img-top" alt="..."> </a>
-                  <div class="card-body">
+                  <div class="card-body alturacard">
                     
                     <p class="card-text"> R$79/mês</p>
                     <p class="mensal" > ou 12x R$67/mês</p>   
@@ -39,7 +39,7 @@
           <div class="item" >
               <div class="card text-center" class="rounded-top" style="18rem;">
                   <a href="/pagamento">  <img class="imagem" src="{{asset('imgs/imagens_cortadas/foto4.png')}}" class="card-img-top" alt="..."> </a>
-                  <div class="card-body">
+                  <div class="card-body alturacard">
                     
                     <p class="card-text"> R$79/mês</p>
                     <p class="mensal" > ou 12x R$67/mês</p>   
@@ -50,7 +50,7 @@
           <div class="item" >
               <div class="card text-center" class="rounded-top" style="18rem;">
                   <a href="/pagamento">   <img class="imagem" src="{{asset('imgs/imagens_cortadas/foto1.png')}}" class="card-img-top" alt="..."> </a>
-                  <div class="card-body">
+                  <div class="card-body alturacard">
                     
                     <p class="card-text"> R$79/mês</p>
                     <p class="mensal" > ou 12x R$67/mês</p>   
@@ -61,7 +61,7 @@
           <div class="item" >
               <div class="card text-center" class="rounded-top" style="18rem;;">
                   <a href="/pagamento"> <img class="imagem" src="{{asset('imgs/imagens_cortadas/foto2.png')}}" class="card-img-top" alt="..."> </a>
-                  <div class="card-body">
+                  <div class="card-body alturacard">
                     
                     <p class="card-text"> R$79/mês</p>
                     <p class="mensal" > ou 12x R$67/mês</p>   
@@ -72,7 +72,7 @@
           <div class="item" >
               <div class="card text-center" class="rounded-top" style="18rem;;">
                   <a href="/pagamento"> <img class="imagem" src="{{asset('imgs/imagens_cortadas/foto3.png')}}" class="card-img-top" alt="..."> </a>
-                  <div class="card-body">
+                  <div class="card-body alturacard">
                     
                     <p class="card-text"> R$79/mês</p>
                     <p class="mensal" > ou 12x R$67/mês</p>   
@@ -83,7 +83,7 @@
           <div class="item" >
               <div class="card text-center" class="rounded-top" style="18rem;;">
                   <a href="/pagamento"> <img class="imagem" src="{{asset('imgs/imagens_cortadas/foto4.png')}}" class="card-img-top" alt="..."> </a>
-                  <div class="card-body">
+                  <div class="card-body alturacard">
                     
                     <p class="card-text"> R$79/mês</p>
                     <p class="mensal" > ou 12x R$67/mês</p>   

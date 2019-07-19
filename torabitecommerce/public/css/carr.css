@@ -4,7 +4,9 @@
 
   /*  meu css
 */
-
+.paddingCarrosel{
+  margin-top:25px; 
+}
 .card{
   border-top-left-radius: 13px;
   border-top-right-radius: 13px;
