@@ -15,8 +15,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/cadastro.css')}}">
-        <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/header.css')}}">
-        <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/footer.css')}}">
+  <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/header.css')}}">
+  <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/footer.css')}}">
   <link rel="stylesheet" type="text/css" media="screen" href="{{asset('owl.carrossel.css')}}">
   <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/pagamento.css')}}" />
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -27,7 +27,7 @@
 
 <body>
 
-@include('header')
+  @include('header')
 
   <section class="all-text-desc">
     <section class="text-desc">
@@ -191,7 +191,7 @@
               </p> -->
 
               <div class="div-btn">
-                <button class="buy-btn" type="submit">Comprar</button>
+                <button href="resultadoCompra.php" class="buy-btn" type="submit">Comprar</button>
               </div>
 
             </div>

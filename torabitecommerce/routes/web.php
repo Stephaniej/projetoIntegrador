@@ -19,14 +19,18 @@ Route::get('/sobre', "sobreController@sobre");
 Route::post('/sobre', "sobreController@sobre");
 
 Route::get('/pagamento', 'pagamentoController@pagamento');
-Route::post('/pagamento','pagamentoController@createPagamento');
+Route::post('/pagamento', 'pagamentoController@pagamento');
+
+Route::get('/resultadoCompra', 'resultadoCompraController@ResultadoCompra');
+Route::post('/resultadoCompra', 'resultadoCompraController@ResultadoCompra');
+
 
 
 Route::get('/cadastro', 'cadastroController@cadastro');
-Route::post('/cadastro',"cadastroController@cadastro");
+Route::post('/cadastro', "cadastroController@cadastro");
 
 Route::get('/contato', 'contatoController@contato');
-Route::post('/contato','contatoController@contato');
+Route::post('/contato', 'contatoController@contato');
 
 Auth::routes();
 

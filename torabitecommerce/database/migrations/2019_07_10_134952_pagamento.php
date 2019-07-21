@@ -18,6 +18,9 @@ class Pagamento extends Migration
             $table->string('produto');
             $table->string('plano');
             $table->unsignedBigInteger('user_id');
+            $table->bigInteger('numeroCartao');
+            $table->string('nomeCartao');
+            $table->date('dataValidade');
             $table->timestamps();
             $table->foreign('user_id')->references('id')->on('usuarios');
         });
