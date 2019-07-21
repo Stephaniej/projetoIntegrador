@@ -24,8 +24,6 @@ Route::post('/pagamento', 'pagamentoController@pagamento');
 Route::get('/resultadoCompra', 'resultadoCompraController@ResultadoCompra');
 Route::post('/resultadoCompra', 'resultadoCompraController@ResultadoCompra');
 
-
-
 Route::get('/cadastro', 'cadastroController@cadastro');
 Route::post('/cadastro', "cadastroController@cadastro");
 
@@ -75,4 +73,9 @@ Route::get('/detalhar/produto/{id}', [
 Route::get('/deletar/produto/{id}', [
     'uses' => 'produtoController@deletarProduto',
     'as' => 'deletar.produto'
+]);
+
+Route::get('/procurar/produto/', [
+    'uses' => 'produtoController@procurarProduto',
+    'as' => 'procurar.produto'
 ]);

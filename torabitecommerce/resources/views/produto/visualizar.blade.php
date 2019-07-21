@@ -21,7 +21,7 @@
                         <a class="btn btn-primary" href="{{ route('adicionar.produto') }}">Novo Produto</a>
                     </p>
 
-                    <form action="" method="GET">
+                    <form action="{{ route('procurar.produto') }}" method="GET">
                         {{ csrf_field() }} <!-- valida requisições do form -->
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">

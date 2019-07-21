@@ -33,7 +33,7 @@
                     </div>  
                     <div class="form-group">
                         <label for="nome">Imagem:</label>  
-                        <input class="form-control" name="imagem" value="{{ $produto->imagem }}" type="text" readonly>
+                        <img src="/storage/app/{{ $produto->imagem }}">
                     </div>  
                 </div>
             </div>
