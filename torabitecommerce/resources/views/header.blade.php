@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-sm">
 
       <!-- Logo -->            
-      <a href="index.blade.php" class="navbar-brand">
+      <a href="/" class="navbar-brand">
         <img src="{{asset('imgs/imagens_cortadas/torabit_shop.png')}}"" width="200">
       </a>
 
