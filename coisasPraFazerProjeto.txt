@@ -1,0 +1,7 @@
+deixar preparado o id_produto
+montar o front
+Colocar regra para que o usuario só consiga comprar se estiver logado.
+criar mais uma tabela, chamada item_pedido
+quando clicar em comprar, deve mandar para pedidoController criar inserir
+um produto no pedido utilizando a tabela item pedido.
+listar os itens do pedido na ViewPedido

@@ -12,7 +12,7 @@
                     </ol>
 
                 <div class="card-body">
-                    <form action="{{ route('salvar.produto') }}" enctype="multipart/form-data" method="POST">
+                    <form action="{{ route('salvar.produto') }}" method="POST">
                         {{ csrf_field() }}
                         <div class="form-group">
                             <label for="endereco">Nome:</label>  
@@ -28,7 +28,7 @@
                         </div> 
                         <div class="form-group">
                             <label for="nome">Imagem:</label>  
-                            <input type="file" name="imagem" class="form-control" placeholder="Imagem do Produto" required/>
+                            <input type="text" name="imagem" class="form-control" placeholder="Imagem do Produto" required/>
                         </div> 
                         <button type="submit" class="btn btn-success">Adicionar</button>
                     </form>

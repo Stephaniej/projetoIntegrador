@@ -15,7 +15,9 @@ class Pedidos extends Migration
     {
         Schema::create('pedidos', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('bill_id');
+            $table->string('nomeCliente');
+            $table('nomeProduto');
+            $table('validadeProduto');
             $table->timestamps();
         });
     }

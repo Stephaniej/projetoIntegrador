@@ -30,6 +30,13 @@
   @include('header')
 
   <section class="all-text-desc">
+
+
+    <section>
+
+    </section>
+
+
     <section class="text-desc">
       <h2>Comece seus 30 dias Trial Free</h2>
     </section>
@@ -191,7 +198,7 @@
               </p> -->
 
               <div class="div-btn">
-                <button href="resultadoCompra.php" class="buy-btn" type="submit">Comprar</button>
+                <button href="" class="buy-btn" type="submit">Comprar</button>
               </div>
 
             </div>

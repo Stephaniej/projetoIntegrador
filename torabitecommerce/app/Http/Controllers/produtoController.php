@@ -17,24 +17,7 @@ class produtoController extends Controller
     }
 
     public function salvarProduto(Request $request) {
-
-       $produto = new Produto();
-
-        if ($request->hasFile('imagem') && $request->file('imagem')->isValid()) {
-            $nome = "foto";
-            $extensao = $request->imagem->extension();
-            $nameFile = "{$nome}.{$extensao}";
-            $path = $request->imagem->storeAs('imagens',$nameFile); 
-        }
-
-        $produto->nome = $request ->input('nome');
-        $produto->descricao = $request ->input('descricao');
-        $produto->preco = $request ->input('preco');
-        $produto->imagem = $path;
-        $produto->save();    
-
-     /*  \App\Produto::create($request->all());  // Requisição do model */
-    
+        \App\Produto::create($request->all());  // Requisição do model
         return redirect()->route('visualizar.produto');
     }
 
@@ -57,11 +40,5 @@ class produtoController extends Controller
         $produto = \App\Produto::find($id);
         $produto->delete();
         return redirect()->route('visualizar.produto');
-    }
-
-    public function procurarProduto(Request $request) {
-        $procurar = $request->get('nome');
-        $resultado = Produto::where('nome', 'LIKE', '%' . $procurar . '%')->paginate(5);
-        return view('produto.pesquisar', compact('resultado'));   
     }
 }
