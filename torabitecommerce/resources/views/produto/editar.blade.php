@@ -18,7 +18,7 @@
                         </div>
                     @endif
 
-                    <form action="{{ route('atualizar.produto', $produto->id) }}" method="POST">
+                    <form action="{{ route('atualizar.produto', $produto->id) }}" enctype="multipart/form-data" method="POST">
                         {{ csrf_field() }} 
                         <div class="form-group">
                             <label for="endereco">Nome:</label>  
@@ -34,7 +34,7 @@
                         </div>
                         <div class="form-group">
                             <label for="nome">Imagem:</label>  
-                            <input type="text" name="imagem" class="form-control" value="{{ $produto->imagem }}" required/>
+                            <input type="file" name="imagem" class="form-control" value="{{ $produto->imagem }}"/>
                         </div>   
                         <button type="submit" class="btn btn-success">Editar</button>
                     </form>

@@ -9,7 +9,8 @@ html, body {
 }
 
 .container {
-    border-bottom: 1px solid #ccc; 
+	border-bottom: 1px solid #ccc; 
+	
 }
 
 #body-contato h2{

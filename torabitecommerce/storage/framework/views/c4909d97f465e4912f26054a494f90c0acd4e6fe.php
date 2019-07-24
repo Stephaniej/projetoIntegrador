@@ -20,8 +20,8 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
-                
+        <br><br><div class="card">
+                <div class="card-header p-3 mb-2 bg-primary text-white"><?php echo e(__('Cadastro')); ?></div >
 
                 <div class="card-body">
                     <form method="POST" action="<?php echo e(route('register')); ?>">
@@ -58,7 +58,7 @@ if (isset($message)) { $messageCache = $message; }
 $message = $errors->first('email'); ?> is-invalid <?php unset($message);
 if (isset($messageCache)) { $message = $messageCache; }
 endif; ?>" name="email" value="<?php echo e(old('email')); ?>" required autocomplete="email">
-
+                                
                                 <?php if ($errors->has('email')) :
 if (isset($message)) { $messageCache = $message; }
 $message = $errors->first('email'); ?>

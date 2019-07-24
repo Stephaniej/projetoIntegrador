@@ -67,7 +67,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Ranking de posts</h4>
                             <p class="altp">Compare os posts de suas marcas de interesse com seus concorrentes.</p>
-                            <a href="sobre.blade.php" class="btn btn-primary">Saiba mais</a>
+                            <a href="/sobre" class="btn btn-primary">Saiba mais</a>
                         </div>
                     </div>
 
@@ -77,7 +77,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Analytics</h4>
                             <p class="altp">Compare o desempenho de marcas em 11 plataformas diferentes.</p>
-                            <a href="sobre.blade.php" class="btn btn-primary">Saiba mais</a>
+                            <a href="/sobre" class="btn btn-primary">Saiba mais</a>
                         </div>
                     </div>
 
@@ -86,7 +86,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Rastrear Links</h4>
                             <p class="altp">Acompanhe os compartilhamentos de notícias nas redes.</p>
-                            <a href="sobre.php" class="btn btn-primary">Saiba mais</a>
+                            <a href="/sobre" class="btn btn-primary">Saiba mais</a>
                         </div>
                     </div>
 
@@ -95,7 +95,7 @@
                         <div class="card-body">
                             <h4 class="card-title">Trends</h4>
                             <p class="altp">Acompanhe o que mais falam, o que mais buscam e o que mais leem.</p>
-                            <a href="sobre.blade.php" class="btn btn-primary">Saiba mais</a>
+                            <a href="/sobre" class="btn btn-primary">Saiba mais</a>
                         </div>
                     </div>
                     </div>

@@ -21,13 +21,8 @@ Route::post('/sobre', "sobreController@sobre");
 Route::get('/pagamento', 'pagamentoController@pagamento');
 Route::post('/pagamento', 'pagamentoController@pagamento');
 
-Route::get('/pedido', 'pedidoController@pedido');
-Route::post('/pedido', 'pedidoController@pedido');
-
 Route::get('/resultadoCompra', 'resultadoCompraController@ResultadoCompra');
 Route::post('/resultadoCompra', 'resultadoCompraController@ResultadoCompra');
-
-
 
 Route::get('/cadastro', 'cadastroController@cadastro');
 Route::post('/cadastro', "cadastroController@cadastro");
@@ -79,3 +74,28 @@ Route::get('/deletar/produto/{id}', [
     'uses' => 'produtoController@deletarProduto',
     'as' => 'deletar.produto'
 ]);
+
+Route::get('/procurar/produto/', [
+    'uses' => 'produtoController@procurarProduto',
+    'as' => 'procurar.produto'
+]);
+
+
+Route::prefix('/admin')->group(function() {
+    Route::get('/login', 'Auth\AdminLoginController@index')->name('admin.login');
+    Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
+    Route::get('/', 'AdminController@index')->name('admin.dashboard');
+    
+});
+
+
+
+//Route::get('/adminconsulta', function () {
+  //  return view('adminconsulta');
+//});
+
+Route::get('/adminconsulta', 'DashbordController@index')->name('admin.dashboard');
+Route::get('/admincadastrar', 'DashbordController@create');
+Route::post('/admincadastrar', 'DashbordController@store')->name('admin.store');
+Route::get('/admineditar/{id}', 'DashbordController@edit')->name('admin.editar');
+Route::post('/admineditar/{id}', 'DashbordController@update')->name('admin.update');

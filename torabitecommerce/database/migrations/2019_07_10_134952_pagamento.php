@@ -11,20 +11,20 @@ class Pagamento extends Migration
      *
      * @return void
      */
-    // public function up()
-    // {
-    //     Schema::create('pagamento', function (Blueprint $table) {
-    //         $table->bigIncrements('id');
-    //         $table->string('produto');
-    //         $table->string('plano');
-    //         $table->unsignedBigInteger('user_id');
-    //         $table->bigInteger('numeroCartao');
-    //         $table->string('nomeCartao');
-    //         $table->date('dataValidade');
-    //         $table->timestamps();
-    //         $table->foreign('user_id')->references('id')->on('usuarios');
-    //     });
-    // }
+    public function up()
+    {
+        Schema::create('pagamento', function (Blueprint $table) {
+            $table->bigIncrements('id');
+            $table->string('produto');
+            $table->string('plano');
+            $table->unsignedBigInteger('user_id');
+            $table->bigInteger('numeroCartao');
+            $table->string('nomeCartao');
+            $table->date('dataValidade');
+            $table->timestamps();
+            $table->foreign('user_id')->references('id')->on('usuarios');
+        });
+    }
 
     /**
      * Reverse the migrations.
