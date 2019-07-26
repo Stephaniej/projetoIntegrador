@@ -397,6 +397,7 @@ class ComposerStaticInitf1de309a3ec1e3c218f8f95efaec9e6b
         'App\\Http\\Controllers\\configuracoesController' => __DIR__ . '/../..' . '/app/Http/Controllers/configuracoesController.php',
         'App\\Http\\Controllers\\contatoController' => __DIR__ . '/../..' . '/app/Http/Controllers/contatoController.php',
         'App\\Http\\Controllers\\pagamentoController' => __DIR__ . '/../..' . '/app/Http/Controllers/pagamentoController.php',
+        'App\\Http\\Controllers\\pedidoController' => __DIR__ . '/../..' . '/app/Http/Controllers/pedidoController.php',
         'App\\Http\\Controllers\\produtoController' => __DIR__ . '/../..' . '/app/Http/Controllers/produtoController.php',
         'App\\Http\\Controllers\\sobreController' => __DIR__ . '/../..' . '/app/Http/Controllers/sobreController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',

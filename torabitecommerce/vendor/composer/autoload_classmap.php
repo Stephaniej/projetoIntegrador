@@ -23,6 +23,7 @@ return array(
     'App\\Http\\Controllers\\configuracoesController' => $baseDir . '/app/Http/Controllers/configuracoesController.php',
     'App\\Http\\Controllers\\contatoController' => $baseDir . '/app/Http/Controllers/contatoController.php',
     'App\\Http\\Controllers\\pagamentoController' => $baseDir . '/app/Http/Controllers/pagamentoController.php',
+    'App\\Http\\Controllers\\pedidoController' => $baseDir . '/app/Http/Controllers/pedidoController.php',
     'App\\Http\\Controllers\\produtoController' => $baseDir . '/app/Http/Controllers/produtoController.php',
     'App\\Http\\Controllers\\sobreController' => $baseDir . '/app/Http/Controllers/sobreController.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
