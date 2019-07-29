@@ -24,18 +24,32 @@
   <!-- <script src="main.js"></script> -->
 </head>
 
+<style>
+</style>
 
 <body>
 
   @include('header')
 
   <section class="all-text-desc">
+
+    <div class="info-products">
+      <span>Confira os produtos escolhidos</span>
+      <label for="">Label 1</label>
+      <label for="">Label 2</label>
+      <label for="">Label 3</label>
+    </div>
+
     <section class="text-desc">
       <h2>Comece seus 30 dias Trial Free</h2>
+
+
     </section>
   </section>
 
   <section class="great-body">
+
+
 
     <section class="back-body">
 
