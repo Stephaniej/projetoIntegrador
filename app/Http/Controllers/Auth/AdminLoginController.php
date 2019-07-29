@@ -11,7 +11,13 @@ class AdminLoginController extends Controller
     public function __construct() {
         $this->middleware('guest:admin');
         // somente quem não estiver logado como admin terá acesso ao login
+      
+        
     }
+
+
+
+    
 
     public function index() {
         return view('auth.admin-login');

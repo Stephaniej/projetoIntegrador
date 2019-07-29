@@ -105,6 +105,8 @@
       </tr>
     </thead>
     <tbody>
+   
+    
     @if(count($cliente) > 0 ) 
     
     @foreach($cliente as $value)
@@ -129,7 +131,10 @@
     
       
     @endforeach
+    
     @endif
+    
+   
     </tbody>
   </table>
 </div>

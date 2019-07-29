@@ -7,6 +7,10 @@ use App\Produto;
 
 class produtoController extends Controller
 {
+    public function __construct(){
+
+        $this->middleware('auth:admin');
+    }
     public function visualizarProduto() {
         $produtos = \App\Produto::paginate(5);
         return view('produto.visualizar', compact('produtos')); // Pasta produto e file visualizar
