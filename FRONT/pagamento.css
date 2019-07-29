@@ -29,6 +29,12 @@ body {
 
 }
 
+.info-products {
+    width: 70%;
+
+    border: 1px solid black;
+}
+
 .text-desc {
     width: 80vw;
     height: 10vh;
@@ -246,7 +252,7 @@ input {
     margin-bottom: 2%;
 }
 
-.content-input{
+.content-input {
     width: 80%;
     height: 8vh;
     background-color: white;
@@ -261,7 +267,7 @@ input {
 
 }
 
-.content-input-cvv{
+.content-input-cvv {
     width: 80%;
     height: 8vh;
     background-color: white;
@@ -721,38 +727,38 @@ p {
         flex-wrap: wrap;
     }
 
-    
 
 
 
-.content-input{
-    width: 80%;
-    height: 8vh;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    border: 1px solid gray;
-    border-radius: 5px;
-    text-align: center;
-    padding-right: 1%;
 
-}
+    .content-input {
+        width: 80%;
+        height: 8vh;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 5px;
+        text-align: center;
+        padding-right: 1%;
 
-.content-input-cvv{
-    width: 80%;
-    height: 8vh;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    border: 1px solid gray;
-    border-radius: 5px;
-    text-align: center;
-    padding-right: 1%;
-}
+    }
+
+    .content-input-cvv {
+        width: 80%;
+        height: 8vh;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 5px;
+        text-align: center;
+        padding-right: 1%;
+    }
 
     .card-number {
         position: relative;
@@ -805,12 +811,13 @@ p {
         height: 80%;
         margin-right: 0%;
     }
+
     .sel-year {
         position: relative;
         width: 80%;
         height: 7vh;
     }
-    
+
     .pais-btn {
         position: relative;
         width: 90%;
@@ -818,7 +825,7 @@ p {
         display: flex;
         justify-content: center;
         margin: auto;
-        
+
     }
 
     .div-btn {
@@ -848,7 +855,7 @@ p {
 
 }
 
-@media (max-width: 768px)  {
+@media (max-width: 768px) {
     .all-text-desc {
         width: 100%;
         height: 14vh;
@@ -1050,38 +1057,38 @@ p {
         text-align: center;
     }
 
-    
 
 
 
-.content-input{
-    width: 80%;
-    height: 8vh;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    border: 1px solid gray;
-    border-radius: 5px;
-    text-align: center;
-    padding-right: 1%;
 
-}
+    .content-input {
+        width: 80%;
+        height: 8vh;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 5px;
+        text-align: center;
+        padding-right: 1%;
 
-.content-input-cvv{
-    width: 80%;
-    height: 8vh;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    border: 1px solid gray;
-    border-radius: 5px;
-    text-align: center;
-    padding-right: 1%;
-}
+    }
+
+    .content-input-cvv {
+        width: 80%;
+        height: 8vh;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 5px;
+        text-align: center;
+        padding-right: 1%;
+    }
 
     .card-number {
         position: relative;
@@ -1134,12 +1141,13 @@ p {
         height: 80%;
         margin-right: 0%;
     }
+
     .sel-year {
         position: relative;
         width: 80%;
         height: 7vh;
     }
-    
+
     .pais-btn {
         position: relative;
         width: 90%;
@@ -1147,7 +1155,7 @@ p {
         display: flex;
         justify-content: center;
         margin: auto;
-        
+
     }
 
     .div-btn {
@@ -1316,11 +1324,11 @@ p {
         /* background-color: aqua; */
     }
 
-    h5{
+    h5 {
         font-size: 1.2em;
     }
 
-    h4{
+    h4 {
         font-size: 1.5em;
     }
 
@@ -1382,38 +1390,38 @@ p {
         flex-wrap: wrap;
     }
 
-    
 
 
 
-.content-input{
-    width: 80%;
-    height: 8vh;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    border: 1px solid gray;
-    border-radius: 5px;
-    text-align: center;
-    padding-right: 1%;
 
-}
+    .content-input {
+        width: 80%;
+        height: 8vh;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 5px;
+        text-align: center;
+        padding-right: 1%;
 
-.content-input-cvv{
-    width: 80%;
-    height: 8vh;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    border: 1px solid gray;
-    border-radius: 5px;
-    text-align: center;
-    padding-right: 1%;
-}
+    }
+
+    .content-input-cvv {
+        width: 80%;
+        height: 8vh;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 5px;
+        text-align: center;
+        padding-right: 1%;
+    }
 
     .card-number {
         position: relative;
@@ -1466,12 +1474,13 @@ p {
         height: 80%;
         margin-right: 0%;
     }
+
     .sel-year {
         position: relative;
         width: 80%;
         height: 7vh;
     }
-    
+
     .pais-btn {
         position: relative;
         width: 90%;
@@ -1479,7 +1488,7 @@ p {
         display: flex;
         justify-content: center;
         margin: auto;
-        
+
     }
 
     .div-btn {

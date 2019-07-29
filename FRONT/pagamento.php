@@ -31,6 +31,16 @@
 
   <section class="all-text-desc">
     <section class="text-desc">
+      <div class="info-products">
+        <label for="">Label 1</label>
+        <label for="">Label 2</label>
+        <label for="">Label 3</label>
+        <h1>teste</h1>
+
+
+
+
+      </div>
       <h2>Comece seus 30 dias Trial Free</h2>
     </section>
   </section>
