@@ -40,8 +40,6 @@
       <label for="">Label 3</label>
     </div>
 
-    <section class="text-desc">
-      <h2>Comece seus 30 dias Trial Free</h2>
 
 
     </section>
