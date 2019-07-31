@@ -37,6 +37,12 @@
               Atualizar
             </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{('/welcome')}}">
+              <span data-feather="shopping-cart"></span>
+              Cadastrar Produtos
+            </a>
+          </li>
           
         </ul>
 
@@ -74,7 +80,7 @@
 
       {{('adminconsulta')}}
 
-      <h1 class="mt-2">Pesquisa de produtos</h1>
+      <h1 class="mt-2">Pesquisa de cliente</h1>
         <form action="{{('adminconsulta')}}" method="get" class="form-inline mt-2">
             <input type="hidden" name="_token" value="{ { { csrf_token() } } }">
             <div class="form-group">
@@ -105,6 +111,7 @@
       </tr>
     </thead>
     <tbody>
+    @if(isset($cliente))
     @if(count($cliente) > 0 ) 
     
     @foreach($cliente as $value)
@@ -129,6 +136,7 @@
     
       
     @endforeach
+    @endif
     @endif
     </tbody>
   </table>

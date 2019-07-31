@@ -38,7 +38,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/welcome', function () {  // Acessar sistema do CRUD -> produtos
     return view('welcome');
-});
+})->middleware('auth:admin');
 
 Route::get('/visualizar/produto', [
     'uses' => 'produtoController@visualizarProduto',
