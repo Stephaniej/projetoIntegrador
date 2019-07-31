@@ -11,6 +11,7 @@
             <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/contato.css')}}">
         <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/header.css')}}">
         <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/footer.css')}}">
+        <link rel="stylesheet" href="{{asset('css/docs.theme.min.css')}}">
         <link rel="icon" href="http://www.torabit.com.br/wp-content/uploads/2017/04/cropped-favicon3-2-32x32.png" sizes="32x32">
     </head>
 
@@ -29,7 +30,7 @@
             <p>Para assuntos mais urgentes, nada como</p>
             <label>uma ligação. <strong>Estamos à disposição.</strong></label>
 
-            <a href="" class="btn">W H A T S A P P</a>
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5500000000000" target="_blank" class="btn">W H A T S A P P</a>
             </div>
            <div class="col-md-5" id="bloco2">
             <img src="{{asset('imgs/imagens_cortadas/mail.png')}}" width="25%" height="27%">
@@ -37,7 +38,7 @@
             <p>Nossa Equipe está pronta para tirar</p>
             <label>suas dúvidas. <strong>contato@torabit.com.br</strong></label>
 
-           <a href="" class="btn">M E N S A G E M</a>
+           <a href="mailto:email@site.com" target="_blank"class="btn">M E N S A G E M</a>
             </div>
           </div>
           <br>      
@@ -58,16 +59,16 @@
           <div id="img-link">
             <ul>
               <li>
-                <a href=""><img src="{{asset('imgs/imagens_cortadas/logoface.png')}}" width="74"></a>  
+                <a href="www.facebook.com/torabit"target="_blank"><img src="{{asset('imgs/imagens_cortadas/logoface.png')}}" width="74"></a>  
               </li>
               <li class="padding-top">
-                <a href=""><img src="{{asset('imgs/imagens_cortadas/logotw.png')}}" width="87"></a>  
+                <a href="www.twitter.com/tora_bit"target="_blank"><img src="{{asset('imgs/imagens_cortadas/logotw.png')}}" width="87"></a>  
               </li>
               <li class="padding-top2">
-                <a href=""><img src="{{asset('imgs/imagens_cortadas/logoin.png')}}" width="74"></a>  
+                <a href="www.instagram.com/tora_bit"target="_blank"><img src="{{asset('imgs/imagens_cortadas/logoin.png')}}" width="74"></a>  
               </li>
               <li class="padding-top2">
-                <a href=""><img src="{{asset('imgs/imagens_cortadas/logoit.png')}}" width="75"></a>  
+                <a href="www.youtube.com.br/torabit"target="_blank"><img src="{{asset('imgs/imagens_cortadas/logoyt.png')}}" width="75"></a>  
               </li>
             </ul> 
           </div>
