@@ -22,15 +22,15 @@
                         {{ csrf_field() }} 
                         <div class="form-group">
                             <label for="endereco">Nome:</label>  
-                            <input type="text" name="nome" class="form-control" value="{{ $produto->nome }}" required/> 
+                            <input type="text" name="nome" class="form-control" value="{{ $produto->nome }}"/> 
                         </div> 
                         <div class="form-group">
                             <label for="nome">Descrição:</label>  
-                            <input type="text" name="descricao" class="form-control" value="{{ $produto->descricao }}" required/>
+                            <input type="text" name="descricao" class="form-control" value="{{ $produto->descricao }}"/>
                         </div> 
                         <div class="form-group">
                             <label for="nome">Preço:</label>  
-                            <input type="number" name="preco" class="form-control" value="{{ $produto->preco }}" required/>
+                            <input type="number" name="preco" class="form-control" value="{{ $produto->preco }}"/>
                         </div>
                         <div class="form-group">
                             <label for="nome">Imagem:</label>  

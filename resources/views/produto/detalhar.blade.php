@@ -33,7 +33,7 @@
                     </div>
                     <div class="form-group">
                         <label for="nome">Imagem:</label>
-                        <img src="{{ '/public/'.$produto->imagem }}">
+                        <img width="125" src="/{{ $produto->imagem }}">
                     </div>
                 </div>
             </div>

@@ -28,18 +28,17 @@ class produtoController extends Controller
 
         $produto = new Produto();
 
-        if ($request->hasFile('imagem') && $request->file('imagem')->isValid()) {
-            $nome = $request->file('imagem')->getClientOriginalName();
-            $path = $request->imagem->storeAs('imagens', $nome);
+        if ($request->hasFile('imagem') && $request->file('imagem')->isValid()) { // Criando caminho para a imagem
+            $nome = $request->file('imagem')->getClientOriginalName();           // Nome oficial do arquivo
+            $path = $request->imagem->storeAs('public/imagens', $nome);          // armazena na pasta 'public/imagens'
+            $urlBase = 'storage/imagens/'.$nome;   // Criando a url para ser salva no DB
         }
 
         $produto->nome = $request->input('nome');
         $produto->descricao = $request->input('descricao');
         $produto->preco = $request->input('preco');
-        $produto->imagem = $nome;
+        $produto->imagem = $urlBase;
         $produto->save();
-
-        /*  \App\Produto::create($request->all());  // Requisição do model */
 
         return redirect()->route('visualizar.produto');
     }
