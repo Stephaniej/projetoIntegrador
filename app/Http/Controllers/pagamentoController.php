@@ -4,14 +4,17 @@ namespace App\Http\Controllers;
 
 use App\Usuario;
 use App\Pagamento;
+use App\Produto;
 use Illuminate\Http\Request;
 
 class pagamentoController extends Controller
 {
 
-    public function pagamento()
+    public function pagamento(Request $request, $id)
     {
-        return view('pagamento');
+        $produto = Produto::find($id);
+
+        return view('pagamento', ["produto" => $produto]);
     }
 
 

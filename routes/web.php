@@ -18,7 +18,7 @@ Route::get('/', function () {
 Route::get('/sobre', "sobreController@sobre");
 Route::post('/sobre', "sobreController@sobre");
 
-Route::get('/pagamento', 'pagamentoController@pagamento');
+Route::get('/pagamento/{id}', 'pagamentoController@pagamento')->middleware("auth");
 Route::post('/pagamento', 'pagamentoController@pagamento');
 
 Route::get('/resultadoCompra', 'resultadoCompraController@ResultadoCompra');
@@ -81,17 +81,16 @@ Route::get('/procurar/produto/', [
 ]);
 
 
-Route::prefix('/admin')->group(function() {
+Route::prefix('/admin')->group(function () {
     Route::get('/login', 'Auth\AdminLoginController@index')->name('admin.login');
     Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
     Route::get('/', 'AdminController@index')->name('admin.dashboard');
-    
 });
 
 
 
 //Route::get('/adminconsulta', function () {
-  //  return view('adminconsulta');
+//  return view('adminconsulta');
 //});
 
 Route::get('/adminconsulta', 'DashbordController@index')->name('admin.dashboard');
