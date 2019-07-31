@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/cadastro.css')}}">
     <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/header.css')}}">
     <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/footer.css')}}">
+    <link rel="stylesheet" href="{{asset('css/docs.theme.min.css')}}">
     <link rel="icon" href="http://www.torabit.com.br/wp-content/uploads/2017/04/cropped-favicon3-2-32x32.png" sizes="32x32">
 </head>
 
