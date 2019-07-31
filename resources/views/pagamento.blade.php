@@ -19,6 +19,7 @@
   <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/footer.css')}}">
   <link rel="stylesheet" type="text/css" media="screen" href="{{asset('owl.carrossel.css')}}">
   <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/pagamento.css')}}" />
+  
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
   <!-- <script src="main.js"></script> -->
@@ -41,8 +42,6 @@
       <img id="label-img" src="{{asset($produto->imagem)}}" alt="">
     </div>
 
-    <section class="text-desc">
-      <h2>Comece seus 30 dias Trial Free</h2>
 
 
     </section>
