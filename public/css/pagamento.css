@@ -1,9 +1,7 @@
 body {
     /* background-color: #8ab6da; */
-    font-family: 'Hind', sans-serif;
+    font-family: "Hind", sans-serif;
     height: 100%;
-
-
 }
 
 .great-body {
@@ -22,11 +20,15 @@ body {
     height: 14vh;
     background-color: white;
     margin-top: 0%;
-    /* margin-bottom: 3%; */
+    margin-bottom: 14%;
     padding-top: 4%;
     padding-bottom: 7%;
     font-weight: bold;
-
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    align-content: center;
+    align-items: center;
 }
 
 .text-desc {
@@ -34,6 +36,24 @@ body {
     height: 10vh;
     /* border: 1px solid black; */
     margin: 1% auto;
+    margin-bottom: 3%;
+}
+
+.info-products {
+    width: 50%;
+    border: 1px solid black;
+    margin-bottom: 2%;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+
+#label-img {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
 }
 
 .all-body {
@@ -45,7 +65,6 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 10%;
-
 }
 
 .div1 {
@@ -67,7 +86,6 @@ body {
     font-size: 20pt;
     margin: auto;
     margin-top: 2%;
-
 }
 
 h6 {
@@ -81,7 +99,6 @@ h6 {
     border-bottom: 3px solid rgb(173, 54, 54);
     margin-top: -8%;
     margin-bottom: 2%;
-
 }
 
 /* 
@@ -114,7 +131,6 @@ h6 {
     align-items: center;
     padding-top: 3%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-
 }
 
 input {
@@ -147,14 +163,12 @@ input {
     border-radius: 50%;
 }
 
-.lab-inp input:checked+span {
+.lab-inp input:checked + span {
     background-color: #c03;
-
 }
 
-.lab-inp input:checked+span {
+.lab-inp input:checked + span {
     background-color: #c03;
-
 }
 
 .inp-valor {
@@ -165,7 +179,6 @@ input {
     justify-content: space-between;
     margin-bottom: 1%;
     /* background-color: blue; */
-
 }
 
 .content-price {
@@ -180,8 +193,6 @@ input {
 .content-price h5 {
     font-size: 1.5em;
 }
-
-
 
 .card2 {
     position: relative;
@@ -223,7 +234,6 @@ input {
     width: 45%;
     height: 100%;
     /* background-color: aqua; */
-
 }
 
 .pay-info-2 {
@@ -232,9 +242,7 @@ input {
     width: 45%;
     height: 100%;
     /* background-color: #c03; */
-
 }
-
 
 .pay-form {
     background-color: rgb(235, 230, 230);
@@ -246,7 +254,7 @@ input {
     margin-bottom: 2%;
 }
 
-.content-input{
+.content-input {
     width: 80%;
     height: 8vh;
     background-color: white;
@@ -258,10 +266,9 @@ input {
     border-radius: 5px;
     text-align: center;
     padding-right: 1%;
-
 }
 
-.content-input-cvv{
+.content-input-cvv {
     width: 80%;
     height: 8vh;
     background-color: white;
@@ -305,7 +312,6 @@ h4 {
     justify-content: space-around;
     align-items: center;
     /* border: 1px solid #bfcacc; */
-
 }
 
 .fop1 {
@@ -314,7 +320,6 @@ h4 {
     height: 15vh;
     border: 1px solid #bfcacc;
     text-align: center;
-
 }
 
 .fop2 {
@@ -334,7 +339,6 @@ h4 {
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
-
 }
 
 .card-number {
@@ -342,12 +346,7 @@ h4 {
     width: 60%;
     height: 12vh;
     /* border: 1px solid black; */
-
-
-
 }
-
-
 
 .cvv-number {
     position: relative;
@@ -355,11 +354,9 @@ h4 {
     height: 12vh;
     /* border: 1px solid black; */
     margin-right: 8%;
-
-
 }
 
-input[type=number] {
+input[type="number"] {
     position: relative;
     /* border-radius: 4px; */
     /* -moz-border-radius: 4px; */
@@ -413,7 +410,6 @@ select {
     border: 1px solid #bfcacc;
     width: 90%;
     height: 7vh;
-
 }
 
 .sel-year {
@@ -422,13 +418,11 @@ select {
     height: 7vh;
 }
 
-
 #none-label {
     display: none;
 }
 
 .pais-btn {
-
     position: relative;
     width: 99%;
     height: 30%;
@@ -440,7 +434,6 @@ select {
     /* border-bottom: 1px solid lightslategray; */
     display: flex;
     justify-content: flex-start;
-
 }
 
 button {
@@ -454,7 +447,6 @@ button {
     border: none;
     color: white;
     border-radius: 4%;
-
 }
 
 .list-1 {
@@ -482,7 +474,6 @@ button {
     /* display: inline; */
 }
 
-
 .div2 {
     position: relative;
     width: 44%;
@@ -491,7 +482,6 @@ button {
     background-color: white;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     padding-bottom: 3%;
-
 }
 
 .img-simbol {
@@ -519,7 +509,6 @@ p {
     font-size: 1.2em;
 }
 
-
 /* // Small devices (landscape phones, 576px and down) */
 @media (max-width: 576px) {
     .all-text-desc {
@@ -531,7 +520,6 @@ p {
         padding-top: 4%;
         padding-bottom: 7%;
         font-weight: bold;
-
     }
 
     h2 {
@@ -572,7 +560,6 @@ p {
     .tik-verde-img {
         width: 25px;
         height: 25px;
-
     }
 
     p {
@@ -608,7 +595,6 @@ p {
         width: 100%;
         height: 7vh;
         border-bottom: 3px solid rgb(173, 54, 54);
-
     }
 
     .cards {
@@ -675,7 +661,6 @@ p {
         margin: auto;
         margin-bottom: 3%;
         height: 12vh;
-
     }
 
     .fop1 {
@@ -703,9 +688,7 @@ p {
     }
 
     .pay-form {
-
         height: 60vh;
-
     }
 
     .card-and-cvv {
@@ -721,38 +704,33 @@ p {
         flex-wrap: wrap;
     }
 
-    
+    .content-input {
+        width: 80%;
+        height: 8vh;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 5px;
+        text-align: center;
+        padding-right: 1%;
+    }
 
-
-
-.content-input{
-    width: 80%;
-    height: 8vh;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    border: 1px solid gray;
-    border-radius: 5px;
-    text-align: center;
-    padding-right: 1%;
-
-}
-
-.content-input-cvv{
-    width: 80%;
-    height: 8vh;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    border: 1px solid gray;
-    border-radius: 5px;
-    text-align: center;
-    padding-right: 1%;
-}
+    .content-input-cvv {
+        width: 80%;
+        height: 8vh;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 5px;
+        text-align: center;
+        padding-right: 1%;
+    }
 
     .card-number {
         position: relative;
@@ -805,12 +783,13 @@ p {
         height: 80%;
         margin-right: 0%;
     }
+
     .sel-year {
         position: relative;
         width: 80%;
         height: 7vh;
     }
-    
+
     .pais-btn {
         position: relative;
         width: 90%;
@@ -818,7 +797,6 @@ p {
         display: flex;
         justify-content: center;
         margin: auto;
-        
     }
 
     .div-btn {
@@ -841,14 +819,9 @@ p {
         justify-content: center;
         text-align: center;
     }
-
-
-
-
-
 }
 
-@media (max-width: 768px)  {
+@media (max-width: 768px) {
     .all-text-desc {
         width: 100%;
         height: 14vh;
@@ -858,7 +831,6 @@ p {
         padding-top: 4%;
         padding-bottom: 7%;
         font-weight: bold;
-
     }
 
     h2 {
@@ -899,7 +871,6 @@ p {
     .tik-verde-img {
         width: 25px;
         height: 25px;
-
     }
 
     p {
@@ -935,7 +906,6 @@ p {
         width: 100%;
         height: 7vh;
         border-bottom: 3px solid rgb(173, 54, 54);
-
     }
 
     .cards {
@@ -1002,7 +972,6 @@ p {
         margin: auto;
         margin-bottom: 3%;
         height: 12vh;
-
     }
 
     .fop1 {
@@ -1030,9 +999,7 @@ p {
     }
 
     .pay-form {
-
         height: 60vh;
-
     }
 
     .card-and-cvv {
@@ -1050,38 +1017,33 @@ p {
         text-align: center;
     }
 
-    
+    .content-input {
+        width: 80%;
+        height: 8vh;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 5px;
+        text-align: center;
+        padding-right: 1%;
+    }
 
-
-
-.content-input{
-    width: 80%;
-    height: 8vh;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    border: 1px solid gray;
-    border-radius: 5px;
-    text-align: center;
-    padding-right: 1%;
-
-}
-
-.content-input-cvv{
-    width: 80%;
-    height: 8vh;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    border: 1px solid gray;
-    border-radius: 5px;
-    text-align: center;
-    padding-right: 1%;
-}
+    .content-input-cvv {
+        width: 80%;
+        height: 8vh;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 5px;
+        text-align: center;
+        padding-right: 1%;
+    }
 
     .card-number {
         position: relative;
@@ -1134,12 +1096,13 @@ p {
         height: 80%;
         margin-right: 0%;
     }
+
     .sel-year {
         position: relative;
         width: 80%;
         height: 7vh;
     }
-    
+
     .pais-btn {
         position: relative;
         width: 90%;
@@ -1147,7 +1110,6 @@ p {
         display: flex;
         justify-content: center;
         margin: auto;
-        
     }
 
     .div-btn {
@@ -1172,7 +1134,7 @@ p {
     }
 }
 
-@media (max-width: 992px, ) {
+@media (max-width: 992px,) {
     .all-text-desc {
         width: 100%;
         height: 14vh;
@@ -1183,7 +1145,6 @@ p {
         padding-bottom: 7%;
         font-weight: bold;
         font-size: 1.4em;
-
     }
 
     h2 {
@@ -1224,7 +1185,6 @@ p {
     .tik-verde-img {
         width: 35px;
         height: 35px;
-
     }
 
     p {
@@ -1316,11 +1276,11 @@ p {
         /* background-color: aqua; */
     }
 
-    h5{
+    h5 {
         font-size: 1.2em;
     }
 
-    h4{
+    h4 {
         font-size: 1.5em;
     }
 
@@ -1336,7 +1296,6 @@ p {
         margin: auto;
         margin-bottom: 3%;
         height: 12vh;
-
     }
 
     .fop1 {
@@ -1364,9 +1323,7 @@ p {
     }
 
     .pay-form {
-
         height: 65vh;
-
     }
 
     .card-and-cvv {
@@ -1382,38 +1339,33 @@ p {
         flex-wrap: wrap;
     }
 
-    
+    .content-input {
+        width: 80%;
+        height: 8vh;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 5px;
+        text-align: center;
+        padding-right: 1%;
+    }
 
-
-
-.content-input{
-    width: 80%;
-    height: 8vh;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    border: 1px solid gray;
-    border-radius: 5px;
-    text-align: center;
-    padding-right: 1%;
-
-}
-
-.content-input-cvv{
-    width: 80%;
-    height: 8vh;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center;
-    border: 1px solid gray;
-    border-radius: 5px;
-    text-align: center;
-    padding-right: 1%;
-}
+    .content-input-cvv {
+        width: 80%;
+        height: 8vh;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        border: 1px solid gray;
+        border-radius: 5px;
+        text-align: center;
+        padding-right: 1%;
+    }
 
     .card-number {
         position: relative;
@@ -1466,12 +1418,13 @@ p {
         height: 80%;
         margin-right: 0%;
     }
+
     .sel-year {
         position: relative;
         width: 80%;
         height: 7vh;
     }
-    
+
     .pais-btn {
         position: relative;
         width: 90%;
@@ -1479,7 +1432,6 @@ p {
         display: flex;
         justify-content: center;
         margin: auto;
-        
     }
 
     .div-btn {

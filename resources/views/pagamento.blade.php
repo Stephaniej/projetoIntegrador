@@ -19,23 +19,37 @@
   <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/footer.css')}}">
   <link rel="stylesheet" type="text/css" media="screen" href="{{asset('owl.carrossel.css')}}">
   <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/pagamento.css')}}" />
+  
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
   <!-- <script src="main.js"></script> -->
 </head>
 
+<style>
+</style>
 
 <body>
 
   @include('header')
 
   <section class="all-text-desc">
-    <section class="text-desc">
-      <h2>Comece seus 30 dias Trial Free</h2>
+
+    <div class="info-products">
+      <span>Confira os produtos escolhidos</span>
+      <label id="label-produto" for="">{{$produto->nome}}</label>
+      <label id="label-descricao" for="">{{$produto->descricao}}</label>
+      <label id="label-preco" for="">{{$produto->preco}}</label>
+      <img id="label-img" src="{{asset($produto->imagem)}}" alt="">
+    </div>
+
+
+
     </section>
   </section>
 
   <section class="great-body">
+
+
 
     <section class="back-body">
 

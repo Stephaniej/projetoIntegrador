@@ -34,7 +34,7 @@ height: 100px;
   text-shadow: black 0.1em 0.1em 0.4em;
   align-items: center;
   flex-direction: column;
-  padding-top: 30px;
+  padding-top: 0px;
 }
 
 #ebook span{

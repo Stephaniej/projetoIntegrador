@@ -30,7 +30,10 @@
   <?php include("header.php"); ?>
 
   <section class="all-text-desc">
+
+
     <section class="text-desc">
+
       <h2>Comece seus 30 dias Trial Free</h2>
     </section>
   </section>
