@@ -13,9 +13,10 @@ class DashbordController extends Controller
     public function __construct(){
 
         $this->middleware('auth:admin');
+       
     }
+      protected $redirectTo = 'admin.login';
     
-
     /**
      * Display a listing of the resource.
      *
@@ -32,7 +33,7 @@ class DashbordController extends Controller
     if ( !empty($request->email)) {
         $cliente = User::where('email', $request->email)->get();// first -> traz um | get -> traz array 
     } else {
-        $cliente = User::all();
+        $cliente = null;
     }
 
     return view('/adminconsulta')->with('cliente', $cliente);
