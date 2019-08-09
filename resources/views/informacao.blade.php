@@ -11,6 +11,7 @@
             <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/info.css')}}"> <!-- mudou -->
         <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/header.css')}}">
         <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/footer.css')}}">
+        <link rel="stylesheet" href="{{asset('css/docs.theme.min.css')}}">
         <link rel="icon" href="http://www.torabit.com.br/wp-content/uploads/2017/04/cropped-favicon3-2-32x32.png" sizes="32x32">
     </head>
 
@@ -29,6 +30,7 @@
           <a href = "" class = "btn btn-success bcompra"> Comprar </a>
          </div>
         </div>
+        @include ('footer')
       </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
