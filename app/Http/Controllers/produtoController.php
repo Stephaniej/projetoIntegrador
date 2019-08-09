@@ -7,11 +7,12 @@ use App\Produto;
 
 class produtoController extends Controller
 {
-    public function __construct()
+   public function __construct()
     {
 
         $this->middleware('auth:admin');
-    }
+    }  
+    
     public function visualizarProduto()
     {
         $produtos = \App\Produto::paginate(5);
@@ -74,4 +75,14 @@ class produtoController extends Controller
         $resultado = Produto::where('nome', 'LIKE', '%' . $procurar . '%')->paginate(5);
         return view('produto.pesquisar', compact('resultado'));
     }
+
+ /*   public function exibirIndex(Request $request) {    // Visualização dos produtos na index
+        $produtos = Produto::All();
+        return view ('index', ['produtos'=>$produtos]);       
+    }
+
+    public function infoProduto($id) {    // Visualização dos produtos em página individual
+        $produto = \App\Produto::find($id);
+        return view('informacao', compact('produto'));       
+    }   */
 }

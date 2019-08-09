@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/','viewprodutoController@exibirIndex');
 
 Route::get('/sobre', "sobreController@sobre");
 Route::post('/sobre', "sobreController@sobre");
@@ -80,6 +78,10 @@ Route::get('/procurar/produto/', [
     'as' => 'procurar.produto'
 ]);
 
+Route::get('/informacao/produto/{id}', [
+    'uses' => 'viewprodutoController@infoProduto',
+    'as' => 'info.produto'
+]);
 
 Route::prefix('/admin')->group(function () {
     Route::get('/login', 'Auth\AdminLoginController@index')->name('admin.login');
