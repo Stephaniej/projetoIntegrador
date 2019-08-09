@@ -25,10 +25,10 @@ class produtoController extends Controller
        $produto = new Produto();
 
         if ($request->hasFile('imagem') && $request->file('imagem')->isValid()) {
-            $nome = "foto";
-            $extensao = $request->imagem->extension();
-            $nameFile = "{$nome}.{$extensao}";
-            $path = $request->imagem->storeAs('imagens',$nameFile); 
+            $nome = $request->file('imagem')->getClientOriginalName();
+           /* $extensao = $request->imagem->extension();
+            $nameFile = "{$nome}.{$extensao}"; */
+            $path = $request->imagem->storeAs('imagens',$nome); 
         }
 
         $produto->nome = $request ->input('nome');
