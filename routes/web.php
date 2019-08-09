@@ -11,14 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/','viewprodutoController@exibirIndex');
 
 Route::get('/sobre', "sobreController@sobre");
 Route::post('/sobre', "sobreController@sobre");
 
-Route::get('/pagamento', 'pagamentoController@pagamento');
+Route::get('/pagamento/{id}', 'pagamentoController@pagamento')->middleware("auth");
 Route::post('/pagamento', 'pagamentoController@pagamento');
 
 Route::get('/resultadoCompra', 'resultadoCompraController@ResultadoCompra');
@@ -80,18 +78,21 @@ Route::get('/procurar/produto/', [
     'as' => 'procurar.produto'
 ]);
 
+Route::get('/informacao/produto/{id}', [
+    'uses' => 'viewprodutoController@infoProduto',
+    'as' => 'info.produto'
+]);
 
-Route::prefix('/admin')->group(function() {
+Route::prefix('/admin')->group(function () {
     Route::get('/login', 'Auth\AdminLoginController@index')->name('admin.login');
     Route::post('/login', 'Auth\AdminLoginController@login')->name('admin.login.submit');
     Route::get('/', 'AdminController@index')->name('admin.dashboard');
-    
 });
 
 
 
 //Route::get('/adminconsulta', function () {
-  //  return view('adminconsulta');
+//  return view('adminconsulta');
 //});
 
 Route::get('/adminconsulta', 'DashbordController@index')->name('admin.dashboard');

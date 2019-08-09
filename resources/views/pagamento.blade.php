@@ -36,9 +36,10 @@
 
     <div class="info-products">
       <span>Confira os produtos escolhidos</span>
-      <label for="">Label 1</label>
-      <label for="">Label 2</label>
-      <label for="">Label 3</label>
+      <label id="label-produto" for="">{{$produto->nome}}</label>
+      <label id="label-descricao" for="">{{$produto->descricao}}</label>
+      <label id="label-preco" for="">{{$produto->preco}}</label>
+      <img id="label-img" src="{{asset($produto->imagem)}}" alt="">
     </div>
 
 
