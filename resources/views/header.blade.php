@@ -73,7 +73,7 @@
      <span><a href="/sobre">Sobre o Torabit</a></span>
      <span><a href="https://datatorapolitica.torabit.com.br/radar-login.py"target="_blank">DATATORA</a></span>
      <span><a href="http://www.torabit.com.br/"target="_blank">Full Service</a></span>
-     <span><a href="configuracoes.blade.php">Área do Cliente</a></span>
+     <span><a href="{{('areacliente')}}">Área do Cliente</a></span>
      <span><a href="/contato">Contato</a></span>
       
     </div>  

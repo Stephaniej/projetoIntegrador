@@ -98,3 +98,8 @@ Route::get('/admincadastrar', 'DashbordController@create');
 Route::post('/admincadastrar', 'DashbordController@store')->name('admin.store');
 Route::get('/admineditar/{id}', 'DashbordController@edit')->name('admin.editar');
 Route::post('/admineditar/{id}', 'DashbordController@update')->name('admin.update');
+
+
+
+Route::get('areacliente', 'areaclienteController@index');
+Route::post('areacliente', 'areaclienteController@store');
