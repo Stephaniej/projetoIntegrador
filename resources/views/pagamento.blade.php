@@ -53,8 +53,8 @@
           <label id="label-descricao" for="">"{{$produto->descricao}}"</label>
           <label id="label-preco" for="">R${{$produto->preco}}</label>
           <img id="label-img" src="{{asset($produto->imagem)}}" alt="">
-          <a class="btn btn-danger" href="">Excluir</a>
-
+        <!--  <a class="btn btn-primary" href="{{ route('info.produto', $produto->id) }}">Detalhe</a>  -->
+          <a class="btn btn-danger lbutton" href="">Excluir</a>
         </div>
         @endforeach
 
@@ -65,10 +65,21 @@
           </h3>
         </div>
 
-        <div class="continuar-comprando-div">
-         <a class="continuar-comprando btn" href="/">Continuar Comprando</a>
-        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+             <div class="continuar-comprando-div">
+              <a class="continuar-comprando btn" href="/">Continuar Comprando</a>
+              </div>
+            </div>
 
+            <div class="col-md-4">
+             <div class="continuar-comprando-div2">
+              <a class="btn continuar-comprando" href="/resultadoCompra">Finalizar compra</a>
+             </div>
+            </div>
+           </div>
+         </div>
       </div>
 
 

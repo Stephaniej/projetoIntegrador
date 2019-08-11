@@ -30,10 +30,6 @@
         <p>{{ $produto->preco }} R$</p>
         <a href="/pagamento/{{$produto->id}}" class="btn btn-success bcompra"> Comprar </a>
       </div>
-
-
-
-
     </div>
     @include ('footer')
   </div>
