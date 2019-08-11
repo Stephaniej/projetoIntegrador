@@ -17,30 +17,54 @@
     <body>
     @include('header')
 
-      
-    <!doctype html>
-<html lang="pt-br">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta charset="utf-8">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <title>Álbum</title>
-    
-   
-</head>
-<body>
+      <div id="corpo">
+        <div id="area-cadastro">
+            
+            <h2>Configurações da conta</h2>
+            <br>
+           
+           <div id="topico">
+            <a href=""><h6 class="conta">Excluir Conta</h6></a>
+            <a href=""><h6 class="forma">Forma de pagamento</h6></a>
+           </div>
+           <br><br>
 
-    
+           <form>
 
-    <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
-</body>
-</html>
+            <label>Email</label>
+            <input class="form-control form-control-md email2" type="email" name="emailConfirm">
+            <br>
 
+            <label>Nova Senha</label>
+            <input class="form-control form-control-md senha2" type="password" name="novaSenha">
+            <br>
 
+            <label>Confirmar Nova Senha</label>
+            <input class="form-control form-control-md senha2" type="password" name="novaSenha2">
+            <br>
 
-            @include ('footer') 
-        </body>
+            <label>Idioma</label>
+            <select class="form-control select" name="idioma">
+            <option>Português [BR]</option>
+            <option>Inglês [EN]</option>
+            </select>
+            <br>
+
+            <label>Profissão</label>
+            <select class="form-control select" name="profissao">
+            <option>Escolha sua Profissão</option>
+            </select>
+            <br>
+
+           <div id="botoes">
+            <button type="submit" class="btn cancelar">CANCELAR</button>
+            <button type="submit" class="btn btn-primary">SALVAR</button>
+           </div>
+           </form> 
+            <hr> 
+            @include ('footer')  
+         </div> 
+       </div>
         
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

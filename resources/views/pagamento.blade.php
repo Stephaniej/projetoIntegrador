@@ -19,7 +19,7 @@
   <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/footer.css')}}">
   <link rel="stylesheet" type="text/css" media="screen" href="{{asset('owl.carrossel.css')}}">
   <link rel="stylesheet" type="text/css" media="screen" href="{{asset('css/pagamento.css')}}" />
-  
+
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
   <!-- <script src="main.js"></script> -->
@@ -32,15 +32,45 @@
 
   @include('header')
 
-  <section class="all-text-desc">
+  <section class="principal-body">
 
-    <div class="info-products">
-      <span>Confira os produtos escolhidos</span>
-      <label id="label-produto" for="">{{$produto->nome}}</label>
-      <label id="label-descricao" for="">{{$produto->descricao}}</label>
-      <label id="label-preco" for="">{{$produto->preco}}</label>
-      <img id="label-img" src="{{asset($produto->imagem)}}" alt="">
-    </div>
+
+
+    <section class="all-text-desc">
+
+
+      <div class="info-products">
+        <span>Confira os produtos escolhidos:</span><br>
+        <div class="expain-products">
+          <h4>Produto:</h4>
+          <h4>Descrição:</h4>
+          <h4>Preço:</h4>
+        </div><br>
+
+        @foreach ($produtos as $produto)
+        <div class="div-products-item">
+          <label id="label-produto" for="">{{$produto->nome}}</label>
+          <label id="label-descricao" for="">"{{$produto->descricao}}"</label>
+          <label id="label-preco" for="">R${{$produto->preco}}</label>
+          <img id="label-img" src="{{asset($produto->imagem)}}" alt="">
+          <a class="btn btn-danger" href="">Excluir</a>
+
+        </div>
+        @endforeach
+
+
+
+        <div class="div-total">
+          <h3 class="total">Total: R$ {{$produto->preco + $produto->preco}}
+          </h3>
+        </div>
+
+        <div class="continuar-comprando-div">
+         <a class="continuar-comprando btn" href="/">Continuar Comprando</a>
+        </div>
+
+      </div>
+
 
 
 
@@ -70,7 +100,7 @@
                   <input id="primeiro" type="checkbox" name="Anual">
                   <span class="lab-inp-sp"></span>
                 </label>
-                <label for="segundo"><strong>Anual</strong></label>
+                <label for="primeiro"><strong>Anual</strong></label>
               </div>
               <div class="content-price">
                 <h5>R$00,00/mês</h5>
@@ -192,23 +222,17 @@
               </div>
             </div>
 
-            <div class="pais-btn">
-              <!-- <p>
-                <div class="text-pay1 pag">
-                  <label for="card_number"><strong>Pais</strong></label>
-                  <select name="select">
-                    <option value="valor2" selected>Escolha</option>
-                    <option value="valor1">Brasil</option>
-                    <option value="valor3">Outro</option>
-                  </select>
-                </div>
-              </p> -->
+            <!-- <div class="pais-btn"> -->
 
-              <div class="div-btn">
-                <button href="resultadoCompra.php" class="buy-btn" type="submit">Comprar</button>
-              </div>
+            <a href="/resultadoCompra" class="buy-btn">
 
-            </div>
+              Comprar
+
+              <!-- <h4 class="text-comprar">Comprar</h4> -->
+
+            </a>
+
+            <!-- </div> -->
 
           </form>
 
@@ -264,9 +288,11 @@
 
       </section>
 
-      @include ('footer')
-
     </section>
+
+    @include ('footer')
+
+  </section>
   </section>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

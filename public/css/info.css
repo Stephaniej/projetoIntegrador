@@ -1,0 +1,17 @@
+.corpo {
+
+    padding-top: 150px;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-around;
+}
+
+.desc{
+    margin-top: 40px;
+}
+
+.bcompra {
+    margin-top: 10px;
+}

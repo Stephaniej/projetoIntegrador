@@ -46,7 +46,7 @@
                             <tr>
                                 <th scope="row">{{ $produto->id }}</th>
                                 <td>{{ $produto->nome }}</td>
-                                <td>{{ $produto->descricao }}</td>
+                                <td style="width: 40ch">{{ $produto->descricao }}</td>
                                 <td>{{ $produto->preco }}</td>
                                 <td>
                                     <a href="{{ route('detalhar.produto', $produto->id) }}" class="btn btn-success">Detalhe</a>

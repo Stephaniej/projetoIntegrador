@@ -11,15 +11,19 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'viewprodutoController@exibirIndex');
 
 Route::get('/sobre', "sobreController@sobre");
 Route::post('/sobre', "sobreController@sobre");
 
 Route::get('/pagamento/{id}', 'pagamentoController@pagamento')->middleware("auth");
 Route::post('/pagamento', 'pagamentoController@pagamento');
+Route::get('/carrinho', 'pagamentoController@exibirCarrinho');
+/* Route::get('/deletar/carrinho/{id}', [
+    'uses' => 'pagamentoController@excluirProduto',
+    'as' => 'excluir.produto'
+]); */
+
 
 Route::get('/resultadoCompra', 'resultadoCompraController@ResultadoCompra');
 Route::post('/resultadoCompra', 'resultadoCompraController@ResultadoCompra');
@@ -80,6 +84,10 @@ Route::get('/procurar/produto/', [
     'as' => 'procurar.produto'
 ]);
 
+Route::get('/informacao/produto/{id}', [
+    'uses' => 'viewprodutoController@infoProduto',
+    'as' => 'info.produto'
+]);
 
 Route::prefix('/admin')->group(function () {
     Route::get('/login', 'Auth\AdminLoginController@index')->name('admin.login');
@@ -98,8 +106,3 @@ Route::get('/admincadastrar', 'DashbordController@create');
 Route::post('/admincadastrar', 'DashbordController@store')->name('admin.store');
 Route::get('/admineditar/{id}', 'DashbordController@edit')->name('admin.editar');
 Route::post('/admineditar/{id}', 'DashbordController@update')->name('admin.update');
-
-
-
-Route::get('areacliente', 'areaclienteController@index');
-Route::post('areacliente', 'areaclienteController@store');
