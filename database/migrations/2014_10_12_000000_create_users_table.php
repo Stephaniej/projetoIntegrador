@@ -21,12 +21,13 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->bigInteger('cpf');
             $table->bigInteger('contato');
-            $table->bigInteger('cep');
+            $table->string('cep');
             $table->string('endereco');
             $table->bigInteger('numero');
             $table->string('complemento');
             $table->string('cidade');
             $table->string('estado');
+            $table->string('avatar')->default('default.jpg');
             $table->rememberToken();
             $table->timestamps();
         });

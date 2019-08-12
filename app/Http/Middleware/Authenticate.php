@@ -17,5 +17,18 @@ class Authenticate extends Middleware
         if (! $request->expectsJson()) {
             return route('admin.login');
         }
+        if (!Auth::check()) {
+            return redirect('/login');
+        }
     }
+
+    
+   
+   
+
+
+
+
+    
+    
 }

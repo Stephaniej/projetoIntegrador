@@ -16,7 +16,7 @@ Route::get('/', 'viewprodutoController@exibirIndex');
 Route::get('/sobre', "sobreController@sobre");
 Route::post('/sobre', "sobreController@sobre");
 
-Route::get('/pagamento/{id}', 'pagamentoController@pagamento')->middleware("auth");
+Route::get('/pagamento/{id}', 'pagamentoController@pagamento')->middleware("admin:login");
 Route::post('/pagamento', 'pagamentoController@pagamento');
 Route::get('/carrinho', 'pagamentoController@exibirCarrinho');
 /* Route::get('/deletar/carrinho/{id}', [
@@ -106,3 +106,13 @@ Route::get('/admincadastrar', 'DashbordController@create');
 Route::post('/admincadastrar', 'DashbordController@store')->name('admin.store');
 Route::get('/admineditar/{id}', 'DashbordController@edit')->name('admin.editar');
 Route::post('/admineditar/{id}', 'DashbordController@update')->name('admin.update');
+
+
+
+
+
+
+Route::get('profile', 'UserController@profile')->middleware("auth");
+Route::post('profile', 'UserController@update_avatar');
+
+
