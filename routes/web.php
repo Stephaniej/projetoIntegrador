@@ -16,7 +16,7 @@ Route::get('/', 'viewprodutoController@exibirIndex');
 Route::get('/sobre', "sobreController@sobre");
 Route::post('/sobre', "sobreController@sobre");
 
-Route::get('/pagamento/{id}', 'pagamentoController@pagamento')->middleware("user:login");
+Route::get('/pagamento/{id}', 'pagamentoController@pagamento')->middleware("auth");
 Route::post('/pagamento', 'pagamentoController@pagamento');
 Route::get('/carrinho', 'pagamentoController@exibirCarrinho');
 /* Route::get('/deletar/carrinho/{id}', [
@@ -42,7 +42,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/welcome', function () {  // Acessar sistema do CRUD -> produtos
     return view('welcome');
-})->middleware('admin');
+})->middleware('auth:admin');
 
 Route::get('/visualizar/produto', [
     'uses' => 'produtoController@visualizarProduto',
