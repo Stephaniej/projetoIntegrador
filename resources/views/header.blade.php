@@ -3,7 +3,7 @@
 
     <!-- Logo -->
     <a href="/" class="navbar-brand">
-      <img src="{{asset('imgs/imagens_cortadas/torabit_shop.png')}}"" width=" 200">
+      <img src="{{asset('imgs/imagens_cortadas/torabit_shop.png')}}" width=" 200">
     </a>
 
     <!-- Menu Hamburguer -->
@@ -18,11 +18,11 @@
     <div class="collapse navbar-collapse" id="nav-target2">
 
       <div class="input-group">
-        <input class="form-control" type="text" placeholder="Pesquisar">
+      <!--  <input class="form-control" type="text" placeholder="Pesquisar">  -->
         <div class="input-group-append">
-          <button type="button" class="btn search">
+         <!-- <button type="button" class="btn search">
             <p>busca</p>
-          </button>
+          </button>   -->
         </div>
       </div>
 
@@ -56,7 +56,7 @@
         @endguest
 
         <li class="nav-item">
-          <a href="/pagamento/1" class="nav-link">
+          <a href="/carrinho" class="nav-link">
             <img src="{{asset('imgs/imagens_cortadas/carrinho.png')}}" width="30">
           </a>
         </li>
