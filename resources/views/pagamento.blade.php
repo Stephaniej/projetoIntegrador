@@ -50,7 +50,7 @@
         @foreach ($produtos as $produto)
         <div class="div-products-item">
           <label id="label-produto" for="">{{$produto->nome}}</label>
-          <label id="label-descricao" for="">"{{$produto->descricao}}"</label>
+          <label id="label-descricao">"{{$produto->descricao}}"</label>
           <label id="label-preco" for="">R${{$produto->preco}}</label>
           <img id="label-img" src="{{asset($produto->imagem)}}" alt="">
         <!--  <a class="btn btn-primary" href="{{ route('info.produto', $produto->id) }}">Detalhe</a>  -->
@@ -65,17 +65,17 @@
           </h3>
         </div>
 
-        <div class="container">
-          <div class="row">
+        <div class="container botoes">
+          <div class="row linha2">
             <div class="col-md-4">
-             <div class="continuar-comprando-div">
-              <a class="continuar-comprando btn" href="/">Continuar Comprando</a>
+             <div class="">
+              <a class="btn btn-primary botao1" href="/">Continuar Comprando</a>
               </div>
             </div>
 
             <div class="col-md-4">
-             <div class="continuar-comprando-div2">
-              <a class="btn continuar-comprando" href="/resultadoCompra">Finalizar compra</a>
+             <div class="">
+              <a class="btn btn-success botao2" href="/resultadoCompra">Finalizar compra</a>
              </div>
             </div>
            </div>
