@@ -61,9 +61,5 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
-    },
-    "require": {
-        "laravel/framework": "4.1.*",
-        "intervention/image": "dev-master"
     }
 }

@@ -1,15 +1,3 @@
-
-<html>
-
-<head>
-<style>
-
-
-</style>
-</head>
-
-
-
 <header>
   <nav class="navbar navbar-expand-sm">
 
