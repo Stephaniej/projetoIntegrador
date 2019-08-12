@@ -35,7 +35,7 @@
                             <tr>
                                 <th scope="row">{{ $resultado->id }}</th>
                                 <td>{{ $resultado->nome }}</td>
-                                <td>{{ $resultado->descricao }}</td>
+                                <td style="width: 40ch">{{ $resultado->descricao }}</td>
                                 <td>R${{ $resultado->preco }}</td>
                                 <td>
                                     <a href="{{ route('detalhar.produto', $resultado->id) }}" class="btn btn-success">Detalhe</a>

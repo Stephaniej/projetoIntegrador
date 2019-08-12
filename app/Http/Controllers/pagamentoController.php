@@ -12,10 +12,32 @@ class pagamentoController extends Controller
 
     public function pagamento(Request $request, $id)
     {
-        $produto = Produto::find($id);
+        $carrinho = session()->get('carrinho');
 
-        return view('pagamento', ["produto" => $produto]);
+
+        $produto = Produto::find($id);
+        $carrinho[$produto->id] = $produto;
+
+        session()->put('carrinho', $carrinho);
+
+        return view('pagamento', ["produtos" =>  $carrinho]);
     }
+
+    public function exibirCarrinho(Request $request)
+    {
+        $carrinho = session()->get('carrinho');
+
+        return view('pagamento', ["produtos" =>  $carrinho]);
+    }
+
+  /*  public function excluirProduto($id)
+    {
+        $carrinho = session()->get('carrinho');
+        $carrinho = Produto::find($id);
+        $carrinho[$excluir->id]->delete();
+
+        return view('pagamento', ["produtos" =>  $carrinho]);
+    }  */
 
 
     public function createPagamento(Request $request)

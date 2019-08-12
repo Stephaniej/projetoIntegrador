@@ -52,7 +52,20 @@ class produtoController extends Controller
 
     public function atualizarProduto(Request $request, $id)
     {
-        \App\Produto::find($id)->update($request->all());
+        $produto = \App\Produto::find($id);
+        
+        if ($request->hasFile('imagem') && $request->file('imagem')->isValid()) {
+            $nome = $request->file('imagem')->getClientOriginalName();           
+            $path = $request->imagem->storeAs('public/imagens', $nome);          
+            $urlBase = 'storage/imagens/'.$nome; 
+            $produto->imagem = $urlBase;  
+        }
+
+        $produto->nome = $request->input('nome');
+        $produto->descricao = $request->input('descricao');
+        $produto->preco = $request->input('preco');
+        $produto->update();
+
         return redirect()->route('visualizar.produto');
     }
 

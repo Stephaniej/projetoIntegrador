@@ -20,11 +20,11 @@
 
                     {{ csrf_field() }}
                     <div class="form-group">
-                        <label for="endereco">Descrição:</label>
+                        <label for="endereco">Nome:</label>
                         <input class="form-control" name="nome" type="text" value="{{ $produto->nome }}" readonly>
                     </div>
                     <div class="form-group">
-                        <label for="nome">Código de Referência:</label>
+                        <label for="nome">Descrição:</label>
                         <input class="form-control" name="descricao" value="{{ $produto->descricao }}" type="text" readonly>
                     </div>
                     <div class="form-group">

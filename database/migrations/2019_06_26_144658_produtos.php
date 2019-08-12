@@ -17,7 +17,7 @@ class Produtos extends Migration
             $table->bigIncrements('id');
             $table->string('nome');
             $table->string('imagem');
-            $table->string('descricao');
+            $table->string('descricao', 300);
             $table->integer('preco');
             $table->timestamps();
         });

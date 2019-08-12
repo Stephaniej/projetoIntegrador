@@ -4,6 +4,29 @@ body {
     height: 100%;
 }
 
+.info-products span {
+    font-size: 24px;
+}
+
+
+.linha2 {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao1 {
+   margin-left: 35px; 
+}
+
+.botao2 {
+   margin-left: 150px; ;  
+}
+
+.lbutton {
+    height: 40px;
+}
+
 .great-body {
     width: 100%;
     background-color: white;
@@ -17,18 +40,58 @@ body {
 
 .all-text-desc {
     width: 100%;
-    height: 14vh;
+    /* height: 6vh; */
     background-color: white;
     margin-top: 0%;
-    margin-bottom: 14%;
+    margin-bottom: 4%;
     padding-top: 4%;
-    padding-bottom: 7%;
+    padding-bottom: 2%;
     font-weight: bold;
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
     align-content: center;
     align-items: center;
+}
+
+.div-total {
+    width: 30%;
+    border: 1px solid purple;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+/* .continuar-comprando-div {
+    width: 25%;
+    border-radius: 20px;
+    padding: 2%;
+   margin-top: 2%;
+    margin-bottom: 2%;    
+    background-color: rgba(207, 68, 207, 0.562);
+} 
+
+.continuar-comprando-div2 {
+    width: 25%;
+    border-radius: 20px;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;   
+    background-color: rgba(12, 192, 66, 0.562);
+}
+
+
+.continuar-comprando {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}                                                       */
+
+.div-products-item {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    margin-bottom: 2%;
 }
 
 .text-desc {
@@ -40,20 +103,30 @@ body {
 }
 
 .info-products {
-    width: 50%;
-    border: 1px solid black;
+    width: 80%;
+    border: 2px solid purple;
+    border-radius: 10px;
     margin-bottom: 2%;
-    margin-left: 25%;
+    margin-left: 10%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     padding: 2%;
 }
 
+.expain-products {
+    width: 60%;
+    /* left: 15%; */
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
 #label-img {
-    width: 200px;
-    height: 100px;
-    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
 }
 
 .all-body {
@@ -163,11 +236,11 @@ input {
     border-radius: 50%;
 }
 
-.lab-inp input:checked + span {
+.lab-inp input:checked+span {
     background-color: #c03;
 }
 
-.lab-inp input:checked + span {
+.lab-inp input:checked+span {
     background-color: #c03;
 }
 
@@ -425,7 +498,7 @@ select {
 .pais-btn {
     position: relative;
     width: 99%;
-    height: 30%;
+    height: 20%;
     margin: auto;
     margin-top: 4%;
     margin-bottom: 2%;
@@ -433,7 +506,10 @@ select {
     padding-bottom: 2%;
     /* border-bottom: 1px solid lightslategray; */
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.555);
+    border-radius: 10px;
 }
 
 button {
@@ -463,15 +539,29 @@ button {
     margin-right: 10%;
 }
 
-.div-btn {
+
+
+
+.buy-btn {
     width: 50%;
-    height: 100%;
-    /* margin: auto; */
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    width: 99%;
+    height: 10%;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /* border-bottom: 1px solid lightslategray; */
+    display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    /* display: inline; */
+    background-color: rgba(0, 0, 255, 0.555);
+    border-radius: 10px;
 }
 
 .div2 {
@@ -797,28 +887,9 @@ p {
         display: flex;
         justify-content: center;
         margin: auto;
+
     }
 
-    .div-btn {
-        width: 50%;
-        height: 100%;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    button {
-        position: relative;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 0.9em;
-        width: 70%;
-        height: 7vh;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
 }
 
 @media (max-width: 768px) {
@@ -827,11 +898,66 @@ p {
         height: 14vh;
         background-color: white;
         margin-top: 0%;
-        margin-bottom: 1%;
+        margin-bottom: 102%;
         padding-top: 4%;
         padding-bottom: 7%;
         font-weight: bold;
     }
+
+    .info-products span {
+        align-self: center;
+
+    }
+
+    .div-products-item {
+        border-bottom: 1px solid gray;
+    }
+
+    .expain-products h4 {
+        font-size: 9pt;
+        font-weight: bold;
+        padding-right: 25%;
+    }
+
+    #label-produto {
+        font-size: 10pt;
+        font-weight: normal;
+        padding-right: 10%;
+    }
+
+    #label-descricao {
+        font-size: 10pt;
+        font-weight: normal;
+        padding-right: 10%;
+    }
+
+    #label-preco {
+        font-size: 10pt;
+        font-weight: normal;
+        padding-right: 10%;
+    }
+
+    #label-img {
+        width: 20%;
+        /* height: 40px; */
+    }
+
+    .div-total {
+        width: 70%;
+        border: 1px solid purple;
+        border-radius: 10px;
+        padding: 1%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        align-self: center;
+    }
+
+    .continuar-comprando-div {
+        width: 70%;
+        align-self: center;
+
+    }
+
 
     h2 {
         font-size: 1.2em;
@@ -860,7 +986,7 @@ p {
     .div2 {
         position: relative;
         width: 94%;
-        height: 45vh;
+        height: 50vh;
         border: 0.5px solid lightslategray;
         background-color: white;
         box-shadow: none;
@@ -1112,14 +1238,10 @@ p {
         margin: auto;
     }
 
-    .div-btn {
-        width: 50%;
-        height: 100%;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+
+
+    .text-comprar {
+        align-self: center;
     }
 
     button {
@@ -1134,7 +1256,7 @@ p {
     }
 }
 
-@media (max-width: 992px,) {
+@media (max-width: 992px) {
     .all-text-desc {
         width: 100%;
         height: 14vh;
@@ -1434,15 +1556,7 @@ p {
         margin: auto;
     }
 
-    .div-btn {
-        width: 50%;
-        height: 100%;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+
 
     button {
         position: relative;

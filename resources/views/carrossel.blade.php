@@ -3,15 +3,15 @@
     <div class="large-12 columns">
       <div class="owl-carousel owl-theme">
 
-      @foreach ($produtos as $produto)
+        @foreach ($produtos as $produto)
         <div class="item">
           <div class="card text-center" class="rounded-top" style="18rem;">
             <a href="{{ route('info.produto', $produto->id) }}"> <img class="imagem" src="{{ $produto->imagem }}" class="card-img-top" alt="..."> </a>
             <div class="card-body alturacard">
 
-            <p class="card-text"> R$ {{ $produto->preco }}/ano</p>
+              <p class="card-text"> R$ {{ $produto->preco }}/ano</p>
               <p class="mensal"> ou 12x R$67/mês</p>
-              <a href="/pagamento/1" class="btn btn-primary">Comprar</a>
+              <a href="{{ route('info.produto', $produto->id) }}" class="btn btn-primary">Comprar</a>
             </div>
           </div>
         </div>
@@ -98,33 +98,33 @@
 
       </div>                                             -->
 
-    </div>
+      </div>
 
-    <script>
-      $(document).ready(function() {
-        $('.owl-carousel').owlCarousel({
-          loop: true,
-          margin: 10,
-          responsiveClass: true,
-          responsive: {
-            0: {
-              items: 1,
-              nav: true
-            },
-            600: {
-              items: 3,
-              nav: false
-            },
-            1000: {
-              items: 4,
-              nav: true,
-              loop: false,
-              margin: 20
+      <script>
+        $(document).ready(function() {
+          $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+              0: {
+                items: 1,
+                nav: true
+              },
+              600: {
+                items: 3,
+                nav: false
+              },
+              1000: {
+                items: 4,
+                nav: true,
+                loop: false,
+                margin: 20
+              }
             }
-          }
+          })
         })
-      })
-    </script>
-  </div>
+      </script>
+    </div>
   </div>
 </section>
